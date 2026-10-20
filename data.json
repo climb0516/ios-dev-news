@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T01:18:48+08:00",
+ "updated": "2026-10-21T05:43:15+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -9,7 +9,7 @@
    "ok": true,
    "error": "",
    "count": 42,
-   "updated": "2026-10-21T01:18:48+08:00"
+   "updated": "2026-10-21T05:43:15+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-10-21T01:18:48+08:00"
+   "updated": "2026-10-21T05:43:15+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-10-21T01:18:48+08:00"
+   "updated": "2026-10-21T05:43:15+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-10-21T01:18:48+08:00"
+   "updated": "2026-10-21T05:43:15+08:00"
   },
   {
    "id": "swift-evolution",
@@ -49,7 +49,7 @@
    "ok": true,
    "error": "",
    "count": 83,
-   "updated": "2026-10-21T01:18:48+08:00"
+   "updated": "2026-10-21T05:43:15+08:00"
   }
  ],
  "items": [
@@ -218,6 +218,16 @@
    "date": "2026-10-08T13:00:00-04:00",
    "summary": "Welcome to “What’s new in Swift,” a curated digest of releases, videos, and discussions in the Swift project and community. The Vapor web framework recently turned ten and celebrated with Vapor Week! …",
    "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://www.swift.org/blog/whats-new-in-swift-september-2026/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "What's new in Swift: September 2026 Edition",
+   "url": "https://www.swift.org/blog/whats-new-in-swift-september-2026/",
+   "date": "2026-10-08T13:00:00-04:00",
+   "summary": "Welcome to “What’s new in Swift,” a curated digest of releases, videos, and discussions in the Swift project and community. The Vapor web framework recently turned ten and celebrated with Vapor Week! …",
+   "first_seen": "2026-10-21T05:43:15+08:00"
   },
   {
    "id": "https://developer.apple.com/news/releases/?id=10062026a",
@@ -502,6 +512,16 @@
    "first_seen": "2026-10-20T17:47:16+08:00"
   },
   {
+   "id": "https://www.swift.org/blog/swift-6.4-released/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "Swift 6.4 Released",
+   "url": "https://www.swift.org/blog/swift-6.4-released/",
+   "date": "2026-09-15T03:30:00-04:00",
+   "summary": "Swift 6.4 is now available. Swift aims to be a great choice across the stack, from apps and servers to systems code, embedded devices, and the browser. This release deepens that support, and makes eve…",
+   "first_seen": "2026-10-21T05:43:15+08:00"
+  },
+  {
    "id": "https://developer.apple.com/news/releases/?id=09142026h",
    "source": "apple-releases",
    "kind": "release",
@@ -552,6 +572,16 @@
    "date": "2026-09-11T11:30:00-04:00",
    "summary": "When your Swift program hits a breakpoint and stops so you can inspect it, the debugger’s expression evaluator has to find the exact Swift module your code was built from. Until now, that lookup wasn’…",
    "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://www.swift.org/blog/module-tracking-in-debug-info/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "Module Tracking in Swift Debug Info",
+   "url": "https://www.swift.org/blog/module-tracking-in-debug-info/",
+   "date": "2026-09-11T11:30:00-04:00",
+   "summary": "When your Swift program hits a breakpoint and stops so you can inspect it, the debugger’s expression evaluator has to find the exact Swift module your code was built from. Until now, that lookup wasn’…",
+   "first_seen": "2026-10-21T05:43:15+08:00"
   },
   {
    "id": "https://developer.apple.com/news/?id=vn8abkxx",
@@ -666,6 +696,16 @@
    "first_seen": "2026-10-20T17:47:16+08:00"
   },
   {
+   "id": "https://www.swift.org/blog/whats-new-in-swift-august-2026/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "What's new in Swift: August 2026 Edition",
+   "url": "https://www.swift.org/blog/whats-new-in-swift-august-2026/",
+   "date": "2026-09-04T12:30:00-04:00",
+   "summary": "Welcome to “What’s new in Swift,” a curated digest of releases, videos, and discussions in the Swift project and community. Here’s an update from guest contributor Simon Leeb on Swift’s progress as a …",
+   "first_seen": "2026-10-21T05:43:15+08:00"
+  },
+  {
    "id": "https://developer.apple.com/news/?id=ote61lrx",
    "source": "apple-news",
    "kind": "news",
@@ -734,6 +774,16 @@
    "date": "2026-08-20T09:45:00-04:00",
    "summary": "Embedded Swift is a subset of Swift that’s designed for low resource usage, making it capable of running on constrained environments like microcontrollers. Using a special compilation mode, Embedded S…",
    "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://www.swift.org/blog/embedded-swift-improvements-coming-in-swift-6.4/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "Embedded Swift Improvements Coming in Swift 6.4",
+   "url": "https://www.swift.org/blog/embedded-swift-improvements-coming-in-swift-6.4/",
+   "date": "2026-08-20T09:45:00-04:00",
+   "summary": "Embedded Swift is a subset of Swift that’s designed for low resource usage, making it capable of running on constrained environments like microcontrollers. Using a special compilation mode, Embedded S…",
+   "first_seen": "2026-10-21T05:43:15+08:00"
   },
   {
    "id": "https://developer.apple.com/news/?id=gmws0jgp",
@@ -832,6 +882,16 @@
    "first_seen": "2026-10-20T17:47:16+08:00"
   },
   {
+   "id": "https://www.swift.org/blog/whats-new-in-swift-july-2026/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "What's new in Swift: July 2026 Edition",
+   "url": "https://www.swift.org/blog/whats-new-in-swift-july-2026/",
+   "date": "2026-08-07T11:30:00-04:00",
+   "summary": "Welcome to “What’s new in Swift,” a curated digest of releases, videos, and discussions in the Swift project and community. Swift is built by contributors working on far more than the language and com…",
+   "first_seen": "2026-10-21T05:43:15+08:00"
+  },
+  {
    "id": "https://developer.apple.com/news/?id=kug6m2ea",
    "source": "apple-news",
    "kind": "news",
@@ -910,6 +970,16 @@
    "first_seen": "2026-10-20T17:47:16+08:00"
   },
   {
+   "id": "https://www.swift.org/blog/whats-new-in-swift-june-2026/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "What's new in Swift: June 2026 Edition",
+   "url": "https://www.swift.org/blog/whats-new-in-swift-june-2026/",
+   "date": "2026-07-02T12:00:00-04:00",
+   "summary": "Welcome to “What’s new in Swift,” a curated digest of releases, videos, and discussions in the Swift project and community. June was an exciting month for Swift, featuring announcements at WWDC and co…",
+   "first_seen": "2026-10-21T05:43:15+08:00"
+  },
+  {
    "id": "https://developer.apple.com/news/releases/?id=06252026a",
    "source": "apple-releases",
    "kind": "release",
@@ -942,6 +1012,16 @@
    "date": "2026-06-23T10:00:00-04:00",
    "summary": "Since its launch, Swift Package Index has become an essential part of the Swift ecosystem, helping developers discover quality packages, evaluate compatibility, and make informed decisions about depen…",
    "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://www.swift.org/blog/swift-package-index-update/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "Swift Package Index Update",
+   "url": "https://www.swift.org/blog/swift-package-index-update/",
+   "date": "2026-06-23T10:00:00-04:00",
+   "summary": "Since its launch, Swift Package Index has become an essential part of the Swift ecosystem, helping developers discover quality packages, evaluate compatibility, and make informed decisions about depen…",
+   "first_seen": "2026-10-21T05:43:15+08:00"
   },
   {
    "id": "https://developer.apple.com/news/?id=umq9wxmm",
@@ -995,6 +1075,16 @@
    "date": "2026-06-12T06:00:00-04:00",
    "summary": "TrueType is a widely used vector font standard for rendering text in web pages, PDFs, operating systems, and applications. Familiar fonts like Helvetica, Garamond, and Monaco are all built on TrueType…",
    "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://www.swift.org/blog/migrating-truetype-hinting-to-swift/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "Swift at Apple: Migrating the TrueType Hinting Interpreter",
+   "url": "https://www.swift.org/blog/migrating-truetype-hinting-to-swift/",
+   "date": "2026-06-12T06:00:00-04:00",
+   "summary": "TrueType is a widely used vector font standard for rendering text in web pages, PDFs, operating systems, and applications. Familiar fonts like Helvetica, Garamond, and Monaco are all built on TrueType…",
+   "first_seen": "2026-10-21T05:43:15+08:00"
   },
   {
    "id": "https://developer.apple.com/news/?id=15wishue",
@@ -1061,6 +1151,16 @@
    "first_seen": "2026-10-20T17:47:16+08:00"
   },
   {
+   "id": "https://www.swift.org/blog/announcing-networking-workgroup/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "Announcing the Networking Workgroup",
+   "url": "https://www.swift.org/blog/announcing-networking-workgroup/",
+   "date": "2026-06-04T06:00:00-04:00",
+   "summary": "The Swift Ecosystem Steering Group is excited to announce the creation of the Networking workgroup ! Workgroups are community-led efforts, formally recognized by the project, to advance key areas of S…",
+   "first_seen": "2026-10-21T05:43:15+08:00"
+  },
+  {
    "id": "https://developer.apple.com/news/?id=sg176nne",
    "source": "apple-news",
    "kind": "news",
@@ -1091,6 +1191,16 @@
    "first_seen": "2026-10-20T17:47:16+08:00"
   },
   {
+   "id": "https://www.swift.org/blog/whats-new-in-swift-may-2026/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "What's new in Swift: May 2026 Edition",
+   "url": "https://www.swift.org/blog/whats-new-in-swift-may-2026/",
+   "date": "2026-06-03T17:45:00-04:00",
+   "summary": "Welcome to “What’s new in Swift,” a curated digest of releases, videos, and discussions in the Swift project and community. To start, we’re focusing on some of the many local meetup groups sharing Swi…",
+   "first_seen": "2026-10-21T05:43:15+08:00"
+  },
+  {
    "id": "https://developer.apple.com/news/?id=vbvsocwh",
    "source": "apple-news",
    "kind": "news",
@@ -1119,6 +1229,16 @@
    "date": "2026-06-01T08:00:00-04:00",
    "summary": "Goodnotes has been helping millions of users take handwritten notes on iPad for over a decade, earning recognition as Apple’s iPad App of the Year in 2022. Today, the same Swift code that powers our i…",
    "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://www.swift.org/blog/bringing-goodnotes-to-web-with-swift/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "Bringing Goodnotes to the web with Swift and WebAssembly",
+   "url": "https://www.swift.org/blog/bringing-goodnotes-to-web-with-swift/",
+   "date": "2026-06-01T08:00:00-04:00",
+   "summary": "Goodnotes has been helping millions of users take handwritten notes on iPad for over a decade, earning recognition as Apple’s iPad App of the Year in 2022. Today, the same Swift code that powers our i…",
+   "first_seen": "2026-10-21T05:43:15+08:00"
   },
   {
    "id": "https://github.com/SnapKit/SnapKit/releases/tag/6.0.0",
@@ -1372,6 +1492,16 @@
    "first_seen": "2026-10-20T17:47:16+08:00"
   },
   {
+   "id": "https://www.swift.org/blog/whats-new-in-swift-april-2026/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "What's new in Swift: April 2026 Edition",
+   "url": "https://www.swift.org/blog/whats-new-in-swift-april-2026/",
+   "date": "2026-05-01T06:30:00-04:00",
+   "summary": "Welcome to “What’s new in Swift,” a curated digest of releases, videos, and discussions in the Swift project and community. The 1.0 release of valkey-swift was recently announced on the Valkey blog . …",
+   "first_seen": "2026-10-21T05:43:15+08:00"
+  },
+  {
    "id": "https://developer.apple.com/news/?id=agq42lxe",
    "source": "apple-news",
    "kind": "news",
@@ -1400,6 +1530,16 @@
    "date": "2026-04-08T06:00:00-04:00",
    "summary": "You can now write Swift in a broader range of popular IDEs, including Cursor, VSCodium, AWS’s Kiro, and Google’s Antigravity. By leveraging VS Code extension compatibility, these editors tap directly …",
    "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://www.swift.org/blog/expanding-swift-ide-support/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "Expanding Swift's IDE Support",
+   "url": "https://www.swift.org/blog/expanding-swift-ide-support/",
+   "date": "2026-04-08T06:00:00-04:00",
+   "summary": "You can now write Swift in a broader range of popular IDEs, including Cursor, VSCodium, AWS’s Kiro, and Google’s Antigravity. By leveraging VS Code extension compatibility, these editors tap directly …",
+   "first_seen": "2026-10-21T05:43:15+08:00"
   },
   {
    "id": "https://developer.apple.com/news/?id=e1ssia6m",
@@ -1465,6 +1605,16 @@
    "first_seen": "2026-10-20T17:47:16+08:00"
   },
   {
+   "id": "https://www.swift.org/blog/whats-new-in-swift-march-2026/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "What's new in Swift: March 2026 Edition",
+   "url": "https://www.swift.org/blog/whats-new-in-swift-march-2026/",
+   "date": "2026-03-31T10:30:00-04:00",
+   "summary": "Welcome to “What’s new in Swift,” a curated digest of releases, videos, and discussions in the Swift project and community. Swift 6.3 has been released , expanding Swift into new domains and improving…",
+   "first_seen": "2026-10-21T05:43:15+08:00"
+  },
+  {
    "id": "https://developer.apple.com/news/?id=fwswmjcn",
    "source": "apple-news",
    "kind": "news",
@@ -1515,6 +1665,16 @@
    "first_seen": "2026-10-20T17:47:16+08:00"
   },
   {
+   "id": "https://www.swift.org/blog/swift-6.3-released/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "Swift 6.3 Released",
+   "url": "https://www.swift.org/blog/swift-6.3-released/",
+   "date": "2026-03-24T06:00:00-04:00",
+   "summary": "Swift is designed to be the language you reach for at every layer of the software stack. Whether you’re building embedded firmware, internet-scale services, or full-featured mobile apps, Swift deliver…",
+   "first_seen": "2026-10-21T05:43:15+08:00"
+  },
+  {
    "id": "https://developer.apple.com/news/?id=yi8qj25k",
    "source": "apple-news",
    "kind": "news",
@@ -1555,6 +1715,16 @@
    "first_seen": "2026-10-20T17:47:16+08:00"
   },
   {
+   "id": "https://www.swift.org/blog/building-privacy-first-analytics-with-swift/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "Swift at scale: building the TelemetryDeck analytics service",
+   "url": "https://www.swift.org/blog/building-privacy-first-analytics-with-swift/",
+   "date": "2026-03-06T07:00:00-04:00",
+   "summary": "TelemetryDeck is an app analytics service specifically for developers, designed to manage usage analytics that are anonymized, privacy-focused, and really easy to use. TelemetryDeck is managing the da…",
+   "first_seen": "2026-10-21T05:43:15+08:00"
+  },
+  {
    "id": "https://swift.org/blog/whats-new-in-swift-february-2026/",
    "source": "swift-blog",
    "kind": "blog",
@@ -1563,6 +1733,16 @@
    "date": "2026-03-02T10:05:00-04:00",
    "summary": "Welcome to this edition of “What’s New in Swift,” where we share interesting projects and updates in the Swift community that deserve visibility to a broader audience. FOSDEM is the largest open sourc…",
    "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://www.swift.org/blog/whats-new-in-swift-february-2026/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "What's new in Swift: February 2026 Edition",
+   "url": "https://www.swift.org/blog/whats-new-in-swift-february-2026/",
+   "date": "2026-03-02T10:05:00-04:00",
+   "summary": "Welcome to this edition of “What’s New in Swift,” where we share interesting projects and updates in the Swift community that deserve visibility to a broader audience. FOSDEM is the largest open sourc…",
+   "first_seen": "2026-10-21T05:43:15+08:00"
   },
   {
    "id": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.21.7",
@@ -1586,6 +1766,16 @@
    "date": "2026-02-20T06:00:00-04:00",
    "summary": "We are excited to announce the 1.0 release of Swift System Metrics , a Swift package that collects process-level system metrics like CPU utilization time and memory usage. Swift System Metrics runs on…",
    "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://www.swift.org/blog/swift-system-metrics-1.0-released/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "Announcing Swift System Metrics 1.0: Process-Level Monitoring",
+   "url": "https://www.swift.org/blog/swift-system-metrics-1.0-released/",
+   "date": "2026-02-20T06:00:00-04:00",
+   "summary": "We are excited to announce the 1.0 release of Swift System Metrics , a Swift package that collects process-level system metrics like CPU utilization time and memory usage. Swift System Metrics runs on…",
+   "first_seen": "2026-10-21T05:43:15+08:00"
   },
   {
    "id": "https://github.com/Instagram/IGListKit/releases/tag/5.2.0",
@@ -1635,6 +1825,16 @@
    "date": "2026-01-30T11:15:00-04:00",
    "summary": "A Reddit thread earlier this month asked about building web apps with Swift. For this edition of “What’s new in Swift,” we invited a developer to share their experience: Hi, I’m Nick Sloan. I’m the he…",
    "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://www.swift.org/blog/whats-new-in-swift-january-2026/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "What's new in Swift: January 2026 Edition",
+   "url": "https://www.swift.org/blog/whats-new-in-swift-january-2026/",
+   "date": "2026-01-30T11:15:00-04:00",
+   "summary": "A Reddit thread earlier this month asked about building web apps with Swift. For this edition of “What’s new in Swift,” we invited a developer to share their experience: Hi, I’m Nick Sloan. I’m the he…",
+   "first_seen": "2026-10-21T05:43:15+08:00"
   },
   {
    "id": "https://github.com/airbnb/lottie-ios/releases/tag/4.6.0",
