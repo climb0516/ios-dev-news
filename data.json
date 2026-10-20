@@ -1,0 +1,3503 @@
+{
+ "updated": "2026-10-20T17:50:05+08:00",
+ "sources": [
+  {
+   "id": "apple-releases",
+   "name": "Apple 版本发布",
+   "abbr": "A",
+   "color": "#0a84ff",
+   "ok": true,
+   "error": "",
+   "count": 42,
+   "updated": "2026-10-20T17:50:05+08:00"
+  },
+  {
+   "id": "apple-news",
+   "name": "Apple 开发者新闻",
+   "abbr": "A",
+   "color": "#8e8e93",
+   "ok": true,
+   "error": "",
+   "count": 60,
+   "updated": "2026-10-20T17:50:05+08:00"
+  },
+  {
+   "id": "swift-blog",
+   "name": "Swift 博客",
+   "abbr": "S",
+   "color": "#f05138",
+   "ok": true,
+   "error": "",
+   "count": 20,
+   "updated": "2026-10-20T17:50:05+08:00"
+  },
+  {
+   "id": "libs",
+   "name": "开源库发布",
+   "abbr": "GH",
+   "color": "#6e40c9",
+   "ok": true,
+   "error": "",
+   "count": 12,
+   "updated": "2026-10-20T17:50:05+08:00"
+  },
+  {
+   "id": "swift-evolution",
+   "name": "Swift Evolution",
+   "abbr": "SE",
+   "color": "#f05138",
+   "ok": true,
+   "error": "",
+   "count": 83,
+   "updated": "2026-10-20T17:50:05+08:00"
+  }
+ ],
+ "items": [
+  {
+   "id": "https://developer.apple.com/news/releases/?id=10192026g",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "Xcode 27.2 RC (27B48)",
+   "url": "https://developer.apple.com/news/releases/?id=10192026g",
+   "date": "2026-10-20T01:00:00+08:00",
+   "summary": "",
+   "platform": "Xcode",
+   "version": "27.2",
+   "stage": "RC",
+   "build": "27B48",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=10192026a",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iOS 27.2 RC (24B115)",
+   "url": "https://developer.apple.com/news/releases/?id=10192026a",
+   "date": "2026-10-20T01:00:00+08:00",
+   "summary": "",
+   "platform": "iOS",
+   "version": "27.2",
+   "stage": "RC",
+   "build": "24B115",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=10192026b",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iPadOS 27.2 RC (24B115)",
+   "url": "https://developer.apple.com/news/releases/?id=10192026b",
+   "date": "2026-10-20T01:00:00+08:00",
+   "summary": "",
+   "platform": "iPadOS",
+   "version": "27.2",
+   "stage": "RC",
+   "build": "24B115",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=10192026c",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "macOS 27.2 RC (26B118)",
+   "url": "https://developer.apple.com/news/releases/?id=10192026c",
+   "date": "2026-10-20T01:00:00+08:00",
+   "summary": "",
+   "platform": "macOS",
+   "version": "27.2",
+   "stage": "RC",
+   "build": "26B118",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=10192026d",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "tvOS 27.2 RC (24K120)",
+   "url": "https://developer.apple.com/news/releases/?id=10192026d",
+   "date": "2026-10-20T01:00:00+08:00",
+   "summary": "",
+   "platform": "tvOS",
+   "version": "27.2",
+   "stage": "RC",
+   "build": "24K120",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=10192026e",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "visionOS 27.2 RC (24N118)",
+   "url": "https://developer.apple.com/news/releases/?id=10192026e",
+   "date": "2026-10-20T01:00:00+08:00",
+   "summary": "",
+   "platform": "visionOS",
+   "version": "27.2",
+   "stage": "RC",
+   "build": "24N118",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=10192026f",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "watchOS 27.2 RC (24S116)",
+   "url": "https://developer.apple.com/news/releases/?id=10192026f",
+   "date": "2026-10-20T01:00:00+08:00",
+   "summary": "",
+   "platform": "watchOS",
+   "version": "27.2",
+   "stage": "RC",
+   "build": "24S116",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=92th7e5i",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Updated App Review Guidelines are now available",
+   "url": "https://developer.apple.com/news/?id=92th7e5i",
+   "date": "2026-10-17T04:05:42+08:00",
+   "summary": "The App Review Guidelines have been revised to support new features, updated policies, and to provide clarification. App Review Guidelines Before You Submit: Added links to additional documentation. 1…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=vvzx6cul",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Strengthening App Review Guidelines against nonconsensual intimate imagery and bait-and-switch apps",
+   "url": "https://developer.apple.com/news/?id=vvzx6cul",
+   "date": "2026-10-17T04:00:56+08:00",
+   "summary": "The App Review Guidelines are a core part of the safe and trusted experience that the App Store strives to offer users around the world — and the foundation of that trust is clear standards that are c…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=10152026a",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "Xcode 27.1 (27A9275)",
+   "url": "https://developer.apple.com/news/releases/?id=10152026a",
+   "date": "2026-10-16T04:00:00+08:00",
+   "summary": "",
+   "platform": "Xcode",
+   "version": "27.1",
+   "stage": "正式版",
+   "build": "27A9275",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=10142026c",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "TestFlight Update",
+   "url": "https://developer.apple.com/news/releases/?id=10142026c",
+   "date": "2026-10-15T05:00:00+08:00",
+   "summary": "",
+   "platform": "其他",
+   "version": "",
+   "stage": "",
+   "build": "",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=17mwd36z",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Updated Apple Developer Program License Agreement now available",
+   "url": "https://developer.apple.com/news/?id=17mwd36z",
+   "date": "2026-10-14T06:00:09+08:00",
+   "summary": "The Apple Developer Program License Agreement has been revised to support new features and updated policies, and to provide clarification. Please review the changes below and sign in to your account t…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://swift.org/blog/whats-new-in-swift-september-2026/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "What's new in Swift: September 2026 Edition",
+   "url": "https://swift.org/blog/whats-new-in-swift-september-2026/",
+   "date": "2026-10-08T13:00:00-04:00",
+   "summary": "Welcome to “What’s new in Swift,” a curated digest of releases, videos, and discussions in the Swift project and community. The Vapor web framework recently turned ten and celebrated with Vapor Week! …",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=10062026a",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "App Store Connect API 4.5.1",
+   "url": "https://developer.apple.com/news/releases/?id=10062026a",
+   "date": "2026-10-07T01:00:00+08:00",
+   "summary": "",
+   "platform": "其他",
+   "version": "",
+   "stage": "",
+   "build": "",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=gv788oj6",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Hello Developer: October 2026",
+   "url": "https://developer.apple.com/news/?id=gv788oj6",
+   "date": "2026-10-06T23:00:23+08:00",
+   "summary": "In this edition: Get tips on submitting your iPhone Duo app. Sign up for new iPhone Duo Group Labs. Join us for a new developer event on speed and efficiency. Explore localized documentation. Browse n…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=10052026h",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "App Store Connect Update",
+   "url": "https://developer.apple.com/news/releases/?id=10052026h",
+   "date": "2026-10-06T09:00:00+08:00",
+   "summary": "",
+   "platform": "其他",
+   "version": "",
+   "stage": "",
+   "build": "",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=kkphp5qo",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Prepare and submit your apps for iPhone Duo",
+   "url": "https://developer.apple.com/news/?id=kkphp5qo",
+   "date": "2026-10-06T08:05:33+08:00",
+   "summary": "iPhone Duo will be available to customers starting October 23, 2026. To get your apps and games ready today, you can: Build or recompile with Xcode Recompile existing apps with Xcode 27.1, which adds …",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=ljpl7kyn",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Showcase your apps with new assets on the App Store",
+   "url": "https://developer.apple.com/news/?id=ljpl7kyn",
+   "date": "2026-10-06T04:00:27+08:00",
+   "summary": "Make your apps and games stand out with new creative assets on the App Store and asset management tools in App Store Connect. Market your app or game in new ways Use new creative assets on your produc…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=10052026d",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "tvOS 27.2 beta 3 (24K5103f)",
+   "url": "https://developer.apple.com/news/releases/?id=10052026d",
+   "date": "2026-10-06T02:00:00+08:00",
+   "summary": "",
+   "platform": "tvOS",
+   "version": "27.2",
+   "stage": "Beta 3",
+   "build": "24K5103f",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=p6zjojqw",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Updates to Full Disk Access in macOS",
+   "url": "https://developer.apple.com/news/?id=p6zjojqw",
+   "date": "2026-10-03T00:00:19+08:00",
+   "summary": "We give developers powerful APIs to build incredible capabilities into their apps for Apple products, backed by a set of controls designed to protect users’ private data. Full Disk Access largely side…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=w4atic4c",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Upcoming expiration of Developer ID Certification Authority (Sub-CA)",
+   "url": "https://developer.apple.com/news/?id=w4atic4c",
+   "date": "2026-10-02T01:00:11+08:00",
+   "summary": "The original Developer ID Certification Authority (Sub-CA) expires on February 1, 2027. Certificates issued by this authority will stop working on that date. What to do: Check if you’re affected. In C…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=09282026e",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "watchOS 27.0.1 (24R365)",
+   "url": "https://developer.apple.com/news/releases/?id=09282026e",
+   "date": "2026-09-29T04:00:00+08:00",
+   "summary": "",
+   "platform": "watchOS",
+   "version": "27.0.1",
+   "stage": "正式版",
+   "build": "24R365",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=09282026a",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iOS 27.0.1 (24A446)",
+   "url": "https://developer.apple.com/news/releases/?id=09282026a",
+   "date": "2026-09-29T01:00:00+08:00",
+   "summary": "",
+   "platform": "iOS",
+   "version": "27.0.1",
+   "stage": "正式版",
+   "build": "24A446",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=09282026b",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iPadOS 27.0.1 (24A446)",
+   "url": "https://developer.apple.com/news/releases/?id=09282026b",
+   "date": "2026-09-29T01:00:00+08:00",
+   "summary": "",
+   "platform": "iPadOS",
+   "version": "27.0.1",
+   "stage": "正式版",
+   "build": "24A446",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=09282026c",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "macOS 27.0.1 (26A434)",
+   "url": "https://developer.apple.com/news/releases/?id=09282026c",
+   "date": "2026-09-29T01:00:00+08:00",
+   "summary": "",
+   "platform": "macOS",
+   "version": "27.0.1",
+   "stage": "正式版",
+   "build": "26A434",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=09282026d",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "visionOS 27.0.1 (24M372)",
+   "url": "https://developer.apple.com/news/releases/?id=09282026d",
+   "date": "2026-09-29T01:00:00+08:00",
+   "summary": "",
+   "platform": "visionOS",
+   "version": "27.0.1",
+   "stage": "正式版",
+   "build": "24M372",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=09282026f",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iPadOS 26.7.1 (23H30)",
+   "url": "https://developer.apple.com/news/releases/?id=09282026f",
+   "date": "2026-09-29T01:00:00+08:00",
+   "summary": "",
+   "platform": "iPadOS",
+   "version": "26.7.1",
+   "stage": "正式版",
+   "build": "23H30",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=09224026a",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "TestFlight 4.4.0",
+   "url": "https://developer.apple.com/news/releases/?id=09224026a",
+   "date": "2026-09-25T05:30:00+08:00",
+   "summary": "",
+   "platform": "其他",
+   "version": "",
+   "stage": "",
+   "build": "",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=09223026a",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "App Store Connect 3.3",
+   "url": "https://developer.apple.com/news/releases/?id=09223026a",
+   "date": "2026-09-24T01:00:00+08:00",
+   "summary": "",
+   "platform": "其他",
+   "version": "",
+   "stage": "",
+   "build": "",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=09222026a",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "App Store Connect API 4.5",
+   "url": "https://developer.apple.com/news/releases/?id=09222026a",
+   "date": "2026-09-23T07:00:00+08:00",
+   "summary": "",
+   "platform": "其他",
+   "version": "",
+   "stage": "",
+   "build": "",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=nyuppv9r",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Build for iPhone Duo with new resources",
+   "url": "https://developer.apple.com/news/?id=nyuppv9r",
+   "date": "2026-09-19T01:00:57+08:00",
+   "summary": "Get Xcode 27.1 beta. View downloads and release notes Get Figma and Sketch design kits for iPhone Duo from the Apple Design Resources. Download design kits from the Apple Design Resources Sign up for …",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=09182026a",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "Xcode 27.1 beta (27A9269)",
+   "url": "https://developer.apple.com/news/releases/?id=09182026a",
+   "date": "2026-09-19T01:00:00+08:00",
+   "summary": "",
+   "platform": "Xcode",
+   "version": "27.1",
+   "stage": "Beta",
+   "build": "27A9269",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=rfb1rooi",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Get ready with the latest beta releases",
+   "url": "https://developer.apple.com/news/?id=rfb1rooi",
+   "date": "2026-09-17T01:03:39+08:00",
+   "summary": "The beta versions of iOS 27.2, iPadOS 27.2, macOS 27.2, tvOS 27.2, visionOS 27.2, and watchOS 27.2 are now available. Get your apps ready by confirming they work as expected on these releases. And mak…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=likeohx4",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Get your subscriptions ready for iOS 27",
+   "url": "https://developer.apple.com/news/?id=likeohx4",
+   "date": "2026-09-17T01:02:58+08:00",
+   "summary": "Discover how you can expand the reach of your subscriptions with new features in iOS 27. You can start preparing today by making sure your apps use StoreKit 2 to handle your Apple In-App Purchases. Re…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=idsft9ai",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Updates to App Tracking Transparency in the European Union",
+   "url": "https://developer.apple.com/news/?id=idsft9ai",
+   "date": "2026-09-17T01:00:11+08:00",
+   "summary": "As part of agreements with select European competition authorities, Apple is introducing changes to its App Tracking Transparency framework in the European Union. Beginning with iOS 27.2 and iPadOS 27…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://swift.org/blog/swift-6.4-released/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "Swift 6.4 Released",
+   "url": "https://swift.org/blog/swift-6.4-released/",
+   "date": "2026-09-15T03:30:00-04:00",
+   "summary": "Swift 6.4 is now available. Swift aims to be a great choice across the stack, from apps and servers to systems code, embedded devices, and the browser. This release deepens that support, and makes eve…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=09142026h",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "Xcode 27 (27A266a)",
+   "url": "https://developer.apple.com/news/releases/?id=09142026h",
+   "date": "2026-09-15T01:00:00+08:00",
+   "summary": "",
+   "platform": "Xcode",
+   "version": "27",
+   "stage": "正式版",
+   "build": "27A266a",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=09142026d",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "tvOS 27.0 (24J361)",
+   "url": "https://developer.apple.com/news/releases/?id=09142026d",
+   "date": "2026-09-15T01:00:00+08:00",
+   "summary": "",
+   "platform": "tvOS",
+   "version": "27.0",
+   "stage": "正式版",
+   "build": "24J361",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=09142026f",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "watchOS 27.0 (24R364)",
+   "url": "https://developer.apple.com/news/releases/?id=09142026f",
+   "date": "2026-09-15T01:00:00+08:00",
+   "summary": "",
+   "platform": "watchOS",
+   "version": "27.0",
+   "stage": "正式版",
+   "build": "24R364",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://swift.org/blog/module-tracking-in-debug-info/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "Module Tracking in Swift Debug Info",
+   "url": "https://swift.org/blog/module-tracking-in-debug-info/",
+   "date": "2026-09-11T11:30:00-04:00",
+   "summary": "When your Swift program hits a breakpoint and stops so you can inspect it, the debugger’s expression evaluator has to find the exact Swift module your code was built from. Until now, that lookup wasn’…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=vn8abkxx",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Get ready for iPhone Duo",
+   "url": "https://developer.apple.com/news/?id=vn8abkxx",
+   "date": "2026-09-10T07:05:23+08:00",
+   "summary": "Start getting ready for iPhone Duo today. Watch new videos, sign up for Group Labs, and take part in Q&As on the Apple Developer Forums. Explore now",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=k1mtkt1k",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "App Store submissions now open for the latest OS releases",
+   "url": "https://developer.apple.com/news/?id=k1mtkt1k",
+   "date": "2026-09-10T07:00:38+08:00",
+   "summary": "iOS 27, iPadOS 27, macOS 27, tvOS 27, visionOS 27, and watchOS 27 will soon be available to customers worldwide, which means you can now submit apps and games that take advantage of the latest Apple t…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/Alamofire/Alamofire/releases/tag/5.12.2",
+   "source": "libs",
+   "kind": "lib",
+   "title": "Alamofire 5.12.2",
+   "url": "https://github.com/Alamofire/Alamofire/releases/tag/5.12.2",
+   "date": "2026-09-10T01:44:50Z",
+   "summary": "Released on 2026-09-09. All issues associated with this milestone can be found using this filter . Added Updated versioning. There are no functional changes in this release. Added by Jon Shier in Pull…",
+   "lib": "Alamofire",
+   "repo": "Alamofire/Alamofire",
+   "version": "5.12.2",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=09092026g",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iPadOS 26.7 (23H24)",
+   "url": "https://developer.apple.com/news/releases/?id=09092026g",
+   "date": "2026-09-10T01:00:00+08:00",
+   "summary": "",
+   "platform": "iPadOS",
+   "version": "26.7",
+   "stage": "正式版",
+   "build": "23H24",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=09082026c",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "Transporter 1.4.5",
+   "url": "https://developer.apple.com/news/releases/?id=09082026c",
+   "date": "2026-09-09T04:00:00+08:00",
+   "summary": "",
+   "platform": "其他",
+   "version": "",
+   "stage": "",
+   "build": "",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/Alamofire/Alamofire/releases/tag/5.12.1",
+   "source": "libs",
+   "kind": "lib",
+   "title": "Alamofire 5.12.1",
+   "url": "https://github.com/Alamofire/Alamofire/releases/tag/5.12.1",
+   "date": "2026-09-09T02:38:25Z",
+   "summary": "Released on 2026-09-08. All issues associated with this milestone can be found using this filter . Added Instant , a wrapper for CLOCK_MONOTONIC_RAW , to replace usage of ProcessInfo.processInfo.syste…",
+   "lib": "Alamofire",
+   "repo": "Alamofire/Alamofire",
+   "version": "5.12.1",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=09082026a",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iOS 26.6.2 (23G90)",
+   "url": "https://developer.apple.com/news/releases/?id=09082026a",
+   "date": "2026-09-09T01:00:00+08:00",
+   "summary": "",
+   "platform": "iOS",
+   "version": "26.6.2",
+   "stage": "正式版",
+   "build": "23G90",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=09082026b",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iPadOS 26.6.2 (23G90)",
+   "url": "https://developer.apple.com/news/releases/?id=09082026b",
+   "date": "2026-09-09T01:00:00+08:00",
+   "summary": "",
+   "platform": "iPadOS",
+   "version": "26.6.2",
+   "stage": "正式版",
+   "build": "23G90",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://swift.org/blog/whats-new-in-swift-august-2026/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "What's new in Swift: August 2026 Edition",
+   "url": "https://swift.org/blog/whats-new-in-swift-august-2026/",
+   "date": "2026-09-04T12:30:00-04:00",
+   "summary": "Welcome to “What’s new in Swift,” a curated digest of releases, videos, and discussions in the Swift project and community. Here’s an update from guest contributor Simon Leeb on Swift’s progress as a …",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=ote61lrx",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Hello Developer: September 2026",
+   "url": "https://developer.apple.com/news/?id=ote61lrx",
+   "date": "2026-09-02T23:00:02+08:00",
+   "summary": "In this edition: Get ready for a special Apple Event, take advantage of Analytics in App Store Connect, and sign up for new developer events in Cupertino. Read now",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=w5ngl9k2",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Upcoming changes to Rosetta support for Intel-based macOS apps",
+   "url": "https://developer.apple.com/news/?id=w5ngl9k2",
+   "date": "2026-09-01T23:00:41+08:00",
+   "summary": "In 2020, we introduced Apple silicon for Mac computers, providing Rosetta as a translation layer during the transition period. As announced at WWDC last year , we’re now concluding this transition. Wh…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=o5spbekm",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "“The impact was the biggest surprise“: Swiggy’s transition to native pays off",
+   "url": "https://developer.apple.com/news/?id=o5spbekm",
+   "date": "2026-09-01T21:00:01+08:00",
+   "summary": "Swiggy began as a humble food delivery service. Today, it’s India’s leading on-demand convenience platform, one that offers everything from groceries via Instamart to restaurant bookings via Dineout .…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=artln8br",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Tax and price updates for apps, In-App Purchases, and subscriptions",
+   "url": "https://developer.apple.com/news/?id=artln8br",
+   "date": "2026-08-28T03:00:43+08:00",
+   "summary": "The App Store is designed to make it easy to sell your digital goods and services globally, with support for 43 currencies across 175 storefronts. From time to time, we may need to adjust prices or yo…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=s6spdug0",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Surprise and shine",
+   "url": "https://developer.apple.com/news/?id=s6spdug0",
+   "date": "2026-08-26T23:00:55+08:00",
+   "summary": "Join us for a special Apple Event on September 9 at 10 a.m. PT. Watch on apple.com , Apple TV, or YouTube Live.",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=1ptvdtcm",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Update: New domain for Sign in with Apple",
+   "url": "https://developer.apple.com/news/?id=1ptvdtcm",
+   "date": "2026-08-25T02:00:46+08:00",
+   "summary": "Starting later this year, new Sign in with Apple addresses, previously issued on privaterelay.appleid.com , will be issued on private.icloud.com . Existing addresses on privaterelay.appleid.com will c…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://swift.org/blog/embedded-swift-improvements-coming-in-swift-6.4/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "Embedded Swift Improvements Coming in Swift 6.4",
+   "url": "https://swift.org/blog/embedded-swift-improvements-coming-in-swift-6.4/",
+   "date": "2026-08-20T09:45:00-04:00",
+   "summary": "Embedded Swift is a subset of Swift that’s designed for low resource usage, making it capable of running on constrained environments like microcontrollers. Using a special compilation mode, Embedded S…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=gmws0jgp",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Changes for apps in the European Union",
+   "url": "https://developer.apple.com/news/?id=gmws0jgp",
+   "date": "2026-08-18T23:00:38+08:00",
+   "summary": "Apple is making changes to its business terms for apps in the European Union, following close collaboration with the European Commission. The changes reduce complexity by moving every developer that d…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=0cgo95n6",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Updated Apple Developer Program License Agreement now available",
+   "url": "https://developer.apple.com/news/?id=0cgo95n6",
+   "date": "2026-08-18T23:00:32+08:00",
+   "summary": "Attachment 14 of the Apple Developer Program License Agreement has been added to specify updated terms for apps in the European Union, including alternative distribution, alternative payments, and bus…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=08172026i",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "visionOS 26.6.1 (23O780)",
+   "url": "https://developer.apple.com/news/releases/?id=08172026i",
+   "date": "2026-08-18T01:00:00+08:00",
+   "summary": "",
+   "platform": "visionOS",
+   "version": "26.6.1",
+   "stage": "正式版",
+   "build": "23O780",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=08172026j",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "macOS 26.6.2 (25G83)",
+   "url": "https://developer.apple.com/news/releases/?id=08172026j",
+   "date": "2026-08-18T01:00:00+08:00",
+   "summary": "",
+   "platform": "macOS",
+   "version": "26.6.2",
+   "stage": "正式版",
+   "build": "25G83",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=08172026k",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iOS 18.7.10 (22H374)",
+   "url": "https://developer.apple.com/news/releases/?id=08172026k",
+   "date": "2026-08-18T01:00:00+08:00",
+   "summary": "",
+   "platform": "iOS",
+   "version": "18.7.10",
+   "stage": "正式版",
+   "build": "22H374",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=08172026l",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iPadOS 18.7.10 (22H374)",
+   "url": "https://developer.apple.com/news/releases/?id=08172026l",
+   "date": "2026-08-18T01:00:00+08:00",
+   "summary": "",
+   "platform": "iPadOS",
+   "version": "18.7.10",
+   "stage": "正式版",
+   "build": "22H374",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=oj3r9pvw",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Updates to age ratings for the Republic of Korea",
+   "url": "https://developer.apple.com/news/?id=oj3r9pvw",
+   "date": "2026-08-12T23:00:03+08:00",
+   "summary": "Apple generates appropriate age ratings based on your answers to the age rating questionnaire in App Store Connect. In compliance with local regulatory requirements, apps in the Games and Entertainmen…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://swift.org/blog/whats-new-in-swift-july-2026/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "What's new in Swift: July 2026 Edition",
+   "url": "https://swift.org/blog/whats-new-in-swift-july-2026/",
+   "date": "2026-08-07T11:30:00-04:00",
+   "summary": "Welcome to “What’s new in Swift,” a curated digest of releases, videos, and discussions in the Swift project and community. Swift is built by contributors working on far more than the language and com…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=kug6m2ea",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Get ready for new creative assets on the App Store",
+   "url": "https://developer.apple.com/news/?id=kug6m2ea",
+   "date": "2026-08-05T23:00:58+08:00",
+   "summary": "As we announced in June , Apple is introducing new ways to market your apps and games on the App Store. With these new assets, you can go beyond in-use visuals to highlight your brand, seasonal offeri…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=vrvvlonn",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Hello Developer: August 2026",
+   "url": "https://developer.apple.com/news/?id=vrvvlonn",
+   "date": "2026-08-05T23:00:51+08:00",
+   "summary": "In this edition: Check out an all-new video from Cupertino to dive deeper into the biggest updates from WWDC26. Download templates and get started building App Store assets for iOS 27. Discover best p…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=07272026d",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "tvOS 26.6 (23L773)",
+   "url": "https://developer.apple.com/news/releases/?id=07272026d",
+   "date": "2026-07-28T01:00:00+08:00",
+   "summary": "",
+   "platform": "tvOS",
+   "version": "26.6",
+   "stage": "正式版",
+   "build": "23L773",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=07272026f",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "watchOS 26.6 (23U67)",
+   "url": "https://developer.apple.com/news/releases/?id=07272026f",
+   "date": "2026-07-28T01:00:00+08:00",
+   "summary": "",
+   "platform": "watchOS",
+   "version": "26.6",
+   "stage": "正式版",
+   "build": "23U67",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=tlur8uvi",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Age rating questionnaire now includes social media questions",
+   "url": "https://developer.apple.com/news/?id=tlur8uvi",
+   "date": "2026-07-10T06:00:01+08:00",
+   "summary": "As announced in June , new Time Allowances in iOS 27, iPadOS 27, and macOS 27, or later, give parents more flexible ways to manage the time their kids spend in apps across categories, including Entert…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=grx7lcto",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Hello Developer: July 2026",
+   "url": "https://developer.apple.com/news/?id=grx7lcto",
+   "date": "2026-07-08T00:00:15+08:00",
+   "summary": "In this edition: Try an all-new search tool on the Apple Developer website. Download design kits for Figma and Sketch. Explore the biggest updates from WWDC26 in new activities around the world and on…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://swift.org/blog/whats-new-in-swift-june-2026/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "What's new in Swift: June 2026 Edition",
+   "url": "https://swift.org/blog/whats-new-in-swift-june-2026/",
+   "date": "2026-07-02T12:00:00-04:00",
+   "summary": "Welcome to “What’s new in Swift,” a curated digest of releases, videos, and discussions in the Swift project and community. June was an exciting month for Swift, featuring announcements at WWDC and co…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=06252026a",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "Xcode 26.6 (17F113)",
+   "url": "https://developer.apple.com/news/releases/?id=06252026a",
+   "date": "2026-06-26T06:00:00+08:00",
+   "summary": "",
+   "platform": "Xcode",
+   "version": "26.6",
+   "stage": "正式版",
+   "build": "17F113",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=e2lxw9l1",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Design kits for iOS, iPadOS, and macOS 27 are here",
+   "url": "https://developer.apple.com/news/?id=e2lxw9l1",
+   "date": "2026-06-24T05:00:01+08:00",
+   "summary": "Apple design kits for Figma and Sketch are now available for iOS, iPadOS, and macOS 27. These include: Updates to Liquid Glass Expanded component and state support Naming changes to better align with …",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://swift.org/blog/swift-package-index-update/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "Swift Package Index Update",
+   "url": "https://swift.org/blog/swift-package-index-update/",
+   "date": "2026-06-23T10:00:00-04:00",
+   "summary": "Since its launch, Swift Package Index has become an essential part of the Swift ecosystem, helping developers discover quality packages, evaluate compatibility, and make informed decisions about depen…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=umq9wxmm",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Updated Apple Developer Program License Agreement now available",
+   "url": "https://developer.apple.com/news/?id=umq9wxmm",
+   "date": "2026-06-18T22:30:54+08:00",
+   "summary": "Attachment 12 of the Apple Developer Program License Agreement has been revised to specify terms for iOS apps in Brazil, including alternative distribution, alternative payments and out-of-app offers,…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=dhwadr2x",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Changes to iOS in Brazil",
+   "url": "https://developer.apple.com/news/?id=dhwadr2x",
+   "date": "2026-06-18T22:30:05+08:00",
+   "summary": "As part of a recent agreement with Brazil’s competition regulator CADE (Conselho Administrativo de Defesa Econômica), Apple is introducing changes to iOS that create new options for developers' apps i…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=sus6t6ab",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "New domain for Sign in with Apple and iCloud+ Hide My Email",
+   "url": "https://developer.apple.com/news/?id=sus6t6ab",
+   "date": "2026-06-16T06:00:28+08:00",
+   "summary": "Note: This announcement contains outdated information. Please refer to Update: New domain for Sign in with Apple for the latest guidance. Later this summer, Apple will unify the email domains used by …",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/airbnb/lottie-ios/releases/tag/4.6.1",
+   "source": "libs",
+   "kind": "lib",
+   "title": "Lottie 4.6.1",
+   "url": "https://github.com/airbnb/lottie-ios/releases/tag/4.6.1",
+   "date": "2026-06-13T16:51:06Z",
+   "summary": "What's Changed Add padding around text layer to compensate for buggy fonts by @eXCoreX in #2639 Add staticRendering mode for snapshot testing by @jqsilver in #2642 Fix animation state lost when view r…",
+   "lib": "Lottie",
+   "repo": "airbnb/lottie-ios",
+   "version": "4.6.1",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://swift.org/blog/migrating-truetype-hinting-to-swift/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "Swift at Apple: Migrating the TrueType Hinting Interpreter",
+   "url": "https://swift.org/blog/migrating-truetype-hinting-to-swift/",
+   "date": "2026-06-12T06:00:00-04:00",
+   "summary": "TrueType is a widely used vector font standard for rendering text in web pages, PDFs, operating systems, and applications. Familiar fonts like Helvetica, Garamond, and Monaco are all built on TrueType…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=15wishue",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "WWDC26 survey",
+   "url": "https://developer.apple.com/news/?id=15wishue",
+   "date": "2026-06-11T22:00:32+08:00",
+   "summary": "Share your thoughts on this year’s conference. Take the survey",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=06092026a",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "AirPods beta (9A292e)",
+   "url": "https://developer.apple.com/news/releases/?id=06092026a",
+   "date": "2026-06-10T01:00:00+08:00",
+   "summary": "",
+   "platform": "其他",
+   "version": "",
+   "stage": "",
+   "build": "",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=8rgqj83s",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Find out what's new for Apple developers",
+   "url": "https://developer.apple.com/news/?id=8rgqj83s",
+   "date": "2026-06-09T02:20:01+08:00",
+   "summary": "Discover the latest advancements on all Apple platforms and create even more unique, intelligent experiences in your apps and games with major enhancements across languages, frameworks, tools, and ser…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=0d2gpmml",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Introducing Time Allowances",
+   "url": "https://developer.apple.com/news/?id=0d2gpmml",
+   "date": "2026-06-09T02:19:33+08:00",
+   "summary": "New Time Allowances in iOS 27, iPadOS 27, and macOS 27, or later, give parents more flexible ways to manage the time their kids spend in apps across categories, including Entertainment, Games, and Soc…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=a233fmpw",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Updated Apple Developer Program License Agreement and App Review Guidelines now available",
+   "url": "https://developer.apple.com/news/?id=a233fmpw",
+   "date": "2026-06-09T02:18:33+08:00",
+   "summary": "The Apple Developer Program License Agreement and App Review Guidelines have been revised to support new features, updated policies, and to provide clarification. Please review the changes below and s…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://swift.org/blog/announcing-networking-workgroup/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "Announcing the Networking Workgroup",
+   "url": "https://swift.org/blog/announcing-networking-workgroup/",
+   "date": "2026-06-04T06:00:00-04:00",
+   "summary": "The Swift Ecosystem Steering Group is excited to announce the creation of the Networking workgroup ! Workgroups are community-led efforts, formally recognized by the project, to advance key areas of S…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=sg176nne",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Update for Apps Distributed in Texas",
+   "url": "https://developer.apple.com/news/?id=sg176nne",
+   "date": "2026-06-04T01:00:22+08:00",
+   "summary": "Due to a recent court ruling lifting an injunction on Texas law SB 2420, new Apple Accounts in Texas are now subject to the law, which introduced age assurance requirements for app marketplaces and de…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=f0jfy9py",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Apple Developer Centers are expanding to Berlin",
+   "url": "https://developer.apple.com/news/?id=f0jfy9py",
+   "date": "2026-06-03T20:00:13+08:00",
+   "summary": "Apple Developer Centers are dedicated spaces designed for in-person developer sessions, labs, workshops, and appointments across a wide range of Apple technologies and platforms. With locations in Cup…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://swift.org/blog/whats-new-in-swift-may-2026/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "What's new in Swift: May 2026 Edition",
+   "url": "https://swift.org/blog/whats-new-in-swift-may-2026/",
+   "date": "2026-06-03T17:45:00-04:00",
+   "summary": "Welcome to “What’s new in Swift,” a curated digest of releases, videos, and discussions in the Swift project and community. To start, we’re focusing on some of the many local meetup groups sharing Swi…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=vbvsocwh",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Introducing the 2026 Apple Design Award winners",
+   "url": "https://developer.apple.com/news/?id=vbvsocwh",
+   "date": "2026-06-02T23:50:09+08:00",
+   "summary": "Join us in celebrating these extraordinary apps and games. Meet the 2026 Apple Design Award winners",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=q7tgn1rr",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "All systems glow",
+   "url": "https://developer.apple.com/news/?id=q7tgn1rr",
+   "date": "2026-06-01T22:00:22+08:00",
+   "summary": "WWDC26 is just one week away. Get ready for five days of technology, creativity, and community — all online and free. Learn more",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://swift.org/blog/bringing-goodnotes-to-web-with-swift/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "Bringing Goodnotes to the web with Swift and WebAssembly",
+   "url": "https://swift.org/blog/bringing-goodnotes-to-web-with-swift/",
+   "date": "2026-06-01T08:00:00-04:00",
+   "summary": "Goodnotes has been helping millions of users take handwritten notes on iPad for over a decade, earning recognition as Apple’s iPad App of the Year in 2022. Today, the same Swift code that powers our i…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/SnapKit/SnapKit/releases/tag/6.0.0",
+   "source": "libs",
+   "kind": "lib",
+   "title": "SnapKit 6.0.0",
+   "url": "https://github.com/SnapKit/SnapKit/releases/tag/6.0.0",
+   "date": "2026-05-31T09:24:39Z",
+   "summary": "Breaking Changes Removed Cocoapods support Removed Carthage support Bumped minimum iOS/tvOS to 14.0+ Bumped minimum macOS to 12.0+ Bumped minimum Swift toolchain to 6.0+ Other changes Update #file to …",
+   "lib": "SnapKit",
+   "repo": "SnapKit/SnapKit",
+   "version": "6.0.0",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=tu7pk9oy",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Get ready with the latest beta releases",
+   "url": "https://developer.apple.com/news/?id=tu7pk9oy",
+   "date": "2026-05-27T02:00:14+08:00",
+   "summary": "The beta versions of iOS 26.6, iPadOS 26.6, macOS 26.6, tvOS 26.6, visionOS 26.6, and watchOS 26.6 are now available. Get your apps ready by confirming they work as expected on these releases. And mak…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/hackiftekhar/IQKeyboardManager/releases/tag/8.0.3",
+   "source": "libs",
+   "kind": "lib",
+   "title": "IQKeyboardManager 8.0.3 · Dependency updates and CocoaPods fixes",
+   "url": "https://github.com/hackiftekhar/IQKeyboardManager/releases/tag/8.0.3",
+   "date": "2026-05-25T15:03:55Z",
+   "summary": "Improvements Removed obsolete iOS 13 availability checks throughout the codebase. Updated all SPM and CocoaPods dependency versions. Bug fixes Fixed several CocoaPods compilation and podspec integrati…",
+   "lib": "IQKeyboardManager",
+   "repo": "hackiftekhar/IQKeyboardManager",
+   "version": "8.0.3",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/hackiftekhar/IQKeyboardManager/releases/tag/8.0.2",
+   "source": "libs",
+   "kind": "lib",
+   "title": "IQKeyboardManager 8.0.2 · Objective-C library moved to separate repo, iOS 26 compatibility",
+   "url": "https://github.com/hackiftekhar/IQKeyboardManager/releases/tag/8.0.2",
+   "date": "2026-05-25T15:03:37Z",
+   "summary": "Features Added handling for the new iOS 26 bottom search bar style — keyboard distance is no longer adjusted when that UI is active. Improvements Switched the demo project to use dedicated IQKeyboardT…",
+   "lib": "IQKeyboardManager",
+   "repo": "hackiftekhar/IQKeyboardManager",
+   "version": "8.0.2",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/hackiftekhar/IQKeyboardManager/releases/tag/8.0.1",
+   "source": "libs",
+   "kind": "lib",
+   "title": "IQKeyboardManager 8.0.1 · Documentation updates and dependency bump",
+   "url": "https://github.com/hackiftekhar/IQKeyboardManager/releases/tag/8.0.1",
+   "date": "2026-05-25T15:03:12Z",
+   "summary": "Improvements Updated migration guide and README with clearer post-8.0 instructions, including guidance for cases where the keyboard toolbar does not appear. Added library logo images to the asset cata…",
+   "lib": "IQKeyboardManager",
+   "repo": "hackiftekhar/IQKeyboardManager",
+   "version": "8.0.1",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/hackiftekhar/IQKeyboardManager/releases/tag/8.0.0",
+   "source": "libs",
+   "kind": "lib",
+   "title": "IQKeyboardManager 8.0.0 · Major release — IQKeyboardManager dependency Separation",
+   "url": "https://github.com/hackiftekhar/IQKeyboardManager/releases/tag/8.0.0",
+   "date": "2026-05-25T15:02:24Z",
+   "summary": "Improvements Replaced the built-in toolbar implementation with a direct dependency on the standalone IQKeyboardToolbarManager library. Deprecations and removed Replaced IQKeyboardReturnKeyHandler with…",
+   "lib": "IQKeyboardManager",
+   "repo": "hackiftekhar/IQKeyboardManager",
+   "version": "8.0.0",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/hackiftekhar/IQKeyboardManager/releases/tag/7.2.0",
+   "source": "libs",
+   "kind": "lib",
+   "title": "IQKeyboardManager 7.2.0 · Modular architecture, subspec support, and bug fixes",
+   "url": "https://github.com/hackiftekhar/IQKeyboardManager/releases/tag/7.2.0",
+   "date": "2026-05-25T15:00:52Z",
+   "summary": "Features Introduced subspec support for CocoaPods, including the IQKeyboardManagerSwift/Core subspec for minimal installs. Added IQTextInputView as a formal abstraction for input view handling. Improv…",
+   "lib": "IQKeyboardManager",
+   "repo": "hackiftekhar/IQKeyboardManager",
+   "version": "7.2.0",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=yrrb45pw",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Upcoming changes to age ratings in Australia and Vietnam",
+   "url": "https://developer.apple.com/news/?id=yrrb45pw",
+   "date": "2026-05-22T04:01:22+08:00",
+   "summary": "Starting June 18, 2026, age ratings on the App Store will be updated in Australia and Vietnam. Australia The 15+ age rating will no longer be available on the App Store in Australia. Apps currently ra…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=8t3j66i7",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Introducing the 2026 Apple Design Award finalists",
+   "url": "https://developer.apple.com/news/?id=8t3j66i7",
+   "date": "2026-05-18T23:50:09+08:00",
+   "summary": "Every year, the Apple Design Awards recognize innovation, ingenuity, and technical achievement in app and game design. But they’ve also become something more: A moment to step back and celebrate the w…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=7lcnqgxp",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Coming bright up",
+   "url": "https://developer.apple.com/news/?id=7lcnqgxp",
+   "date": "2026-05-18T23:00:22+08:00",
+   "summary": "Get ready for a week of technology, creativity, and community — all online and free. Here’s what WWDC26 has in store. Learn more",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=qtzr82f0",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Hello Developer: May 2026",
+   "url": "https://developer.apple.com/news/?id=qtzr82f0",
+   "date": "2026-05-13T00:00:16+08:00",
+   "summary": "In this edition: Meet inspiring developers, advocates, and educators. Prepare your app for Accessibility Nutrition Labels. Meet the team behind the stylish open-world adventure Infinity Nikki. Get the…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=sw8ldfjk",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Get the most out of your Apple Developer account",
+   "url": "https://developer.apple.com/news/?id=sw8ldfjk",
+   "date": "2026-05-12T21:00:26+08:00",
+   "summary": "A free Apple Developer account provides access to the tools, resources, and support you need to build and test apps and games. A free developer account is separate from an Apple Developer Program memb…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=05112026i",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iPadOS 17.7.11 (21H461)",
+   "url": "https://developer.apple.com/news/releases/?id=05112026i",
+   "date": "2026-05-12T01:00:00+08:00",
+   "summary": "",
+   "platform": "iPadOS",
+   "version": "17.7.11",
+   "stage": "正式版",
+   "build": "21H461",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=05112026j",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iOS 16.7.16 (20H392)",
+   "url": "https://developer.apple.com/news/releases/?id=05112026j",
+   "date": "2026-05-12T01:00:00+08:00",
+   "summary": "",
+   "platform": "iOS",
+   "version": "16.7.16",
+   "stage": "正式版",
+   "build": "20H392",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=05112026k",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iPadOS 16.7.16 (20H392)",
+   "url": "https://developer.apple.com/news/releases/?id=05112026k",
+   "date": "2026-05-12T01:00:00+08:00",
+   "summary": "",
+   "platform": "iPadOS",
+   "version": "16.7.16",
+   "stage": "正式版",
+   "build": "20H392",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=05112026l",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iOS 15.8.8 (19H422)",
+   "url": "https://developer.apple.com/news/releases/?id=05112026l",
+   "date": "2026-05-12T01:00:00+08:00",
+   "summary": "",
+   "platform": "iOS",
+   "version": "15.8.8",
+   "stage": "正式版",
+   "build": "19H422",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=05112026m",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iPadOS 15.8.8 (19H422)",
+   "url": "https://developer.apple.com/news/releases/?id=05112026m",
+   "date": "2026-05-12T01:00:00+08:00",
+   "summary": "",
+   "platform": "iPadOS",
+   "version": "15.8.8",
+   "stage": "正式版",
+   "build": "19H422",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=x4eyetnp",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Brazilian betting license requirement for App Store availability",
+   "url": "https://developer.apple.com/news/?id=x4eyetnp",
+   "date": "2026-05-09T00:30:46+08:00",
+   "summary": "Following changes to Brazil’s fixed-odds betting regulation, apps with fixed-odds betting (gambling) features can now be distributed on the App Store in Brazil with a valid fixed-odds betting license …",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=9lhp8vcj",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "To those who build community",
+   "url": "https://developer.apple.com/news/?id=9lhp8vcj",
+   "date": "2026-05-05T08:31:09+08:00",
+   "summary": "All around the world, Apple developers do meaningful work that extends beyond great apps and games. They organize events, write tutorials, mentor others, and create spaces to learn and grow. By sharin…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/Alamofire/Alamofire/releases/tag/5.12.0",
+   "source": "libs",
+   "kind": "lib",
+   "title": "Alamofire 5.12.0",
+   "url": "https://github.com/Alamofire/Alamofire/releases/tag/5.12.0",
+   "date": "2026-05-05T01:44:54Z",
+   "summary": "Released on 2026-05-04. All issues associated with this milestone can be found using this filter . Added FreeBSD compilation support. Added by Al Hoang in Pull Request #4029 . Updated Various CI confi…",
+   "lib": "Alamofire",
+   "repo": "Alamofire/Alamofire",
+   "version": "5.12.0",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://swift.org/blog/whats-new-in-swift-april-2026/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "What's new in Swift: April 2026 Edition",
+   "url": "https://swift.org/blog/whats-new-in-swift-april-2026/",
+   "date": "2026-05-01T06:30:00-04:00",
+   "summary": "Welcome to “What’s new in Swift,” a curated digest of releases, videos, and discussions in the Swift project and community. The 1.0 release of valkey-swift was recently announced on the Valkey blog . …",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=agq42lxe",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Now Available: Monthly Subscriptions with a 12-Month Commitment",
+   "url": "https://developer.apple.com/news/?id=agq42lxe",
+   "date": "2026-04-27T21:00:33+08:00",
+   "summary": "Today, we’re introducing a new way that people can pay for your auto-renewable subscriptions on the App Store: monthly subscriptions with a 12-month commitment. This new payment option allows you to o…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=5t9gew40",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Lykke Studios: In pursuit of puffy perfection",
+   "url": "https://developer.apple.com/news/?id=5t9gew40",
+   "date": "2026-04-24T21:00:15+08:00",
+   "summary": "The delightful game puffies. combines the satisfying snap of a jigsaw puzzle with the nostalgic delight of a sticker book. This 2025 Apple Design Award finalist for Inclusivity is brimming with virtua…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://swift.org/blog/expanding-swift-ide-support/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "Expanding Swift's IDE Support",
+   "url": "https://swift.org/blog/expanding-swift-ide-support/",
+   "date": "2026-04-08T06:00:00-04:00",
+   "summary": "You can now write Swift in a broader range of popular IDEs, including Cursor, VSCodium, AWS’s Kiro, and Google’s Antigravity. By leveraging VS Code extension compatibility, these editors tap directly …",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=e1ssia6m",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Hello Developer: April 2026",
+   "url": "https://developer.apple.com/news/?id=e1ssia6m",
+   "date": "2026-04-07T21:00:16+08:00",
+   "summary": "In this edition: Join us on bilibili and LinkedIn. Catch up on essential sessions before WWDC26. Build a travel app with sample code. Browse the latest edition of our new design gallery. Learn about t…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/Alamofire/Alamofire/releases/tag/5.11.2",
+   "source": "libs",
+   "kind": "lib",
+   "title": "Alamofire 5.11.2",
+   "url": "https://github.com/Alamofire/Alamofire/releases/tag/5.11.2",
+   "date": "2026-04-06T03:14:26Z",
+   "summary": "Updated Use of #file to #fileID to prevent build system info leakage. Updated by Jon Shier in Pull Request #4003 . CI and dependencies. Updated by Jon Shier in Pull Request #4017 . Fixed A rare race b…",
+   "lib": "Alamofire",
+   "repo": "Alamofire/Alamofire",
+   "version": "5.11.2",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=9mgkwjnm",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "How Infold Games fashioned an open world for Infinity Nikki",
+   "url": "https://developer.apple.com/news/?id=9mgkwjnm",
+   "date": "2026-04-04T00:02:01+08:00",
+   "summary": "Infinity Nikki is a literally glowing example of what video game graphics can be. The fifth in a series of dress-up titles from Infold Games, Infinity Nikki is also the first to embrace elements of RP…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=cmd9p4g7",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Q&A: How Plane Finder set itself up for the long haul",
+   "url": "https://developer.apple.com/news/?id=cmd9p4g7",
+   "date": "2026-04-04T00:00:01+08:00",
+   "summary": "Plane Finder is a sparkling example of what happens when a small team grows with a platform. Launched in 2009, Plane Finder didn’t scale over the years by adding headcount, vendors, or complexity. Ins…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=97t4mt64",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "App Store expands support to 11 new languages",
+   "url": "https://developer.apple.com/news/?id=97t4mt64",
+   "date": "2026-03-31T21:00:33+08:00",
+   "summary": "To help your apps and games reach more people worldwide — especially in India — App Store Connect now supports localized metadata for 11 new languages, bringing the total number of supported localizat…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://swift.org/blog/whats-new-in-swift-march-2026/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "What's new in Swift: March 2026 Edition",
+   "url": "https://swift.org/blog/whats-new-in-swift-march-2026/",
+   "date": "2026-03-31T10:30:00-04:00",
+   "summary": "Welcome to “What’s new in Swift,” a curated digest of releases, videos, and discussions in the Swift project and community. Swift 6.3 has been released , expanding Swift into new domains and improving…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=fwswmjcn",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Updated Apple Developer Program License Agreement now available",
+   "url": "https://developer.apple.com/news/?id=fwswmjcn",
+   "date": "2026-03-31T09:00:15+08:00",
+   "summary": "The Apple Developer Program License Agreement has been revised to support new features, updated policies, and clarifications. Please review the changes and sign in to your account to accept the update…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=z8vzrgzx",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Get ready with the latest beta releases",
+   "url": "https://developer.apple.com/news/?id=z8vzrgzx",
+   "date": "2026-03-30T22:00:14+08:00",
+   "summary": "The beta versions of iOS 26.5, iPadOS 26.5, macOS 26.5, tvOS 26.5, visionOS 26.5, and watchOS 26.5 are now available. Get your apps ready by confirming they work as expected on these releases. And mak…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=nyqbfz1y",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Update on regulated medical device apps in the European Economic Area, United Kingdom, and United States",
+   "url": "https://developer.apple.com/news/?id=nyqbfz1y",
+   "date": "2026-03-27T06:05:24+08:00",
+   "summary": "To provide additional transparency to customers, the App Store will now display whether an app is a regulated medical device on its product page in the European Economic Area (EEA) , United Kingdom , …",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=hh6v4b55",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "New In-App Purchase and subscription data now available in Analytics",
+   "url": "https://developer.apple.com/news/?id=hh6v4b55",
+   "date": "2026-03-25T21:10:49+08:00",
+   "summary": "Analytics in App Store Connect receives its biggest update since its launch, including a refreshed user experience that makes it easier to measure the performance of your apps and games. Updates inclu…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://swift.org/blog/swift-6.3-released/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "Swift 6.3 Released",
+   "url": "https://swift.org/blog/swift-6.3-released/",
+   "date": "2026-03-24T06:00:00-04:00",
+   "summary": "Swift is designed to be the language you reach for at every layer of the software stack. Whether you’re building embedded firmware, internet-scale services, or full-featured mobile apps, Swift deliver…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=yi8qj25k",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "WWDC26: June 8-12, 2026",
+   "url": "https://developer.apple.com/news/?id=yi8qj25k",
+   "date": "2026-03-24T00:45:37+08:00",
+   "summary": "Join the worldwide developer community online for a week of technology, creativity, and community. Be there for the reveal of the latest Apple tools, frameworks, and features. Learn to elevate your ap…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=yts4l6mh",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Apple Developer is now on bilibili and LinkedIn",
+   "url": "https://developer.apple.com/news/?id=yts4l6mh",
+   "date": "2026-03-18T00:30:01+08:00",
+   "summary": "Check out Apple Developer on bilibili and LinkedIn to learn about the latest news, announcements, videos, and events — including the Worldwide Developers Conference and Meet with Apple activities — fo…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=dadukodv",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Adjustments to the China storefront of the App Store on iOS and iPadOS",
+   "url": "https://developer.apple.com/news/?id=dadukodv",
+   "date": "2026-03-13T09:00:21+08:00",
+   "summary": "Apple is making changes to the App Store in China following discussions with the Chinese regulator. As of March 15, 2026, changes will be made to the commission rates that apply to the China mainland …",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://swift.org/blog/building-privacy-first-analytics-with-swift/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "Swift at scale: building the TelemetryDeck analytics service",
+   "url": "https://swift.org/blog/building-privacy-first-analytics-with-swift/",
+   "date": "2026-03-06T07:00:00-04:00",
+   "summary": "TelemetryDeck is an app analytics service specifically for developers, designed to manage usage analytics that are anonymized, privacy-focused, and really easy to use. TelemetryDeck is managing the da…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://swift.org/blog/whats-new-in-swift-february-2026/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "What's new in Swift: February 2026 Edition",
+   "url": "https://swift.org/blog/whats-new-in-swift-february-2026/",
+   "date": "2026-03-02T10:05:00-04:00",
+   "summary": "Welcome to this edition of “What’s New in Swift,” where we share interesting projects and updates in the Swift community that deserve visibility to a broader audience. FOSDEM is the largest open sourc…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.21.7",
+   "source": "libs",
+   "kind": "lib",
+   "title": "SDWebImage 5.21.7 · 5.21 Patch",
+   "url": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.21.7",
+   "date": "2026-02-26T07:38:04Z",
+   "summary": "See all tickets marked for the 5.21.7 release Fixes Fix AppKit SDImageCoderHelper does not use APNG instead of GIF for animated image creation #3870 #3871 @ijunfly",
+   "lib": "SDWebImage",
+   "repo": "SDWebImage/SDWebImage",
+   "version": "5.21.7",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://swift.org/blog/swift-system-metrics-1.0-released/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "Announcing Swift System Metrics 1.0: Process-Level Monitoring",
+   "url": "https://swift.org/blog/swift-system-metrics-1.0-released/",
+   "date": "2026-02-20T06:00:00-04:00",
+   "summary": "We are excited to announce the 1.0 release of Swift System Metrics , a Swift package that collects process-level system metrics like CPU utilization time and memory usage. Swift System Metrics runs on…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/Instagram/IGListKit/releases/tag/5.2.0",
+   "source": "libs",
+   "kind": "lib",
+   "title": "IGListKit 5.2.0",
+   "url": "https://github.com/Instagram/IGListKit/releases/tag/5.2.0",
+   "date": "2026-02-17T09:09:32Z",
+   "summary": "Enhancements Added a more defensive check for NaN values in item bounds when applying layout attributes in -[IGListCollectionViewLayout layoutAttributesForItemAtIndexPath:] . Minqi Ma (358fe894) Impro…",
+   "lib": "IGListKit",
+   "repo": "Instagram/IGListKit",
+   "version": "5.2.0",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.21.6",
+   "source": "libs",
+   "kind": "lib",
+   "title": "SDWebImage 5.21.6 · 5.21 Patch",
+   "url": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.21.6",
+   "date": "2026-02-06T14:39:33Z",
+   "summary": "See all tickets marked for the 5.21.6 release Fixes Fix the issue that thumbnail decoding will store the fulll image data into thumbnail key, which effect next time query from disk #3866 Changes Image…",
+   "lib": "SDWebImage",
+   "repo": "SDWebImage/SDWebImage",
+   "version": "5.21.6",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/Alamofire/Alamofire/releases/tag/5.11.1",
+   "source": "libs",
+   "kind": "lib",
+   "title": "Alamofire 5.11.1",
+   "url": "https://github.com/Alamofire/Alamofire/releases/tag/5.11.1",
+   "date": "2026-02-02T03:21:58Z",
+   "summary": "Fixed Fixes #3978 , a rare logical race that allowed the same response serializer to execute multiple times simultaneously, which would call the completion handler multiple times, leading to crashes w…",
+   "lib": "Alamofire",
+   "repo": "Alamofire/Alamofire",
+   "version": "5.11.1",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://swift.org/blog/whats-new-in-swift-january-2026/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "What's new in Swift: January 2026 Edition",
+   "url": "https://swift.org/blog/whats-new-in-swift-january-2026/",
+   "date": "2026-01-30T11:15:00-04:00",
+   "summary": "A Reddit thread earlier this month asked about building web apps with Swift. For this edition of “What’s new in Swift,” we invited a developer to share their experience: Hi, I’m Nick Sloan. I’m the he…",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/airbnb/lottie-ios/releases/tag/4.6.0",
+   "source": "libs",
+   "kind": "lib",
+   "title": "Lottie 4.6.0",
+   "url": "https://github.com/airbnb/lottie-ios/releases/tag/4.6.0",
+   "date": "2026-01-06T21:11:51Z",
+   "summary": "What's Changed Handle task cancellation when loading animation by @mihai8804858 in #2595 Invoke animationDidLoad on next run loop by @miguel-jimenez-0529 in #2603 Fix: isAnimationPlaying is false when…",
+   "lib": "Lottie",
+   "repo": "airbnb/lottie-ios",
+   "version": "4.6.0",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.21.5",
+   "source": "libs",
+   "kind": "lib",
+   "title": "SDWebImage 5.21.5 · 5.21 Patch",
+   "url": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.21.5",
+   "date": "2025-12-03T03:46:19Z",
+   "summary": "See all tickets marked for the 5.21.5 release Fixes Try to move the SDWebImageDownloaderOperation dataTask property initialization into synchronized lock to avoid thread-safe issue #3856 #3842",
+   "lib": "SDWebImage",
+   "repo": "SDWebImage/SDWebImage",
+   "version": "5.21.5",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.21.4",
+   "source": "libs",
+   "kind": "lib",
+   "title": "SDWebImage 5.21.4 · 5.21 Patch",
+   "url": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.21.4",
+   "date": "2025-11-28T08:45:33Z",
+   "summary": "See all tickets marked for the 5.21.4 release Fixes Using @synchronized to always lock the cache/loader operation to ensure thread-safe. Fix crash issue on iOS 26 #3855 #3849",
+   "lib": "SDWebImage",
+   "repo": "SDWebImage/SDWebImage",
+   "version": "5.21.4",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/Instagram/IGListKit/releases/tag/5.1.0",
+   "source": "libs",
+   "kind": "lib",
+   "title": "IGListKit 5.1.0",
+   "url": "https://github.com/Instagram/IGListKit/releases/tag/5.1.0",
+   "date": "2025-10-31T06:45:28Z",
+   "summary": "Breaking Changes Added methods to the IGListAdapterDelegate to include callback methods for any time a cell will appear or did disappear from the screen. This can be used in conjunction with the IGLis…",
+   "lib": "IGListKit",
+   "repo": "Instagram/IGListKit",
+   "version": "5.1.0",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.21.3",
+   "source": "libs",
+   "kind": "lib",
+   "title": "SDWebImage 5.21.3 · 5.21 Patch",
+   "url": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.21.3",
+   "date": "2025-10-09T03:54:55Z",
+   "summary": "See all tickets marked for the 5.21.3 release Fixes Switched image encoding to a context-aware approach with a safe fallback, allowing per-request encoder selection without changing the public API. #3…",
+   "lib": "SDWebImage",
+   "repo": "SDWebImage/SDWebImage",
+   "version": "5.21.3",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/airbnb/lottie-ios/releases/tag/4.5.2",
+   "source": "libs",
+   "kind": "lib",
+   "title": "Lottie 4.5.2",
+   "url": "https://github.com/airbnb/lottie-ios/releases/tag/4.5.2",
+   "date": "2025-05-27T21:26:36Z",
+   "summary": "Adds support for .lottie v2 file format by @eharrison in #2564 Support customizing contentsScale of text layer by @calda in #2559 Fix issue where animation with justified text justification would fail…",
+   "lib": "Lottie",
+   "repo": "airbnb/lottie-ios",
+   "version": "4.5.2",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/airbnb/lottie-ios/releases/tag/4.5.1",
+   "source": "libs",
+   "kind": "lib",
+   "title": "Lottie 4.5.1",
+   "url": "https://github.com/airbnb/lottie-ios/releases/tag/4.5.1",
+   "date": "2025-01-03T21:09:10Z",
+   "summary": "What's Changed Add additional dynamic library product to Package.swift by @JensK611 in #2507 Fix frame conversion in LottieAnimationLayer.pause(at: .marker(...)) by @calda in #2469 Add possibility to …",
+   "lib": "Lottie",
+   "repo": "airbnb/lottie-ios",
+   "version": "4.5.1",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/pujiaxin33/JXCategoryView/releases/tag/1.6.8",
+   "source": "libs",
+   "kind": "lib",
+   "title": "JXCategoryView 1.6.8",
+   "url": "https://github.com/pujiaxin33/JXCategoryView/releases/tag/1.6.8",
+   "date": "2024-07-10T02:44:27Z",
+   "summary": "",
+   "lib": "JXCategoryView",
+   "repo": "pujiaxin33/JXCategoryView",
+   "version": "1.6.8",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/airbnb/lottie-ios/releases/tag/4.5.0",
+   "source": "libs",
+   "kind": "lib",
+   "title": "Lottie 4.5.0",
+   "url": "https://github.com/airbnb/lottie-ios/releases/tag/4.5.0",
+   "date": "2024-07-09T21:00:14Z",
+   "summary": "New Features Added drop shadow support to main thread rendering engine ( #2423 ) Added support for opacity text animators ( #2436 ) Added LottieView helper for configuring individual LottieAnimationVi…",
+   "lib": "Lottie",
+   "repo": "airbnb/lottie-ios",
+   "version": "4.5.0",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/Instagram/IGListKit/releases/tag/5.0.0",
+   "source": "libs",
+   "kind": "lib",
+   "title": "IGListKit 5.0.0",
+   "url": "https://github.com/Instagram/IGListKit/releases/tag/5.0.0",
+   "date": "2024-05-13T07:12:09Z",
+   "summary": "5.0.0 is finally here! 🎉🎊🥳 This version brings all of the enhancements Instagram has been adding to IGListKit over the years since 4.0.0. We're incredibly excited for everyone to try it out and let us…",
+   "lib": "IGListKit",
+   "repo": "Instagram/IGListKit",
+   "version": "5.0.0",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/pujiaxin33/JXCategoryView/releases/tag/1.6.7",
+   "source": "libs",
+   "kind": "lib",
+   "title": "JXCategoryView 1.6.7",
+   "url": "https://github.com/pujiaxin33/JXCategoryView/releases/tag/1.6.7",
+   "date": "2024-04-16T09:27:12Z",
+   "summary": "",
+   "lib": "JXCategoryView",
+   "repo": "pujiaxin33/JXCategoryView",
+   "version": "1.6.7",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/pujiaxin33/JXCategoryView/releases/tag/1.6.6",
+   "source": "libs",
+   "kind": "lib",
+   "title": "JXCategoryView 1.6.6",
+   "url": "https://github.com/pujiaxin33/JXCategoryView/releases/tag/1.6.6",
+   "date": "2024-04-16T08:56:02Z",
+   "summary": "",
+   "lib": "JXCategoryView",
+   "repo": "pujiaxin33/JXCategoryView",
+   "version": "1.6.6",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/pujiaxin33/JXCategoryView/releases/tag/1.6.5",
+   "source": "libs",
+   "kind": "lib",
+   "title": "JXCategoryView 1.6.5",
+   "url": "https://github.com/pujiaxin33/JXCategoryView/releases/tag/1.6.5",
+   "date": "2024-04-16T08:39:17Z",
+   "summary": "",
+   "lib": "JXCategoryView",
+   "repo": "pujiaxin33/JXCategoryView",
+   "version": "1.6.5",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/pujiaxin33/JXCategoryView/releases/tag/1.6.4",
+   "source": "libs",
+   "kind": "lib",
+   "title": "JXCategoryView 1.6.4",
+   "url": "https://github.com/pujiaxin33/JXCategoryView/releases/tag/1.6.4",
+   "date": "2024-04-16T08:05:00Z",
+   "summary": "",
+   "lib": "JXCategoryView",
+   "repo": "pujiaxin33/JXCategoryView",
+   "version": "1.6.4",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/CoderMJLee/MJRefresh/releases/tag/3.7.9",
+   "source": "libs",
+   "kind": "lib",
+   "title": "MJRefresh 3.7.9",
+   "url": "https://github.com/CoderMJLee/MJRefresh/releases/tag/3.7.9",
+   "date": "2024-03-26T09:04:52Z",
+   "summary": "Add privacy access reason for using UserDefaults Full Changelog : 3.7.8...3.7.9",
+   "lib": "MJRefresh",
+   "repo": "CoderMJLee/MJRefresh",
+   "version": "3.7.9",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/pujiaxin33/JXPagingView/releases/tag/2.1.3",
+   "source": "libs",
+   "kind": "lib",
+   "title": "JXPagingView 2.1.3",
+   "url": "https://github.com/pujiaxin33/JXPagingView/releases/tag/2.1.3",
+   "date": "2024-03-25T13:22:33Z",
+   "summary": "",
+   "lib": "JXPagingView",
+   "repo": "pujiaxin33/JXPagingView",
+   "version": "2.1.3",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/CoderMJLee/MJRefresh/releases/tag/3.7.8",
+   "source": "libs",
+   "kind": "lib",
+   "title": "MJRefresh 3.7.8",
+   "url": "https://github.com/CoderMJLee/MJRefresh/releases/tag/3.7.8",
+   "date": "2024-03-19T08:35:45Z",
+   "summary": "What's Changed Fixed duplicated privacy statement issue in Static Framework . by @jiasongs in #1605 Full Changelog : 3.7.7...3.7.8",
+   "lib": "MJRefresh",
+   "repo": "CoderMJLee/MJRefresh",
+   "version": "3.7.8",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/CoderMJLee/MJRefresh/releases/tag/3.7.7",
+   "source": "libs",
+   "kind": "lib",
+   "title": "MJRefresh 3.7.7",
+   "url": "https://github.com/CoderMJLee/MJRefresh/releases/tag/3.7.7",
+   "date": "2024-03-19T08:29:32Z",
+   "summary": "What's Changed 修复MJRefreshAutoFooter初始化时没有添加底部忽略间距的问题 by @Rogue24 in #1596 Add privacy manifest by @wolfcon in #1603 Full Changelog : 3.7.6...3.7.7 Acknowledged Issue Use CocoaPods to import Static Fr…",
+   "lib": "MJRefresh",
+   "repo": "CoderMJLee/MJRefresh",
+   "version": "3.7.7",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/SnapKit/SnapKit/releases/tag/5.7.1",
+   "source": "libs",
+   "kind": "lib",
+   "title": "SnapKit 5.7.1",
+   "url": "https://github.com/SnapKit/SnapKit/releases/tag/5.7.1",
+   "date": "2024-02-18T08:24:52Z",
+   "summary": "Podspec bump with privacy manifest support via Cocoapods",
+   "lib": "SnapKit",
+   "repo": "SnapKit/SnapKit",
+   "version": "5.7.1",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/SnapKit/SnapKit/releases/tag/5.7.0",
+   "source": "libs",
+   "kind": "lib",
+   "title": "SnapKit 5.7.0",
+   "url": "https://github.com/SnapKit/SnapKit/releases/tag/5.7.0",
+   "date": "2023-12-31T08:52:20Z",
+   "summary": "Minor release: Update minimum deployment targets (iOS 12.0, macOS 10.13) Add PrivacyInfo.xcprivacy for Swift PM targets, Cocoapods unsupported due to #10325 Happy New Year!",
+   "lib": "SnapKit",
+   "repo": "SnapKit/SnapKit",
+   "version": "5.7.0",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/CoderMJLee/MJRefresh/releases/tag/3.7.6",
+   "source": "libs",
+   "kind": "lib",
+   "title": "MJRefresh 3.7.6",
+   "url": "https://github.com/CoderMJLee/MJRefresh/releases/tag/3.7.6",
+   "date": "2023-04-05T12:25:11Z",
+   "summary": "What's Changed fixed crash loop infinitive when compare float by using FLT_EPSILON by @vancucit in #1581 New Contributors @vancucit made their first contribution in #1581 Full Changelog : 3.7.5...3.7.…",
+   "lib": "MJRefresh",
+   "repo": "CoderMJLee/MJRefresh",
+   "version": "3.7.6",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/SnapKit/SnapKit/releases/tag/5.6.0",
+   "source": "libs",
+   "kind": "lib",
+   "title": "SnapKit 5.6.0",
+   "url": "https://github.com/SnapKit/SnapKit/releases/tag/5.6.0",
+   "date": "2022-04-13T04:19:46Z",
+   "summary": "Upgrade to syntax compatibility of Swift 5.6 Upgrade dependency manager integrations Small tweaks and fixes",
+   "lib": "SnapKit",
+   "repo": "SnapKit/SnapKit",
+   "version": "5.6.0",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/CoderMJLee/MJRefresh/releases/tag/3.7.5",
+   "source": "libs",
+   "kind": "lib",
+   "title": "MJRefresh 3.7.5",
+   "url": "https://github.com/CoderMJLee/MJRefresh/releases/tag/3.7.5",
+   "date": "2021-11-30T07:01:09Z",
+   "summary": "What's Changed Fix/duplicated async method by @wolfcon in #1560 Full Changelog : 3.7.4...3.7.5",
+   "lib": "MJRefresh",
+   "repo": "CoderMJLee/MJRefresh",
+   "version": "3.7.5",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/pujiaxin33/JXPagingView/releases/tag/2.1.2",
+   "source": "libs",
+   "kind": "lib",
+   "title": "JXPagingView 2.1.2",
+   "url": "https://github.com/pujiaxin33/JXPagingView/releases/tag/2.1.2",
+   "date": "2021-11-20T03:50:20Z",
+   "summary": "",
+   "lib": "JXPagingView",
+   "repo": "pujiaxin33/JXPagingView",
+   "version": "2.1.2",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/pujiaxin33/JXPagingView/releases/tag/2.1.1",
+   "source": "libs",
+   "kind": "lib",
+   "title": "JXPagingView 2.1.1",
+   "url": "https://github.com/pujiaxin33/JXPagingView/releases/tag/2.1.1",
+   "date": "2021-10-11T11:36:06Z",
+   "summary": "",
+   "lib": "JXPagingView",
+   "repo": "pujiaxin33/JXPagingView",
+   "version": "2.1.1",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/pujiaxin33/JXPagingView/releases/tag/2.1.0",
+   "source": "libs",
+   "kind": "lib",
+   "title": "JXPagingView 2.1.0",
+   "url": "https://github.com/pujiaxin33/JXPagingView/releases/tag/2.1.0",
+   "date": "2021-04-28T06:08:40Z",
+   "summary": "更新版本号-2.1.0",
+   "lib": "JXPagingView",
+   "repo": "pujiaxin33/JXPagingView",
+   "version": "2.1.0",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/pujiaxin33/JXPagingView/releases/tag/2.0.13",
+   "source": "libs",
+   "kind": "lib",
+   "title": "JXPagingView 2.0.13",
+   "url": "https://github.com/pujiaxin33/JXPagingView/releases/tag/2.0.13",
+   "date": "2020-09-23T13:21:15Z",
+   "summary": "更新版本号-2.0.13",
+   "lib": "JXPagingView",
+   "repo": "pujiaxin33/JXPagingView",
+   "version": "2.0.13",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/AFNetworking/AFNetworking/releases/tag/4.0.1",
+   "source": "libs",
+   "kind": "lib",
+   "title": "AFNetworking 4.0.1 · Fixes and Updates",
+   "url": "https://github.com/AFNetworking/AFNetworking/releases/tag/4.0.1",
+   "date": "2020-04-20T02:22:29Z",
+   "summary": "Released on Sunday, April 19, 2020. All issues associated with this milestone can be found using this filter . Updated Project templates and integrations. Implemented by Kaspik in #4531 . Various Coco…",
+   "lib": "AFNetworking",
+   "repo": "AFNetworking/AFNetworking",
+   "version": "4.0.1",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/AFNetworking/AFNetworking/releases/tag/4.0.0",
+   "source": "libs",
+   "kind": "lib",
+   "title": "AFNetworking 4.0.0 · A Long Time Coming",
+   "url": "https://github.com/AFNetworking/AFNetworking/releases/tag/4.0.0",
+   "date": "2020-03-29T20:49:55Z",
+   "summary": "Released on Sunday, March 29, 2020. All issues associated with this milestone can be found using this filter . Added Notificate when a downloaded file has been moved successfully. Implemented by xingh…",
+   "lib": "AFNetworking",
+   "repo": "AFNetworking/AFNetworking",
+   "version": "4.0.0",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/AFNetworking/AFNetworking/releases/tag/3.2.1",
+   "source": "libs",
+   "kind": "lib",
+   "title": "AFNetworking 3.2.1",
+   "url": "https://github.com/AFNetworking/AFNetworking/releases/tag/3.2.1",
+   "date": "2020-03-27T04:34:24Z",
+   "summary": "Released on Friday, May 04, 2018. All issues associated with this milestone can be found using this filter . Updated Xcode 9.3 Support Implemented by Jeff Kelley in #4199 . Update HTTPBin certificates…",
+   "lib": "AFNetworking",
+   "repo": "AFNetworking/AFNetworking",
+   "version": "3.2.1",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/Instagram/IGListKit/releases/tag/4.0.0",
+   "source": "libs",
+   "kind": "lib",
+   "title": "IGListKit 4.0.0",
+   "url": "https://github.com/Instagram/IGListKit/releases/tag/4.0.0",
+   "date": "2019-11-21T20:06:52Z",
+   "summary": "4.0.0 4.0.0 is here! 🎉🎊🥳 This version has a number of improvements we've been working on for the last year. We're excited for everyone get their hands on the new improvements and features. Thanks so m…",
+   "lib": "IGListKit",
+   "repo": "Instagram/IGListKit",
+   "version": "4.0.0",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/SnapKit/SnapKit/releases/tag/5.0.1",
+   "source": "libs",
+   "kind": "lib",
+   "title": "SnapKit 5.0.1 · SnapKit 5.0.1",
+   "url": "https://github.com/SnapKit/SnapKit/releases/tag/5.0.1",
+   "date": "2019-08-05T06:30:23Z",
+   "summary": "Fixes a regression caused by #574 Adds Playground #608 (thanks to @ShivaHuang ) Updates SwiftPM support #615 (thanks to @maxxfrazer ) Adds .directionalEdges and .directionalMargins #595 (thanks to @jc…",
+   "lib": "SnapKit",
+   "repo": "SnapKit/SnapKit",
+   "version": "5.0.1",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/AFNetworking/AFNetworking/releases/tag/2.7.0",
+   "source": "libs",
+   "kind": "lib",
+   "title": "AFNetworking 2.7.0",
+   "url": "https://github.com/AFNetworking/AFNetworking/releases/tag/2.7.0",
+   "date": "2019-02-13T04:49:13Z",
+   "summary": "Released on Tuesday, February 12, 2019. All issues associated with this milestone can be found using this filter . Fixed Update Podfile to work on modern CocoaPods Fixed by SlaunchaMan in #4329 . Add …",
+   "lib": "AFNetworking",
+   "repo": "AFNetworking/AFNetworking",
+   "version": "2.7.0",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/Instagram/IGListKit/releases/tag/3.4.0",
+   "source": "libs",
+   "kind": "lib",
+   "title": "IGListKit 3.4.0",
+   "url": "https://github.com/Instagram/IGListKit/releases/tag/3.4.0",
+   "date": "2018-05-03T19:00:06Z",
+   "summary": "3.4.0 Enhancements Relicensed IGListKit to MIT. Ryan Nystrom (000bc36) Experimental performance improvement from deferring -[IGListAdapterDataSource objectsForListAdapter:] calls until just before dif…",
+   "lib": "IGListKit",
+   "repo": "Instagram/IGListKit",
+   "version": "3.4.0",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/AFNetworking/AFNetworking/releases/tag/3.2.0",
+   "source": "libs",
+   "kind": "lib",
+   "title": "AFNetworking 3.2.0",
+   "url": "https://github.com/AFNetworking/AFNetworking/releases/tag/3.2.0",
+   "date": "2018-01-30T21:31:31Z",
+   "summary": "Released on Friday, December 15, 2017. All issues associated with this milestone can be found using this filter . Added Config AFImageDownloader NSURLCache and ask AFImageRequestCache implementer if a…",
+   "lib": "AFNetworking",
+   "repo": "AFNetworking/AFNetworking",
+   "version": "3.2.0",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/SnapKit/Masonry/releases/tag/v1.1.0",
+   "source": "libs",
+   "kind": "lib",
+   "title": "Masonry v1.1.0 · Xcode 9 / iOS 11",
+   "url": "https://github.com/SnapKit/Masonry/releases/tag/v1.1.0",
+   "date": "2017-09-20T06:43:03Z",
+   "summary": "Fixes build warnings for Xcode 9 / iOS 11 Adds support for safeLayoutGuide on iOS 11",
+   "lib": "Masonry",
+   "repo": "SnapKit/Masonry",
+   "version": "v1.1.0",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/SnapKit/Masonry/releases/tag/v1.0.2",
+   "source": "libs",
+   "kind": "lib",
+   "title": "Masonry v1.0.2",
+   "url": "https://github.com/SnapKit/Masonry/releases/tag/v1.0.2",
+   "date": "2016-09-14T08:31:47Z",
+   "summary": "Update podspec",
+   "lib": "Masonry",
+   "repo": "SnapKit/Masonry",
+   "version": "v1.0.2",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/ibireme/YYKit/releases/tag/1.0.9",
+   "source": "libs",
+   "kind": "lib",
+   "title": "YYKit 1.0.9",
+   "url": "https://github.com/ibireme/YYKit/releases/tag/1.0.9",
+   "date": "2016-09-13T15:47:45Z",
+   "summary": "",
+   "lib": "YYKit",
+   "repo": "ibireme/YYKit",
+   "version": "1.0.9",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/ibireme/YYKit/releases/tag/1.0.8",
+   "source": "libs",
+   "kind": "lib",
+   "title": "YYKit 1.0.8",
+   "url": "https://github.com/ibireme/YYKit/releases/tag/1.0.8",
+   "date": "2016-09-13T09:54:32Z",
+   "summary": "",
+   "lib": "YYKit",
+   "repo": "ibireme/YYKit",
+   "version": "1.0.8",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/ibireme/YYKit/releases/tag/1.0.7",
+   "source": "libs",
+   "kind": "lib",
+   "title": "YYKit 1.0.7",
+   "url": "https://github.com/ibireme/YYKit/releases/tag/1.0.7",
+   "date": "2016-06-13T16:07:48Z",
+   "summary": "",
+   "lib": "YYKit",
+   "repo": "ibireme/YYKit",
+   "version": "1.0.7",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/SnapKit/Masonry/releases/tag/v1.0.1",
+   "source": "libs",
+   "kind": "lib",
+   "title": "Masonry v1.0.1",
+   "url": "https://github.com/SnapKit/Masonry/releases/tag/v1.0.1",
+   "date": "2016-05-29T11:14:23Z",
+   "summary": "Bump version",
+   "lib": "Masonry",
+   "repo": "SnapKit/Masonry",
+   "version": "v1.0.1",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/ibireme/YYKit/releases/tag/1.0.6",
+   "source": "libs",
+   "kind": "lib",
+   "title": "YYKit 1.0.6",
+   "url": "https://github.com/ibireme/YYKit/releases/tag/1.0.6",
+   "date": "2016-05-20T16:46:56Z",
+   "summary": "",
+   "lib": "YYKit",
+   "repo": "ibireme/YYKit",
+   "version": "1.0.6",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/ibireme/YYKit/releases/tag/1.0.5",
+   "source": "libs",
+   "kind": "lib",
+   "title": "YYKit 1.0.5",
+   "url": "https://github.com/ibireme/YYKit/releases/tag/1.0.5",
+   "date": "2016-04-12T09:07:02Z",
+   "summary": "",
+   "lib": "YYKit",
+   "repo": "ibireme/YYKit",
+   "version": "1.0.5",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/SnapKit/Masonry/releases/tag/v1.0.0",
+   "source": "libs",
+   "kind": "lib",
+   "title": "Masonry v1.0.0",
+   "url": "https://github.com/SnapKit/Masonry/releases/tag/v1.0.0",
+   "date": "2016-03-31T08:26:36Z",
+   "summary": "Version 1.0",
+   "lib": "Masonry",
+   "repo": "SnapKit/Masonry",
+   "version": "v1.0.0",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  },
+  {
+   "id": "https://github.com/SnapKit/Masonry/releases/tag/v0.6.4",
+   "source": "libs",
+   "kind": "lib",
+   "title": "Masonry v0.6.4 · Merge pull request #286 from mariohahn/master",
+   "url": "https://github.com/SnapKit/Masonry/releases/tag/v0.6.4",
+   "date": "2015-12-22T15:47:49Z",
+   "summary": "Added TVOS",
+   "lib": "Masonry",
+   "repo": "SnapKit/Masonry",
+   "version": "v0.6.4",
+   "first_seen": "2026-10-20T17:47:16+08:00"
+  }
+ ],
+ "libs": [
+  {
+   "repo": "Alamofire/Alamofire",
+   "name": "Alamofire",
+   "ok": true,
+   "stale": false,
+   "version": "5.12.2",
+   "date": "2026-09-10T01:44:50Z",
+   "url": "https://github.com/Alamofire/Alamofire/releases/tag/5.12.2",
+   "summary": "Released on 2026-09-09. All issues associated with this milestone can be found using this filter . Added Updated versioning. There are no functional changes in this release. Added by Jon Shier in Pull…",
+   "history": [
+    {
+     "version": "5.12.2",
+     "date": "2026-09-10T01:44:50Z",
+     "url": "https://github.com/Alamofire/Alamofire/releases/tag/5.12.2"
+    },
+    {
+     "version": "5.12.1",
+     "date": "2026-09-09T02:38:25Z",
+     "url": "https://github.com/Alamofire/Alamofire/releases/tag/5.12.1"
+    },
+    {
+     "version": "5.12.0",
+     "date": "2026-05-05T01:44:54Z",
+     "url": "https://github.com/Alamofire/Alamofire/releases/tag/5.12.0"
+    },
+    {
+     "version": "5.11.2",
+     "date": "2026-04-06T03:14:26Z",
+     "url": "https://github.com/Alamofire/Alamofire/releases/tag/5.11.2"
+    },
+    {
+     "version": "5.11.1",
+     "date": "2026-02-02T03:21:58Z",
+     "url": "https://github.com/Alamofire/Alamofire/releases/tag/5.11.1"
+    }
+   ]
+  },
+  {
+   "repo": "airbnb/lottie-ios",
+   "name": "Lottie",
+   "ok": true,
+   "stale": false,
+   "version": "4.6.1",
+   "date": "2026-06-13T16:51:06Z",
+   "url": "https://github.com/airbnb/lottie-ios/releases/tag/4.6.1",
+   "summary": "What's Changed Add padding around text layer to compensate for buggy fonts by @eXCoreX in #2639 Add staticRendering mode for snapshot testing by @jqsilver in #2642 Fix animation state lost when view r…",
+   "history": [
+    {
+     "version": "4.6.1",
+     "date": "2026-06-13T16:51:06Z",
+     "url": "https://github.com/airbnb/lottie-ios/releases/tag/4.6.1"
+    },
+    {
+     "version": "4.6.0",
+     "date": "2026-01-06T21:11:51Z",
+     "url": "https://github.com/airbnb/lottie-ios/releases/tag/4.6.0"
+    },
+    {
+     "version": "4.5.2",
+     "date": "2025-05-27T21:26:36Z",
+     "url": "https://github.com/airbnb/lottie-ios/releases/tag/4.5.2"
+    },
+    {
+     "version": "4.5.1",
+     "date": "2025-01-03T21:09:10Z",
+     "url": "https://github.com/airbnb/lottie-ios/releases/tag/4.5.1"
+    },
+    {
+     "version": "4.5.0",
+     "date": "2024-07-09T21:00:14Z",
+     "url": "https://github.com/airbnb/lottie-ios/releases/tag/4.5.0"
+    }
+   ]
+  },
+  {
+   "repo": "SnapKit/SnapKit",
+   "name": "SnapKit",
+   "ok": true,
+   "stale": false,
+   "version": "6.0.0",
+   "date": "2026-05-31T09:24:39Z",
+   "url": "https://github.com/SnapKit/SnapKit/releases/tag/6.0.0",
+   "summary": "Breaking Changes Removed Cocoapods support Removed Carthage support Bumped minimum iOS/tvOS to 14.0+ Bumped minimum macOS to 12.0+ Bumped minimum Swift toolchain to 6.0+ Other changes Update #file to …",
+   "history": [
+    {
+     "version": "6.0.0",
+     "date": "2026-05-31T09:24:39Z",
+     "url": "https://github.com/SnapKit/SnapKit/releases/tag/6.0.0"
+    },
+    {
+     "version": "5.7.1",
+     "date": "2024-02-18T08:24:52Z",
+     "url": "https://github.com/SnapKit/SnapKit/releases/tag/5.7.1"
+    },
+    {
+     "version": "5.7.0",
+     "date": "2023-12-31T08:52:20Z",
+     "url": "https://github.com/SnapKit/SnapKit/releases/tag/5.7.0"
+    },
+    {
+     "version": "5.6.0",
+     "date": "2022-04-13T04:19:46Z",
+     "url": "https://github.com/SnapKit/SnapKit/releases/tag/5.6.0"
+    },
+    {
+     "version": "5.0.1",
+     "date": "2019-08-05T06:30:23Z",
+     "url": "https://github.com/SnapKit/SnapKit/releases/tag/5.0.1"
+    }
+   ]
+  },
+  {
+   "repo": "hackiftekhar/IQKeyboardManager",
+   "name": "IQKeyboardManager",
+   "ok": true,
+   "stale": false,
+   "version": "8.0.3",
+   "date": "2026-05-25T15:03:55Z",
+   "url": "https://github.com/hackiftekhar/IQKeyboardManager/releases/tag/8.0.3",
+   "summary": "Improvements Removed obsolete iOS 13 availability checks throughout the codebase. Updated all SPM and CocoaPods dependency versions. Bug fixes Fixed several CocoaPods compilation and podspec integrati…",
+   "history": [
+    {
+     "version": "8.0.3",
+     "date": "2026-05-25T15:03:55Z",
+     "url": "https://github.com/hackiftekhar/IQKeyboardManager/releases/tag/8.0.3"
+    },
+    {
+     "version": "8.0.2",
+     "date": "2026-05-25T15:03:37Z",
+     "url": "https://github.com/hackiftekhar/IQKeyboardManager/releases/tag/8.0.2"
+    },
+    {
+     "version": "8.0.1",
+     "date": "2026-05-25T15:03:12Z",
+     "url": "https://github.com/hackiftekhar/IQKeyboardManager/releases/tag/8.0.1"
+    },
+    {
+     "version": "8.0.0",
+     "date": "2026-05-25T15:02:24Z",
+     "url": "https://github.com/hackiftekhar/IQKeyboardManager/releases/tag/8.0.0"
+    },
+    {
+     "version": "7.2.0",
+     "date": "2026-05-25T15:00:52Z",
+     "url": "https://github.com/hackiftekhar/IQKeyboardManager/releases/tag/7.2.0"
+    }
+   ]
+  },
+  {
+   "repo": "SDWebImage/SDWebImage",
+   "name": "SDWebImage",
+   "ok": true,
+   "stale": false,
+   "version": "5.21.7",
+   "date": "2026-02-26T07:38:04Z",
+   "url": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.21.7",
+   "summary": "See all tickets marked for the 5.21.7 release Fixes Fix AppKit SDImageCoderHelper does not use APNG instead of GIF for animated image creation #3870 #3871 @ijunfly",
+   "history": [
+    {
+     "version": "5.21.7",
+     "date": "2026-02-26T07:38:04Z",
+     "url": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.21.7"
+    },
+    {
+     "version": "5.21.6",
+     "date": "2026-02-06T14:39:33Z",
+     "url": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.21.6"
+    },
+    {
+     "version": "5.21.5",
+     "date": "2025-12-03T03:46:19Z",
+     "url": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.21.5"
+    },
+    {
+     "version": "5.21.4",
+     "date": "2025-11-28T08:45:33Z",
+     "url": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.21.4"
+    },
+    {
+     "version": "5.21.3",
+     "date": "2025-10-09T03:54:55Z",
+     "url": "https://github.com/SDWebImage/SDWebImage/releases/tag/5.21.3"
+    }
+   ]
+  },
+  {
+   "repo": "Instagram/IGListKit",
+   "name": "IGListKit",
+   "ok": true,
+   "stale": false,
+   "version": "5.2.0",
+   "date": "2026-02-17T09:09:32Z",
+   "url": "https://github.com/Instagram/IGListKit/releases/tag/5.2.0",
+   "summary": "Enhancements Added a more defensive check for NaN values in item bounds when applying layout attributes in -[IGListCollectionViewLayout layoutAttributesForItemAtIndexPath:] . Minqi Ma (358fe894) Impro…",
+   "history": [
+    {
+     "version": "5.2.0",
+     "date": "2026-02-17T09:09:32Z",
+     "url": "https://github.com/Instagram/IGListKit/releases/tag/5.2.0"
+    },
+    {
+     "version": "5.1.0",
+     "date": "2025-10-31T06:45:28Z",
+     "url": "https://github.com/Instagram/IGListKit/releases/tag/5.1.0"
+    },
+    {
+     "version": "5.0.0",
+     "date": "2024-05-13T07:12:09Z",
+     "url": "https://github.com/Instagram/IGListKit/releases/tag/5.0.0"
+    },
+    {
+     "version": "4.0.0",
+     "date": "2019-11-21T20:06:52Z",
+     "url": "https://github.com/Instagram/IGListKit/releases/tag/4.0.0"
+    },
+    {
+     "version": "3.4.0",
+     "date": "2018-05-03T19:00:06Z",
+     "url": "https://github.com/Instagram/IGListKit/releases/tag/3.4.0"
+    }
+   ]
+  },
+  {
+   "repo": "pujiaxin33/JXCategoryView",
+   "name": "JXCategoryView",
+   "ok": true,
+   "stale": false,
+   "version": "1.6.8",
+   "date": "2024-07-10T02:44:27Z",
+   "url": "https://github.com/pujiaxin33/JXCategoryView/releases/tag/1.6.8",
+   "summary": "",
+   "history": [
+    {
+     "version": "1.6.8",
+     "date": "2024-07-10T02:44:27Z",
+     "url": "https://github.com/pujiaxin33/JXCategoryView/releases/tag/1.6.8"
+    },
+    {
+     "version": "1.6.7",
+     "date": "2024-04-16T09:27:12Z",
+     "url": "https://github.com/pujiaxin33/JXCategoryView/releases/tag/1.6.7"
+    },
+    {
+     "version": "1.6.6",
+     "date": "2024-04-16T08:56:02Z",
+     "url": "https://github.com/pujiaxin33/JXCategoryView/releases/tag/1.6.6"
+    },
+    {
+     "version": "1.6.5",
+     "date": "2024-04-16T08:39:17Z",
+     "url": "https://github.com/pujiaxin33/JXCategoryView/releases/tag/1.6.5"
+    },
+    {
+     "version": "1.6.4",
+     "date": "2024-04-16T08:05:00Z",
+     "url": "https://github.com/pujiaxin33/JXCategoryView/releases/tag/1.6.4"
+    }
+   ]
+  },
+  {
+   "repo": "CoderMJLee/MJRefresh",
+   "name": "MJRefresh",
+   "ok": true,
+   "stale": false,
+   "version": "3.7.9",
+   "date": "2024-03-26T09:04:52Z",
+   "url": "https://github.com/CoderMJLee/MJRefresh/releases/tag/3.7.9",
+   "summary": "Add privacy access reason for using UserDefaults Full Changelog : 3.7.8...3.7.9",
+   "history": [
+    {
+     "version": "3.7.9",
+     "date": "2024-03-26T09:04:52Z",
+     "url": "https://github.com/CoderMJLee/MJRefresh/releases/tag/3.7.9"
+    },
+    {
+     "version": "3.7.8",
+     "date": "2024-03-19T08:35:45Z",
+     "url": "https://github.com/CoderMJLee/MJRefresh/releases/tag/3.7.8"
+    },
+    {
+     "version": "3.7.7",
+     "date": "2024-03-19T08:29:32Z",
+     "url": "https://github.com/CoderMJLee/MJRefresh/releases/tag/3.7.7"
+    },
+    {
+     "version": "3.7.6",
+     "date": "2023-04-05T12:25:11Z",
+     "url": "https://github.com/CoderMJLee/MJRefresh/releases/tag/3.7.6"
+    },
+    {
+     "version": "3.7.5",
+     "date": "2021-11-30T07:01:09Z",
+     "url": "https://github.com/CoderMJLee/MJRefresh/releases/tag/3.7.5"
+    }
+   ]
+  },
+  {
+   "repo": "pujiaxin33/JXPagingView",
+   "name": "JXPagingView",
+   "ok": true,
+   "stale": false,
+   "version": "2.1.3",
+   "date": "2024-03-25T13:22:33Z",
+   "url": "https://github.com/pujiaxin33/JXPagingView/releases/tag/2.1.3",
+   "summary": "",
+   "history": [
+    {
+     "version": "2.1.3",
+     "date": "2024-03-25T13:22:33Z",
+     "url": "https://github.com/pujiaxin33/JXPagingView/releases/tag/2.1.3"
+    },
+    {
+     "version": "2.1.2",
+     "date": "2021-11-20T03:50:20Z",
+     "url": "https://github.com/pujiaxin33/JXPagingView/releases/tag/2.1.2"
+    },
+    {
+     "version": "2.1.1",
+     "date": "2021-10-11T11:36:06Z",
+     "url": "https://github.com/pujiaxin33/JXPagingView/releases/tag/2.1.1"
+    },
+    {
+     "version": "2.1.0",
+     "date": "2021-04-28T06:08:40Z",
+     "url": "https://github.com/pujiaxin33/JXPagingView/releases/tag/2.1.0"
+    },
+    {
+     "version": "2.0.13",
+     "date": "2020-09-23T13:21:15Z",
+     "url": "https://github.com/pujiaxin33/JXPagingView/releases/tag/2.0.13"
+    }
+   ]
+  },
+  {
+   "repo": "AFNetworking/AFNetworking",
+   "name": "AFNetworking",
+   "ok": true,
+   "stale": false,
+   "version": "4.0.1",
+   "date": "2020-04-20T02:22:29Z",
+   "url": "https://github.com/AFNetworking/AFNetworking/releases/tag/4.0.1",
+   "summary": "Released on Sunday, April 19, 2020. All issues associated with this milestone can be found using this filter . Updated Project templates and integrations. Implemented by Kaspik in #4531 . Various Coco…",
+   "history": [
+    {
+     "version": "4.0.1",
+     "date": "2020-04-20T02:22:29Z",
+     "url": "https://github.com/AFNetworking/AFNetworking/releases/tag/4.0.1"
+    },
+    {
+     "version": "4.0.0",
+     "date": "2020-03-29T20:49:55Z",
+     "url": "https://github.com/AFNetworking/AFNetworking/releases/tag/4.0.0"
+    },
+    {
+     "version": "2.7.0",
+     "date": "2019-02-13T04:49:13Z",
+     "url": "https://github.com/AFNetworking/AFNetworking/releases/tag/2.7.0"
+    },
+    {
+     "version": "3.2.1",
+     "date": "2020-03-27T04:34:24Z",
+     "url": "https://github.com/AFNetworking/AFNetworking/releases/tag/3.2.1"
+    },
+    {
+     "version": "3.2.0",
+     "date": "2018-01-30T21:31:31Z",
+     "url": "https://github.com/AFNetworking/AFNetworking/releases/tag/3.2.0"
+    }
+   ]
+  },
+  {
+   "repo": "SnapKit/Masonry",
+   "name": "Masonry",
+   "ok": true,
+   "stale": false,
+   "version": "v1.1.0",
+   "date": "2017-09-20T06:43:03Z",
+   "url": "https://github.com/SnapKit/Masonry/releases/tag/v1.1.0",
+   "summary": "Fixes build warnings for Xcode 9 / iOS 11 Adds support for safeLayoutGuide on iOS 11",
+   "history": [
+    {
+     "version": "v1.1.0",
+     "date": "2017-09-20T06:43:03Z",
+     "url": "https://github.com/SnapKit/Masonry/releases/tag/v1.1.0"
+    },
+    {
+     "version": "v1.0.2",
+     "date": "2016-09-14T08:31:47Z",
+     "url": "https://github.com/SnapKit/Masonry/releases/tag/v1.0.2"
+    },
+    {
+     "version": "v1.0.1",
+     "date": "2016-05-29T11:14:23Z",
+     "url": "https://github.com/SnapKit/Masonry/releases/tag/v1.0.1"
+    },
+    {
+     "version": "v1.0.0",
+     "date": "2016-03-31T08:26:36Z",
+     "url": "https://github.com/SnapKit/Masonry/releases/tag/v1.0.0"
+    },
+    {
+     "version": "v0.6.4",
+     "date": "2015-12-22T15:47:49Z",
+     "url": "https://github.com/SnapKit/Masonry/releases/tag/v0.6.4"
+    }
+   ]
+  },
+  {
+   "repo": "ibireme/YYKit",
+   "name": "YYKit",
+   "ok": true,
+   "stale": false,
+   "version": "1.0.9",
+   "date": "2016-09-13T15:47:45Z",
+   "url": "https://github.com/ibireme/YYKit/releases/tag/1.0.9",
+   "summary": "",
+   "history": [
+    {
+     "version": "1.0.9",
+     "date": "2016-09-13T15:47:45Z",
+     "url": "https://github.com/ibireme/YYKit/releases/tag/1.0.9"
+    },
+    {
+     "version": "1.0.8",
+     "date": "2016-09-13T09:54:32Z",
+     "url": "https://github.com/ibireme/YYKit/releases/tag/1.0.8"
+    },
+    {
+     "version": "1.0.7",
+     "date": "2016-06-13T16:07:48Z",
+     "url": "https://github.com/ibireme/YYKit/releases/tag/1.0.7"
+    },
+    {
+     "version": "1.0.6",
+     "date": "2016-05-20T16:46:56Z",
+     "url": "https://github.com/ibireme/YYKit/releases/tag/1.0.6"
+    },
+    {
+     "version": "1.0.5",
+     "date": "2016-04-12T09:07:02Z",
+     "url": "https://github.com/ibireme/YYKit/releases/tag/1.0.5"
+    }
+   ]
+  }
+ ],
+ "evolution": [
+  {
+   "id": "SE-0558",
+   "title": "Bulk update operations for `MutableSpan` and `MutableRawSpan`",
+   "state": "activeReview",
+   "version": "",
+   "start": "2026-10-13T00:00:00Z",
+   "end": "2026-10-28T00:00:00Z",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0558-mutablespan-bulk-updates.md",
+   "summary": "Adds bulk update operations to `MutableSpan` and `MutableRawSpan`, which overwrite a span (or a subrange thereof) with a repeated value, or with the elements of another span or an `Iterable`."
+  },
+  {
+   "id": "SE-0557",
+   "title": "Add `RawSpan` primitive to `Hasher`",
+   "state": "activeReview",
+   "version": "",
+   "start": "2026-10-12T00:00:00Z",
+   "end": "2026-10-20T00:00:00Z",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0557-hasher-rawspan-primitive.md",
+   "summary": "Adds a new primitive API to `Hasher` for mixing the bytes of a `RawSpan` into the hasher's state."
+  },
+  {
+   "id": "SE-0556",
+   "title": "Cell, ConstCell, and Volatile",
+   "state": "activeReview",
+   "version": "",
+   "start": "2026-10-09T00:00:00Z",
+   "end": "2026-10-23T00:00:00Z",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0556-cell.md",
+   "summary": "Introduces a family of `Cell` types that provide looser requirements around exclusivity, making them suitable for shared memory, synchronization primitives, concurrent data structures, and interoperability with other lan…"
+  },
+  {
+   "id": "SE-0555",
+   "title": "`inout` overload of `BorrowingIteratorProtocol.skip(by:)`",
+   "state": "activeReview",
+   "version": "",
+   "start": "2026-10-09T00:00:00Z",
+   "end": "2026-10-23T00:00:00Z",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0555-iterable-inout-skip.md",
+   "summary": "Adds a new overload of the `BorrowingIteratorProtocol.skip(by:)` method that takes its argument as an `inout Int`. Unlike the existing method, which reports a count only when it returns normally, the new overload tells t…"
+  },
+  {
+   "id": "SE-0554",
+   "title": "Deployment target conditional compilation",
+   "state": "activeReview",
+   "version": "",
+   "start": "2026-09-29T00:00:00Z",
+   "end": "2026-10-12T00:00:00Z",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0554-deployment-target-conditional-compilation.md",
+   "summary": "Adds `deploymentTargetAtLeast(...)`, a conditional compilation predicate that selects source according to the module's minimum deployment target, using availability-style platform-version requirements."
+  },
+  {
+   "id": "SE-0553",
+   "title": "Task Identity",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0553-task-identity.md",
+   "summary": "Adds a cheap, stable, process-unique identifier for the currently executing `Task`. `Task.currentID`, with instance accessors on `Task` and `UnsafeCurrentTask`, returns an opaque `Task.ID` at a cost comparable to a threa…"
+  },
+  {
+   "id": "SE-0552",
+   "title": "Rounding of `Float.pi`",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0552-float-pi-rounding.md",
+   "summary": "Change the definition of the property `pi` on `FloatingPoint`, so that it is no longer required to be rounded toward zero. Update `Float.pi` to match the new definition."
+  },
+  {
+   "id": "SE-0551",
+   "title": "`Span` over a single value",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0551-span-of-one.md",
+   "summary": "Add initializers to form a single-element `Span` over any value, and to form a single-element `MutableSpan` over any mutable value."
+  },
+  {
+   "id": "SE-0550",
+   "title": "@instrumentation attribute for functions",
+   "state": "activeReview",
+   "version": "",
+   "start": "2026-09-16T00:00:00Z",
+   "end": "2026-09-30T00:00:00Z",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0550-nosanitize-attribute.md",
+   "summary": "This proposal introduces a new attribute `@instrumentation(...)` which can be applied to functions, subscripts, and closures to disable one or more kinds of compiler-inserted instrumentation (such as sanitizers). It also…"
+  },
+  {
+   "id": "SE-0549",
+   "title": "Package Manager HTTP Proxy Configuration",
+   "state": "activeReview",
+   "version": "",
+   "start": "2026-09-14T00:00:00Z",
+   "end": "2026-09-28T00:00:00Z",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0549-swiftpm-proxy-configuration.md",
+   "summary": "This proposal adds HTTP and HTTPS proxy support for all network operations performed by Swift Package Manager that use its built-in HTTP client. Today, SPM ignores standard proxy environment variables (`http_proxy`, `htt…"
+  },
+  {
+   "id": "SE-0548",
+   "title": "resignRemoteID for remote distributed actor references",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0548-resign-remote-id.md",
+   "summary": "Distributed actors have their identity managed by an associated `DistributedActorSystem`. Today, the system observes the lifecycle of *local* distributed actor instances through the `assignID(_:)` / `resignID(_:)` pair, …"
+  },
+  {
+   "id": "SE-0546",
+   "title": "Same-file memberwise initializer extensions",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0546-memberwise-init-extensions.md",
+   "summary": "Allows a struct's memberwise initializer to be defined in a same-file extension."
+  },
+  {
+   "id": "SE-0544",
+   "title": "Mutation and consumption in non-`Copyable` type `deinit`s",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0544-mutate-or-consume-in-deinit.md",
+   "summary": "Non-`Copyable` types can define a `deinit` to clean up owned resources at the end of their lifetime; however, prior to this proposal, `self` was restricted to be immutable and borrowable only within the body of `deinit` …"
+  },
+  {
+   "id": "SE-0542",
+   "title": "Package Manager Conditional Plugin",
+   "state": "activeReview",
+   "version": "",
+   "start": "2026-08-06T00:00:00Z",
+   "end": "2026-08-21T00:00:00Z",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0542-package-manager-conditional-plugin.md",
+   "summary": "This proposal extends the `plugins` parameter of SwiftPM target declarations to support conditional plugin application. A new `PluginUsageCondition` type lets package authors gate a plugin on the **host platform** (where…"
+  },
+  {
+   "id": "SE-0540",
+   "title": "Default Target Settings",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0540-default-target-settings.md",
+   "summary": "It is very common for Swift packages to use the same settings flags across all their targets. A built-in mechanism to apply these base settings offers improved readability and convenience for package manifests."
+  },
+  {
+   "id": "SE-0539",
+   "title": "Enable Macros to Grant `self` Access for Property Initializers",
+   "state": "returnedForRevision",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0539-self-access-for-property-initializers.md",
+   "summary": "Adds an optional `initialization: selfAvailable` parameter for `accessor` macro role declarations. This parameter declares that the macro moves a property initializer expression to a new context, where access to `self` a…"
+  },
+  {
+   "id": "SE-0538",
+   "title": "Disconnected",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0538-disconnected.md",
+   "summary": "[SE-0414](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0414-region-based-isolation.md) introduced region-based isolation which leverages control flow sensitive diagnostics to determine whether non-`Se…"
+  },
+  {
+   "id": "SE-0536",
+   "title": "Package Registry Search",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0536-registry-search.md",
+   "summary": "[SE-0292](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0292-package-registry-service.md) introduced a package registry service for the Swift ecosystem. Its future directions section identified package…"
+  },
+  {
+   "id": "SE-0535",
+   "title": "Add CLI for editing global mirrors configuration",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0535-global-mirrors-configuration-cli.md",
+   "summary": "SPM has support for both local (per-project) and shared (per-user) mirrors configuration, though the CLI only allows for editing the local configuration file. This proposal adds an optional `--global` flag to the existin…"
+  },
+  {
+   "id": "SE-0532",
+   "title": "`Optional` noncopyable improvements and generalizations",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0532-optional-noncopyable-improvements.md",
+   "summary": "Introduces two new properties and a new method on `Optional` to help support noncopyable wrapped values: `ref`, `mutableRef`, and `put()`. Also generalizes `map`, `flatMap`, and `unsafelyUnwrapped`."
+  },
+  {
+   "id": "SE-0531",
+   "title": "Literal Expressions",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0531-literal-expressions.md",
+   "summary": "Several language constructs in Swift require the use of integer literal values: generic value arguments ([SE-0452](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0452-integer-generic-parameters.md)), va…"
+  },
+  {
+   "id": "SE-0529",
+   "title": "Add `FilePath` to the Standard Library",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0529-filepath-in-stdlib.md",
+   "summary": "We propose adding `FilePath` and its essential operations to the Swift standard library. `FilePath` parses platform-specific path syntax on the developer's behalf, provides a normalized view of path components, and enabl…"
+  },
+  {
+   "id": "SE-0526",
+   "title": "withDeadline",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0526-deadline.md",
+   "summary": "This proposal introduces `withDeadline`, a function that executes asynchronous operations with a composable absolute time limit. The function accepts a continuous clock instant representing the deadline by which the oper…"
+  },
+  {
+   "id": "SE-0515",
+   "title": "Allow `reduce` to produce noncopyable results",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0515-noncopyable-reduce.md",
+   "summary": "A proposal to alter `Sequence.reduce(_:_:)` to:"
+  },
+  {
+   "id": "SE-0513",
+   "title": "API to get the path to the current executable",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0513-commandline-executablepath.md",
+   "summary": "This proposal adds to the Swift standard library an interface for reading the path to the currently-executing binary. This value is useful to developers who need to spawn additional processes or who need to present infor…"
+  },
+  {
+   "id": "SE-0510",
+   "title": "Introduce `Dictionary.mapKeyedValues`",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0510-dictionary-mapvalues-with-keys.md",
+   "summary": "I propose adding a method `Dictionary.mapKeyedValues` that passes the `Key` to the transformation closure."
+  },
+  {
+   "id": "SE-0505",
+   "title": "Delayed Enqueuing for Executors",
+   "state": "returnedForRevision",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0505-delayed-enqueuing.md",
+   "summary": "(This was previously pitched as part of the Custom Main and Global Executors proposal, but has been split out into a separate proposal here.)"
+  },
+  {
+   "id": "SE-0500",
+   "title": "Improving package creation with custom templates: SwiftPM Template Initialization",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0500-package-manager-templates.md",
+   "summary": "This proposal introduces a system that enables Swift packages to declare reusable templates with customizable logic for generating package code tailored to a user's specific use case. These templates can be distributed l…"
+  },
+  {
+   "id": "SE-0490",
+   "title": "Environment Constrained Shared Libraries",
+   "state": "returnedForRevision",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0490-environment-constrained-shared-libraries.md",
+   "summary": "SwiftPM currently has no support for non-system binary library dependencies on Linux. This proposal adds support for **Environment Constrained Shared Libraries**, which are a type of dynamic library that is shared across…"
+  },
+  {
+   "id": "SE-0479",
+   "title": "Method and Initializer Key Paths",
+   "state": "returnedForRevision",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0479-method-and-initializer-keypaths.md",
+   "summary": "Swift key paths can be written to properties and subscripts. This proposal extends key path usage to include references to method members, such as instance and type methods, and initializers."
+  },
+  {
+   "id": "SE-0478",
+   "title": "File-level defaults",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0478-default-isolation-typealias.md",
+   "summary": "Introduces `default` declaration syntax to specify default actor isolation, `@diagnose` behavior, or `@available` restrictions for every top-level declaration in the file."
+  },
+  {
+   "id": "SE-0474",
+   "title": "Yielding accessors",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0474-yielding-accessors.md",
+   "summary": "We propose the introduction of two new accessors, `yielding mutate` and `yielding borrow`, for implementing computed properties and subscripts alongside the current `get` and `set`."
+  },
+  {
+   "id": "SE-0455",
+   "title": "SwiftPM @testable build setting",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0455-swiftpm-testable-build-setting.md",
+   "summary": "The current Swift Package Manager build system is currently hardcoded to pass the `-enable-testing` flag to the Swift compiler to enable `@testable import` when building in debug mode."
+  },
+  {
+   "id": "SE-0454",
+   "title": "Custom Allocator for Toolchain",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0454-memory-allocator.md",
+   "summary": "The tools in the Swift toolchain require allocating data structures for compiling the code. Different memory allocators have differing performance characteristics. Changing the default memory allocator away from the defa…"
+  },
+  {
+   "id": "SE-0448",
+   "title": "Regex lookbehind assertions",
+   "state": "accepted",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0448-regex-lookbehind-assertions.md",
+   "summary": "Regex supports lookahead assertions, but does not currently support lookbehind assertions. We propose adding these."
+  },
+  {
+   "id": "SE-0406",
+   "title": "Backpressure support for AsyncStream",
+   "state": "returnedForRevision",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0406-async-stream-backpressure.md",
+   "summary": "[SE-0314](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0314-async-stream.md) introduced new `Async[Throwing]Stream` types which act as root asynchronous sequences. These two types allow bridging from …"
+  },
+  {
+   "id": "SE-0403",
+   "title": "Package Manager Mixed Language Target Support",
+   "state": "returnedForRevision",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0403-swiftpm-mixed-language-targets.md",
+   "summary": "This is a proposal for adding package manager support for targets containing both Swift and [C based language sources](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0038-swiftpm-c-language-targets.md) …"
+  },
+  {
+   "id": "SE-0385",
+   "title": "Custom Reflection Metadata",
+   "state": "returnedForRevision",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0385-custom-reflection-metadata.md",
+   "summary": "In Swift, declarations are annotated with attributes to opt into both built-in language features (e.g. `@available`) and library functionality (e.g. `@RegexComponentBuilder`). This proposal introduces the ability to atta…"
+  },
+  {
+   "id": "SE-0379",
+   "title": "Swift Opt-In Reflection Metadata",
+   "state": "returnedForRevision",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0379-opt-in-reflection-metadata.md",
+   "summary": "This proposal seeks to increase the safety, efficiency, and secrecy of Swift Reflection Metadata by improving the existing mechanism and providing the opportunity to express a requirement on Reflection Metadata in APIs t…"
+  },
+  {
+   "id": "SE-0359",
+   "title": "Build-Time Constant Values",
+   "state": "returnedForRevision",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0359-build-time-constant-values.md",
+   "summary": "A Swift language feature for requiring certain values to be knowable at compile-time. This is achieved through an attribute, `@const`, constraining properties and function parameters to have compile-time knowable values.…"
+  },
+  {
+   "id": "SE-0330",
+   "title": "Conditionals in Collections",
+   "state": "returnedForRevision",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0330-collection-conditionals.md",
+   "summary": "This is a lightning proposal to extend the existing Swift language slightly to allow `#if` conditional inclusion of elements in array and dictionary literals. For example:"
+  },
+  {
+   "id": "SE-0318",
+   "title": "Package Creation",
+   "state": "returnedForRevision",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0318-package-creation.md",
+   "summary": "In order to clearly separate the roles of transforming an existing directory of source files into a Swift package, from creating a new package from scratch we propose adding a new command `swift package create`. `swift p…"
+  },
+  {
+   "id": "SE-0312",
+   "title": "Add `indexed()` and `Collection` conformances for `enumerated()` and `zip(_:_:)`",
+   "state": "returnedForRevision",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0312-indexed-and-enumerated-zip-collections.md",
+   "summary": "This proposal aims to fix the lack of `Collection` conformance of the sequences returned by `zip(_:_:)` and `enumerated()`, preventing them from being used in a context that requires a `Collection`. Also included is the …"
+  },
+  {
+   "id": "SE-0288",
+   "title": "Adding `isPower(of:)` to `BinaryInteger`",
+   "state": "previewing",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0288-binaryinteger-ispower.md",
+   "summary": "Checking some mathematical properties of integers (e.g. parity, divisibility, etc.) is widely used in scientific and engineering applications. Swift brings a lot of convenience when performing such checks, thanks to the …"
+  },
+  {
+   "id": "SE-0283",
+   "title": "Tuples Conform to `Equatable`, `Comparable`, and `Hashable`",
+   "state": "returnedForRevision",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0283-tuples-are-equatable-comparable-hashable.md",
+   "summary": "Introduce `Equatable`, `Comparable`, and `Hashable` conformance for all tuples whose elements are themselves `Equatable`, `Comparable`, and `Hashable`."
+  },
+  {
+   "id": "SE-0265",
+   "title": "Offset-Based Access to Indices, Elements, and Slices",
+   "state": "returnedForRevision",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0265-offset-indexing-and-slicing.md",
+   "summary": "This proposal introduces `OffsetBound`, which can represent a position in a collection specified as an offset from either the beginning or end of the collection (i.e. the collection’s “bounds”). Corresponding APIs provid…"
+  },
+  {
+   "id": "SE-0259",
+   "title": "Approximate Equality for Floating Point",
+   "state": "returnedForRevision",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0259-approximately-equal.md",
+   "summary": "The internet is full advice about what not to do when comparing floating-point values:"
+  },
+  {
+   "id": "SE-0257",
+   "title": "Eliding commas from multiline expression lists",
+   "state": "returnedForRevision",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0257-elide-comma.md",
+   "summary": "Swift requires a semicolon \"`;`\" to separate statements unless those statements are separated by newlines, in which case the semicolon can be elided. Currently, Swift requires a comma \"`,`\" to separate expressions even w…"
+  },
+  {
+   "id": "SE-0250",
+   "title": "Swift Code Style Guidelines and Formatter",
+   "state": "returnedForRevision",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0250-swift-style-guide-and-formatter.md",
+   "summary": "We propose that the Swift project adopt a set of code style guidelines and provide a formatting tool that lets users easily diagnose and update their code according to those guidelines. These guidelines would *not* be ma…"
+  },
+  {
+   "id": "SE-0177",
+   "title": "Add clamp(to:) to the stdlib",
+   "state": "returnedForRevision",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0177-add-clamped-to-method.md",
+   "summary": "This proposal aims to add functionality to the standard library for clamping a value to a provided `Range`. The proposed function would allow the user to specify a range to clamp a value to where if the value fell within…"
+  },
+  {
+   "id": "SE-0090",
+   "title": "Remove `.self` and freely allow type references in expressions",
+   "state": "returnedForRevision",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0090-remove-dot-self.md",
+   "summary": "Swift's grammar currently requires that type references only appear as part of a constructor call `T(x)` or member access `T.x`. To get the metatype object for `T`, one must refer to the special member `T.self`. I propos…"
+  },
+  {
+   "id": "SE-0078",
+   "title": "Implement a rotate algorithm, equivalent to std::rotate() in C++",
+   "state": "returnedForRevision",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0078-rotate-algorithm.md",
+   "summary": "This proposal is to add rotation and in-place reversing methods to Swift's standard library collections."
+  },
+  {
+   "id": "SE-0018",
+   "title": "Flexible Memberwise Initialization",
+   "state": "returnedForRevision",
+   "version": "",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0018-flexible-memberwise-initialization.md",
+   "summary": "The Swift compiler is currently able to generate a memberwise initializer for use in some circumstances, however there are currently many limitations to this. This proposal builds on the idea of a compiler generated memb…"
+  },
+  {
+   "id": "SE-0547",
+   "title": "SwiftPM Support for Compilation Caching",
+   "state": "implemented",
+   "version": "Next",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0547-swiftpm-compilation-caching.md",
+   "summary": "The Swift and Clang compilers have existing support for leveraging a CAS (Content Addressable Store) to cache compilation outputs and replay them in subsequent builds. This proposal introduces support for configuring com…"
+  },
+  {
+   "id": "SE-0545",
+   "title": "SwiftPM Build Performance Debugging Options",
+   "state": "implemented",
+   "version": "Next",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0545-build-debugging-options.md",
+   "summary": "This proposal introduces two new SwiftPM CLI options, `--trace-events-file` and `--enable-task-backtraces`, which can be used to analyze the performance of clean and incremental builds and identify common issues."
+  },
+  {
+   "id": "SE-0543",
+   "title": "InlineArray: Hashable",
+   "state": "implemented",
+   "version": "Next",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0543-inline-array-hashable.md",
+   "summary": "InlineArray conditionally conforms to Equatable and Hashable when Element does."
+  },
+  {
+   "id": "SE-0541",
+   "title": "Flexible Swift/C Interoperability for Packages",
+   "state": "implemented",
+   "version": "Next",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0541-flexible-swift-c-interoperability-for-packages.md",
+   "summary": "Swift has great support for bidirectional interoperability with C, C++, and Objective-C, but historically SwiftPM has restricted the set of interop features available to package authors. This proposal lifts most of those…"
+  },
+  {
+   "id": "SE-0537",
+   "title": "Section Placement Control for Functions",
+   "state": "implemented",
+   "version": "Next",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0537-function-sections.md",
+   "summary": "This proposal extends the `@section` attribute introduced in [SE-0492](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0492-section-control.md) to also allow functions to be annotated with `@section`. Th…"
+  },
+  {
+   "id": "SE-0530",
+   "title": "Async Result Support",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0530-async-result-support.md",
+   "summary": "The `Result` type is a very useful tool for managing code that can throw. However, it is missing an initializer that makes using the type with asynchronous code inconvenient."
+  },
+  {
+   "id": "SE-0528",
+   "title": "`Continuation` — Safe and Performant Async Continuations",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0528-noncopyable-continuation.md",
+   "summary": "While the new `Continuation` improves the ergonomics of continuations in a lot of places, we still rely on a runtime trap, if a continuation is dropped. Since we use a noncopyable type here, the compiler already injects …"
+  },
+  {
+   "id": "SE-0527",
+   "title": "UniqueArray",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0527-rigidarray-uniquearray.md",
+   "summary": "We propose to introduce two new array types to the Swift Standard Library, `RigidArray` and `UniqueArray`, that are both capable of storing noncopyable elements."
+  },
+  {
+   "id": "SE-0525",
+   "title": "Safe loading API for `RawSpan`",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0525-rawspan-safe-loading-api.md",
+   "summary": "We introduce a set of safe API to load and store values of certain safe types from the memory represented by `RawSpan`, `MutableSpan`, `MutableRawSpan` and `OutputRawSpan` instances. This will bolster the value of Swift …"
+  },
+  {
+   "id": "SE-0524",
+   "title": "Add `withTemporaryAllocation` using `Output(Raw)Span`",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0524-span-temporary-allocation.md",
+   "summary": "This proposal introduces new top-level functions that provide a temporary buffer wrapped in an `OutputSpan` or `OutputRawSpan`. This enables safe initialization of temporary memory, leveraging the safety guarantees of th…"
+  },
+  {
+   "id": "SE-0523",
+   "title": "Hashable conformance for `UnownedTaskExecutor`",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0523-hashable-unownedtask-executor.md",
+   "summary": "This proposal adds `Hashable` conformance to `UnownedTaskExecutor`, enabling its use as a dictionary key and in sets. `UnownedTaskExecutor` already conforms to `Equatable`; this is a natural and source-compatible extensi…"
+  },
+  {
+   "id": "SE-0522",
+   "title": "Source-Level Control Over Compiler Warnings",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0522-source-warning-control.md",
+   "summary": "This proposal introduces a new declaration attribute for controlling compiler warning behavior in specific code regions: to be emitted as warnings, errors, or suppressed."
+  },
+  {
+   "id": "SE-0521",
+   "title": "Improved Syntax for Optionals of Opaque and Existential Types",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0521-improved-optional-opaque-and-any.md",
+   "summary": "Allows the types `some P?` and `any P?` to be written, having the same meaning as `(some P)?` and `(any P)?` respectively."
+  },
+  {
+   "id": "SE-0520",
+   "title": "Discardable result use in Task initializers",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0520-discardableresult-task-initializers.md",
+   "summary": "Previously, `@discardableResult` was applied universally to all Task initializers, making it too easy to accidentally miss that a thrown error was ignored. We propose to introduce a new warning that will be applied to th…"
+  },
+  {
+   "id": "SE-0519",
+   "title": "`Ref` and `MutableRef` types for safe, first-class references",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0519-ref-mutableref-types.md",
+   "summary": "Two new standard library types, `Ref` and `MutableRef`, represent safe references to another value, with shared (immutable) or exclusive (mutable) access respectively."
+  },
+  {
+   "id": "SE-0518",
+   "title": "`~Sendable` for explicitly marking non-`Sendable` types",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0518-tilde-sendable.md",
+   "summary": "Introduces `~Sendable` conformance syntax to explicitly suppress a conformance to `Sendable`, which would prevent automatic `Sendable` inference on types, and provide an alternative way to mark types as non-`Sendable` wi…"
+  },
+  {
+   "id": "SE-0517",
+   "title": "UniqueBox",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0517-uniquebox.md",
+   "summary": "We propose to introduce a new type in the standard library `UniqueBox` which is a smart pointer type that uniquely owns a value on the heap."
+  },
+  {
+   "id": "SE-0516",
+   "title": "`Iterable`",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0516-borrowing-sequence.md",
+   "summary": "We propose a new protocol for iteration, `Iterable`, which provides a universal implementation point for synchronous iteration. Types conforming to `Iterable` can be noncopyable or nonescapable, can have noncopyable elem…"
+  },
+  {
+   "id": "SE-0514",
+   "title": "`Hashable` Conformance for `Dictionary.Keys`, `CollectionOfOne` and `EmptyCollection`",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0514-hashable-conformance-for-dictionarykeys-collectionofone-emptycollection.md",
+   "summary": "This proposal adds `Hashable` conformance to three standard library collection types: `Dictionary.Keys`, `CollectionOfOne` and `EmptyCollection`."
+  },
+  {
+   "id": "SE-0512",
+   "title": "Document that `Mutex.withLockIfAvailable(_:)` cannot spuriously fail",
+   "state": "implemented",
+   "version": "6.0",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0512-withlockifavailable-cannot-spuriously-fail.md",
+   "summary": "Modifies the documentation of [`Mutex.withLockIfAvailable(_:)`](https://developer.apple.com/documentation/synchronization/mutex/withlockifavailable(_:)) to add a guarantee that it is not subject to spurious failures. The…"
+  },
+  {
+   "id": "SE-0511",
+   "title": "SwiftPM Add Target Plugin Command",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0511-swiftpm-add-target-plugin.md",
+   "summary": "This proposal introduces a new `swift package add-target-plugin` command that allows developers to add plugin usages to existing targets in their `Package.swift` manifest directly from the command line."
+  },
+  {
+   "id": "SE-0509",
+   "title": "Software Bill of Materials (SBOM) Generation for Swift Package Manager",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0509-swift-sboms-via-swiftpm.md",
+   "summary": "An SBOM (Software Bill of Materials) provides a detailed inventory of software components included in an artifact. SBOMs allow developers to improve and analyze the software supply chain security profile for their Swift …"
+  },
+  {
+   "id": "SE-0508",
+   "title": "Array expression trailing closures",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0508-array-expression-trailing-closures.md",
+   "summary": "We add support for using trailing closures following array types in expressions."
+  },
+  {
+   "id": "SE-0507",
+   "title": "Borrow and Mutate Accessors",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0507-borrow-accessors.md",
+   "summary": "Borrowing accessors — introduced with the new keywords `borrow` and `mutate` — allow implementing computed properties and subscripts using *borrowing semantics*. These augment the existing `get`, `set`, `yielding borrow`…"
+  },
+  {
+   "id": "SE-0506",
+   "title": "Advanced Observation Tracking",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0506-advanced-observation-tracking.md",
+   "summary": "Observation has one primary public entry point for observing the changes to `@Observable` types. This proposal adds two new versions that allow more fine-grained control and advanced behaviors. In particular, it is not i…"
+  },
+  {
+   "id": "SE-0504",
+   "title": "Task Cancellation Shields",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0504-task-cancellation-shields.md",
+   "summary": "This proposal introduces a new mechanism to temporarily \"ignore\" task cancellation, called task cancellation shields."
+  },
+  {
+   "id": "SE-0503",
+   "title": "Suppressed Default Conformances on Associated Types With Defaults",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0503-suppressed-associated-types.md",
+   "summary": "An associated type defines a generic type in a protocol. You use them to help define the protocol's requirements. This Queue has two associated types, Element and Allocator:"
+  },
+  {
+   "id": "SE-0502",
+   "title": "Exclude private initialized properties from memberwise initializer",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0502-exclude-private-from-memberwise-init.md",
+   "summary": "We propose changing the rules for the implicit memberwise initializer such that it does not include properties with initial values that are less accessible than the most accessible property in the initializer, up to `int…"
+  },
+  {
+   "id": "SE-0501",
+   "title": "HTML Coverage Report",
+   "state": "implemented",
+   "version": "Next",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0501-swiftpm-html-coverage-report.md",
+   "summary": "Currently, `swift test` supports generating a JSON coverage report, which is great for ingesting into various systems. The JSON, however, is not very \"human-readable\" during iterative development at-desk."
+  },
+  {
+   "id": "SE-0499",
+   "title": "Support ~Copyable, ~Escapable in simple standard library protocols",
+   "state": "implemented",
+   "version": "6.4",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0499-support-non-copyable-simple-protocols.md",
+   "summary": "The following protocols will be marked as refining `~Copyable` and `~Escapable`:"
+  }
+ ]
+}
