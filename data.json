@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T20:01:39+08:00",
+ "updated": "2026-10-22T01:21:33+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -9,7 +9,7 @@
    "ok": true,
    "error": "",
    "count": 42,
-   "updated": "2026-10-21T20:01:39+08:00"
+   "updated": "2026-10-22T01:21:33+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-10-21T20:01:39+08:00"
+   "updated": "2026-10-22T01:21:33+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-10-21T20:01:39+08:00"
+   "updated": "2026-10-22T01:21:33+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-10-21T20:01:39+08:00"
+   "updated": "2026-10-22T01:21:33+08:00"
   },
   {
    "id": "swift-evolution",
@@ -48,8 +48,8 @@
    "color": "#f05138",
    "ok": true,
    "error": "",
-   "count": 83,
-   "updated": "2026-10-21T20:01:39+08:00"
+   "count": 84,
+   "updated": "2026-10-22T01:21:33+08:00"
   }
  ],
  "items": [
@@ -2883,6 +2883,16 @@
   }
  ],
  "evolution": [
+  {
+   "id": "SE-0559",
+   "title": "Add `bidiClass` to `Unicode.Scalar.Properties`",
+   "state": "activeReview",
+   "version": "",
+   "start": "2026-10-21T00:00:00Z",
+   "end": "2026-11-04T00:00:00Z",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0559-unicode-bidi-class.md",
+   "summary": "Adds a `bidiClass` property to `Unicode.Scalar.Properties` that returns a scalar's Unicode `Bidi_Class`, along with a new `Unicode.BidiClass` type to represent its values."
+  },
   {
    "id": "SE-0558",
    "title": "Bulk update operations for `MutableSpan` and `MutableRawSpan`",
