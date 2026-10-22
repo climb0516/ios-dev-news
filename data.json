@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T01:18:52+08:00",
+ "updated": "2026-10-23T05:44:31+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -9,7 +9,7 @@
    "ok": true,
    "error": "",
    "count": 42,
-   "updated": "2026-10-23T01:18:52+08:00"
+   "updated": "2026-10-23T05:44:31+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-10-23T01:18:52+08:00"
+   "updated": "2026-10-23T05:44:31+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-10-23T01:18:52+08:00"
+   "updated": "2026-10-23T05:44:31+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-10-23T01:18:52+08:00"
+   "updated": "2026-10-23T05:44:31+08:00"
   },
   {
    "id": "swift-evolution",
@@ -49,10 +49,41 @@
    "ok": true,
    "error": "",
    "count": 84,
-   "updated": "2026-10-23T01:18:52+08:00"
+   "updated": "2026-10-23T05:44:31+08:00"
   }
  ],
  "items": [
+  {
+   "id": "https://developer.apple.com/news/releases/?id=10222026a",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "TestFlight 4.4.1",
+   "url": "https://developer.apple.com/news/releases/?id=10222026a",
+   "date": "2026-10-23T05:00:00+08:00",
+   "summary": "",
+   "platform": "其他",
+   "version": "",
+   "stage": "",
+   "build": "",
+   "links": [
+    {
+     "text": "Download the app",
+     "url": "https://apps.apple.com/us/app/testflight/id899247664"
+    }
+   ],
+   "first_seen": "2026-10-23T05:44:31+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=yfo21auu",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Offer your subscriptions to businesses and schools",
+   "url": "https://developer.apple.com/news/?id=yfo21auu",
+   "date": "2026-10-23T02:00:08+08:00",
+   "summary": "Starting today, organizations and educational institutions can purchase subscriptions to apps in volume with multiseat purchasing. This makes it easy for organizations that use Apple Business or Apple…",
+   "body": "Starting today, organizations and educational institutions can purchase subscriptions to apps in volume with multiseat purchasing. This makes it easy for organizations that use Apple Business or Apple School Manager to discover and purchase your auto-renewable subscription. Organizations can purchase the seats they need through a single Apple In-App Purchase, then assign and manage those seats using their existing device management tools. Organizations can also add and remove seats at any time depending on their needs. Multiseat purchasing for subscriptions is enabled by default in App Store Connect, unless you’ve previously adjusted this setting. This makes your subscription available for purchase through Apple Business, Apple School Manager, and the App Store. You can change these availa…",
+   "first_seen": "2026-10-23T05:44:31+08:00"
+  },
   {
    "id": "https://developer.apple.com/news/releases/?id=10202026a",
    "source": "apple-releases",
