@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """iOS DevPulse scraper — 抓取 Apple / Swift 官方动态与常用开源库发布，输出 data.json。仅依赖 Python 标准库。"""
-import gzip, html, json, re, urllib.request
+import gzip, html, json, re, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone, timedelta
@@ -12,8 +12,11 @@ CST = timezone(timedelta(hours=8))
 UA  = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
                      "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"}
 ATOM = "{http://www.w3.org/2005/Atom}"
+CONTENT = "{http://purl.org/rss/1.0/modules/content/}encoded"
 MAX_ITEMS = 500       # 动态流累积上限
 LIB_KEEP  = 5         # 每个库保留最近几个版本
+# 详情页用的长文本上限（列表摘要仍是 200 字）
+BODY_LIB, BODY_BLOG, BODY_NEWS = 1500, 600, 800
 
 # 关注的开源库：（GitHub 仓库, 展示名）。增删直接改这里
 LIBS = [
@@ -56,9 +59,22 @@ def rfc822(s):
     except Exception:
         return ""
 
-def item(source, kind, title, url, date, summary="", **extra):
-    return {"id": url, "source": source, "kind": kind, "title": clean(title, 160), "url": url,
-            "date": date, "summary": clean(summary), **extra}
+def item(source, kind, title, url, date, summary="", body_n=0, **extra):
+    row = {"id": url, "source": source, "kind": kind, "title": clean(title, 160), "url": url,
+           "date": date, "summary": clean(summary), **extra}
+    body = clean(summary, body_n) if body_n else ""
+    if body and body != row["summary"]:       # 比摘要长才另存，详情页展示
+        row["body"] = body
+    return row
+
+def html_links(text, base):
+    """RSS content:encoded 里的链接（发布说明、下载）→ [{text, url}]"""
+    out = []
+    for href, label in re.findall(r"<a\s[^>]*href=[\"']?([^\"' >]+)[^>]*>(.*?)</a>", text or "", re.S):
+        label = clean(label, 40)
+        if label:
+            out.append({"text": label, "url": urllib.parse.urljoin(base, html.unescape(href))})
+    return out
 
 def rss_items(url):
     return list(ET.fromstring(fetch(url)).iter("item"))
@@ -94,14 +110,17 @@ def apple_releases():
     for it in rss_items("https://developer.apple.com/news/releases/rss/releases.rss"):
         title = it.findtext("title", "")
         platform, version, stage, build = parse_release(title)
-        out.append(item("apple-releases", "release", title, it.findtext("link", ""),
+        link = it.findtext("link", "")
+        # description 只是「View release notes」之类的按钮文字，不当摘要；content:encoded 里的链接留给详情页
+        out.append(item("apple-releases", "release", title, link,
                         rfc822(it.findtext("pubDate", "")),
-                        platform=platform or "其他", version=version, stage=stage, build=build))
+                        platform=platform or "其他", version=version, stage=stage, build=build,
+                        links=html_links(it.findtext(CONTENT, ""), link)))
     return out
 
 def apple_news(limit=60):
     return [item("apple-news", "news", it.findtext("title", ""), it.findtext("link", ""),
-                 rfc822(it.findtext("pubDate", "")), it.findtext("description", ""))
+                 rfc822(it.findtext("pubDate", "")), it.findtext("description", ""), BODY_NEWS)
             for it in rss_items("https://developer.apple.com/news/rss/news.rss")[:limit]]
 
 # ── Swift ─────────────────────────────────────────────────────────────────────
@@ -109,7 +128,7 @@ def apple_news(limit=60):
 def swift_blog():
     return [item("swift-blog", "blog", e.findtext(ATOM + "title", ""), atom_link(e),
                  e.findtext(ATOM + "updated", "") or e.findtext(ATOM + "published", ""),
-                 e.findtext(ATOM + "content", "") or e.findtext(ATOM + "summary", ""))
+                 e.findtext(ATOM + "content", "") or e.findtext(ATOM + "summary", ""), BODY_BLOG)
             for e in atom_entries("https://www.swift.org/atom.xml")]
 
 def swift_evolution():
@@ -127,6 +146,10 @@ def swift_evolution():
             "end":     st.get("end", ""),
             "url":     base + p.get("link", ""),
             "summary": clean(p.get("summary", ""), 220),
+            "authors": [a.get("name", "") for a in p.get("authors", []) if a.get("name")],
+            "review_manager": [a.get("name", "") for a in p.get("reviewManagers", []) if a.get("name")],
+            # 论坛讨论（pitch / review…）
+            "discussions": [{"name": d.get("name", ""), "url": d.get("link", "")} for d in p.get("discussions", []) if d.get("link")],
         })
     num = lambda r: int(re.sub(r"\D", "", r["id"]) or 0)
     active = sorted((r for r in rows if r["state"] in EVO_ACTIVE), key=num, reverse=True)
@@ -151,7 +174,7 @@ def lib_releases(repo, name):
         if clean(body).lower() in ("no content.", "no content"):   # GitHub 对空说明的占位文案
             body = ""
         out.append(item("libs", "lib", f"{name} {label}", atom_link(e) or f"https://github.com/{repo}/releases",
-                        e.findtext(ATOM + "updated", ""), body,
+                        e.findtext(ATOM + "updated", ""), body, BODY_LIB,
                         lib=name, repo=repo, version=version))
     return out
 
@@ -215,6 +238,7 @@ def main():
                      "version": latest["version"] if latest else "", "date": latest["date"] if latest else "",
                      "url": latest["url"] if latest else f"https://github.com/{repo}",
                      "summary": latest["summary"] if latest else "",
+                     "body": latest.get("body", "") if latest else "",
                      "history": [{"version": r["version"], "date": r["date"], "url": r["url"]} for r in res]})
     sources.append({"id": "libs", "name": "开源库发布", "abbr": "GH", "color": "#6e40c9",
                     "ok": lib_errors == 0, "error": f"{lib_errors} 个库抓取失败" if lib_errors else "",

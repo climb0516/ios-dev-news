@@ -142,15 +142,19 @@
     .s-returnedForRevision { color: var(--st-rc); } .s-implemented { color: var(--st-other); } .s-scheduledForReview { color: var(--st-review); }
 
     /* ── Feed ── */
-    .list { display: flex; flex-direction: column; gap: 12px; }
-    .post { padding: 16px 18px; display: flex; gap: 14px; transition: border-color .15s; }
-    .post:hover { border-color: var(--line-2); }
+    /* 紧凑行：来源图标 + 标题 / 一行摘要 + 时间 */
+    .list { padding: 4px 6px; }
+    .post { display: flex; align-items: flex-start; gap: 12px; padding: 10px 10px; border-radius: 9px; }
+    .post + .post { border-top: 1px solid var(--line); border-radius: 0; }
+    .post:hover { background: var(--hover); }
+    .post .avatar { margin-top: 2px; }
     .post-body { flex: 1; min-width: 0; }
-    .post-meta { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--text-3); flex-wrap: wrap; margin-bottom: 6px; }
-    .post-meta b { color: var(--text-2); font-weight: 600; }
-    .post h3 { font-size: 15.5px; font-weight: 650; line-height: 1.5; overflow-wrap: anywhere; }
-    .post h3 a:hover { color: var(--accent); }
-    .post .summary { font-size: 13px; color: var(--text-2); margin-top: 6px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; }
+    .post-top { display: flex; align-items: center; gap: 6px; min-width: 0; }
+    .post h3 { font-size: 14px; font-weight: 600; line-height: 1.45; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .post:hover h3 { color: var(--accent); }
+    .post .summary { font-size: 12.5px; color: var(--text-3); margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .post .summary b { color: var(--text-2); font-weight: 600; }
+    .post-time { flex: none; font-size: 11.5px; color: var(--text-3); white-space: nowrap; padding-top: 2px; font-variant-numeric: tabular-nums; }
     .load-more { display: block; margin: 18px auto 0; padding: 9px 22px; border-radius: 10px; border: 1px solid var(--line-2); background: var(--panel); cursor: pointer; color: var(--text-2); }
     .load-more:hover { color: var(--text-1); border-color: var(--accent); }
     .empty { text-align: center; padding: 60px 0; color: var(--text-3); }
@@ -161,7 +165,8 @@
     .ver-card { padding: 14px 16px; }
     .ver-card .p { font-size: 12.5px; color: var(--text-3); font-weight: 600; }
     .ver-card .v { font-size: 22px; font-weight: 800; letter-spacing: -0.02em; margin: 2px 0 4px; }
-    .ver-card .v a:hover { color: var(--accent); }
+    .ver-card:hover { border-color: var(--line-2); }
+    .ver-card .pre a:hover { color: var(--accent); }
     .ver-card .d { font-size: 12px; color: var(--text-3); }
     .ver-card .pre { margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--line-2); font-size: 12.5px; color: var(--text-2); display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
     .day { padding: 6px 6px; }
@@ -169,8 +174,8 @@
     .day-head { font-size: 12.5px; color: var(--text-3); padding: 8px 12px 4px; font-weight: 600; }
     .rel-row { display: flex; align-items: center; gap: 10px; padding: 7px 12px; border-radius: 8px; font-size: 13.5px; }
     .rel-row:hover { background: var(--hover); }
-    .rel-row a { flex: 1; min-width: 0; overflow-wrap: anywhere; }
-    .rel-row a:hover { color: var(--accent); }
+    .rel-row .t { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+    .rel-row:hover .t { color: var(--accent); }
     .rel-row .plat { width: 74px; flex: none; font-size: 12px; color: var(--text-3); }
     .rel-row .build { font-size: 11.5px; color: var(--text-3); }
 
@@ -180,11 +185,11 @@
     .lib.fresh { border-color: color-mix(in srgb, var(--new) 55%, transparent); }
     .lib-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
     .lib-head b { font-size: 15px; }
-    .lib-head b a:hover { color: var(--accent); }
+    .lib:hover { border-color: var(--line-2); }
     .lib-head .repo { margin-left: auto; font-size: 11.5px; color: var(--text-3); }
     .lib-ver { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
-    .lib-ver a { font-size: 22px; font-weight: 800; letter-spacing: -0.02em; }
-    .lib-ver a:hover { color: var(--accent); }
+    .lib-ver b { font-size: 22px; font-weight: 800; letter-spacing: -0.02em; }
+    .lib:hover .lib-ver b { color: var(--accent); }
     .lib-ver span { font-size: 12px; color: var(--text-3); }
     .lib .summary { font-size: 12.5px; color: var(--text-2); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; }
     .lib .hist { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 4px; }
@@ -198,7 +203,8 @@
     .evo-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 12px; color: var(--text-3); margin-bottom: 4px; }
     .evo-head .se { font-weight: 700; color: var(--text-2); font-variant-numeric: tabular-nums; }
     .evo h3 { font-size: 14.5px; font-weight: 650; line-height: 1.5; overflow-wrap: anywhere; }
-    .evo h3 a:hover { color: var(--accent); }
+    .evo:hover { border-color: var(--line-2); }
+    .evo:hover h3 { color: var(--accent); }
     .evo p { font-size: 12.5px; color: var(--text-2); margin-top: 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; }
 
     /* ── Right widgets ── */
@@ -214,12 +220,17 @@
     .w-row small { color: var(--text-3); font-size: 11px; white-space: nowrap; }
     .status-row { display: flex; align-items: center; gap: 8px; font-size: 12.5px; padding: 4px 0; color: var(--text-2); }
     .status-row .t { margin-left: auto; color: var(--text-3); font-size: 11.5px; white-space: nowrap; }
+    .section-title .kit-morelink { margin-left: auto; }
+    .feed-more { display: flex; justify-content: center; gap: 16px; align-items: center; margin-top: 14px; }
+    .feed-more .load-more { margin: 0; }
     .ok { color: #22c55e; } .bad { color: #ef4444; } .warn { color: #f59e0b; }
 
     /* ── Responsive ── */
     @media (max-width: 1180px) {
       .layout { grid-template-columns: 180px minmax(0, 1fr); }
-      .right { display: none; }
+      /* 右栏挪到正文下面，挂件横排 */
+      .right { grid-column: 2; position: static; max-height: none; overflow: visible; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; align-items: start; }
+      .right .widget + .widget { margin-top: 0; }
     }
     @media (max-width: 760px) {
       .topbar-inner { padding: 0 14px; gap: 10px; }
@@ -237,11 +248,93 @@
       .tabs { width: 100%; overflow-x: auto; scrollbar-width: none; }
       .tabs::-webkit-scrollbar { display: none; }
       .tab { padding: 6px 10px; }
-      .post { padding: 14px; gap: 12px; }
-      .post .avatar.lg { display: none; }
+      .right { grid-column: auto; grid-template-columns: minmax(0, 1fr); }
+      .post { padding: 10px 6px; gap: 10px; }
       .lib-grid { grid-template-columns: minmax(0, 1fr); }
       .ver-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .rel-row .plat { width: 56px; }
+    }
+    /* ── 详情抽屉 + 列表页（通用组件 kit：电脑右侧滑出，手机底部升起；地址 #/item/类型/id、#/list/key） ── */
+    :root { --kit-bg: var(--bg, #0b0a10); --kit-panel: var(--panel, var(--card, rgba(255,255,255,.04))); --kit-line: var(--line, var(--sep, rgba(255,255,255,.08)));
+      --kit-line2: var(--line-2, rgba(255,255,255,.14)); --kit-t1: var(--text-1, #f1eff7); --kit-t2: var(--text-2, #a39fb3); --kit-t3: var(--text-3, #6b677a);
+      --kit-accent: var(--accent, #a3e635); --kit-hover: var(--hover, rgba(255,255,255,.05)); }
+    .kit-mask { position: fixed; inset: 0; z-index: 90; background: rgba(0,0,0,.38); display: none; }
+    .kit-mask.open { display: block; }
+    .kit-sheet { position: absolute; top: 12px; right: 12px; bottom: 12px; width: clamp(440px, 42vw, 620px); max-width: calc(100vw - 24px);
+      display: flex; flex-direction: column; overflow: hidden; color: var(--kit-t1); border-radius: 18px;
+      background: linear-gradient(var(--kit-panel), var(--kit-panel)), var(--kit-bg); box-shadow: 0 0 0 1px var(--kit-line2), 0 24px 60px rgba(0,0,0,.45);
+      animation: kit-in .24s ease-out; }
+    @keyframes kit-in { from { transform: translateX(40px); opacity: 0; } }
+    .kit-x { position: absolute; top: 12px; right: 12px; z-index: 3; width: 32px; height: 32px; border-radius: 50%; border: 0; cursor: pointer;
+      background: rgba(0,0,0,.5); color: #fff; font-size: 15px; display: grid; place-items: center; }
+    .kit-scroll { flex: 1; overflow-y: auto; overscroll-behavior: contain; }
+    .kit-cover { aspect-ratio: 16/9; background: var(--kit-hover) center / cover no-repeat; position: relative; }
+    .kit-cover.tall { aspect-ratio: auto; height: 280px; background-size: contain; background-color: #000; }
+    .kit-cover.ph { display: grid; place-items: center; font-size: 56px; aspect-ratio: 16/6; }
+    .kit-head { padding: 18px 20px 4px; display: flex; gap: 14px; align-items: flex-start; }
+    .kit-head .kit-thumb { flex-shrink: 0; width: 64px; height: 64px; border-radius: 14px; background: var(--kit-hover) center / cover no-repeat;
+      display: grid; place-items: center; font-size: 28px; overflow: hidden; }
+    .kit-head .kit-t { flex: 1; min-width: 0; padding-right: 30px; }
+    .kit-cover + .kit-head .kit-t { padding-right: 0; }
+    .kit-head h2 { font-size: 19px; font-weight: 800; line-height: 1.35; letter-spacing: -0.01em; }
+    .kit-sub { color: var(--kit-t2); font-size: 13px; margin-top: 4px; }
+    .kit-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+    .kit-tags span { font-size: 11.5px; font-weight: 600; padding: 2px 8px; border-radius: 6px; background: var(--kit-hover); color: var(--kit-t2); }
+    .kit-big { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-top: 8px; }
+    .kit-big b { font-size: 28px; font-weight: 800; letter-spacing: -0.02em; }
+    .kit-body { padding: 4px 20px 20px; }
+    .kit-sec { padding-top: 16px; }
+    .kit-sec + .kit-sec { margin-top: 6px; border-top: 1px solid var(--kit-line); }
+    .kit-sec h4 { font-size: 14.5px; font-weight: 700; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+    .kit-sec h4 small { font-size: 12px; color: var(--kit-t3); font-weight: 500; }
+    .kit-kv { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 8px; }
+    .kit-kv div { background: var(--kit-hover); border-radius: 10px; padding: 8px 11px; min-width: 0; }
+    .kit-kv small { display: block; font-size: 11px; color: var(--kit-t3); }
+    .kit-kv b { display: block; font-size: 14px; font-weight: 700; overflow: hidden; text-overflow: ellipsis; }
+    .kit-p { font-size: 13.5px; line-height: 1.75; color: var(--kit-t2); white-space: pre-line; }
+    .kit-rows { display: flex; flex-direction: column; }
+    .kit-row { display: flex; gap: 10px; align-items: center; padding: 9px 0; border-top: 1px solid var(--kit-line); font-size: 13px; text-decoration: none; color: inherit; }
+    .kit-row:first-child { border-top: 0; }
+    .kit-row[data-kit-go], a.kit-row { cursor: pointer; }
+    .kit-row[data-kit-go]:hover .kit-rt, a.kit-row:hover .kit-rt { color: var(--kit-accent); }
+    .kit-row .kit-rt { flex: 1; min-width: 0; line-height: 1.45; }
+    .kit-row .kit-rm { color: var(--kit-t3); font-size: 12px; white-space: nowrap; }
+    .kit-row img, .kit-row .kit-ri { width: 54px; height: 40px; border-radius: 6px; object-fit: cover; flex-shrink: 0; background: var(--kit-hover); }
+    .kit-acts { flex-shrink: 0; display: flex; gap: 10px; padding: 12px 20px 16px; border-top: 1px solid var(--kit-line); }
+    .kit-acts a, .kit-acts button { flex: 1; display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 11px 12px; border-radius: 11px;
+      font: inherit; font-size: 13.5px; font-weight: 700; text-decoration: none; cursor: pointer; border: 1px solid var(--kit-line2); color: var(--kit-t1); background: transparent; }
+    .kit-acts .pri { background: var(--kit-accent); border-color: var(--kit-accent); color: #111; }
+    .kit-acts a:hover, .kit-acts button:hover { filter: brightness(1.08); }
+    /* 列表页 */
+    .kit-lhead { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+    .kit-back { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--kit-line2); background: transparent; color: var(--kit-t1);
+      font-size: 20px; cursor: pointer; display: grid; place-items: center; flex-shrink: 0; }
+    .kit-back:hover { background: var(--kit-hover); }
+    .kit-lhead h2 { font-size: 22px; font-weight: 800; letter-spacing: -0.02em; }
+    .kit-lhead small { color: var(--kit-t3); font-size: 12.5px; margin-left: 2px; }
+    .kit-lbar { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
+    .kit-chips { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; }
+    .kit-chips a, .kit-chips button { padding: 5px 12px; border-radius: 8px; background: var(--kit-hover); color: var(--kit-t2); font: inherit; font-size: 13px;
+      font-weight: 600; white-space: nowrap; border: 0; cursor: pointer; text-decoration: none; }
+    .kit-chips .on { background: var(--kit-t1); color: var(--kit-bg); }
+    .kit-chips small { opacity: .6; margin-left: 4px; font-weight: 500; }
+    .kit-sel { padding: 6px 10px; border-radius: 9px; border: 1px solid var(--kit-line2); background: transparent; color: var(--kit-t1); font: inherit; font-size: 12.5px; font-weight: 600; }
+    .kit-sel option { background: var(--kit-bg); }
+    .kit-more { display: block; margin: 16px auto 0; padding: 9px 22px; border-radius: 10px; border: 1px solid var(--kit-line2); background: transparent;
+      color: var(--kit-t1); font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; }
+    .kit-more:hover { background: var(--kit-hover); }
+    .kit-morelink { font-size: 13px; font-weight: 600; color: var(--kit-t2); text-decoration: none; white-space: nowrap; cursor: pointer; }
+    .kit-morelink:hover { color: var(--kit-t1); }
+    [data-kit-item] { cursor: pointer; }
+    @media (max-width: 760px) {
+      .kit-sheet { top: auto; left: 0; right: 0; bottom: 0; width: 100%; max-width: none; height: 86vh; border-radius: 18px 18px 0 0; animation: kit-up .26s ease-out; }
+      @keyframes kit-up { from { transform: translateY(30%); opacity: .5; } }
+      .kit-head { padding: 16px 16px 4px; } .kit-body { padding: 4px 16px 18px; } .kit-acts { padding: 10px 16px 16px; }
+      .kit-cover.tall { height: 220px; }
+      .kit-head .kit-thumb { width: 46px; height: 46px; border-radius: 12px; font-size: 22px; }
+      .kit-head h2 { font-size: 17.5px; }
+      .kit-big b { font-size: 24px; }
+      .kit-lhead h2 { font-size: 19px; }
     }
   </style>
 </head>
@@ -314,6 +407,133 @@
   </div>
 
 <script>
+// ── kit：详情抽屉 + 列表页路由（各站通用，内联在页面里）──
+// 用法：
+//   KIT.item('news', id => ({ title, sub, cover, thumb, tags:[], big, body:'<div class="kit-sec">…</div>', acts:[{text, href, pri}] }))
+//   KIT.list('news', (param, query) => { … 把列表页 HTML 写进容器 … })
+//   条目元素加 data-kit-item="news/<id>" 即可点击打开详情；「查看更多」写成 <a href="#/list/news">
+//   站点首页渲染函数里先调用 KIT.route() —— 返回 true 表示当前是列表页（已渲染），首页不用再渲染
+const KIT = (() => {
+  const items = {}, lists = {};
+  let mask, homeY = 0, fromHome = 0, lastHash = location.hash, onHome = null, listBox = null;
+  const kesc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const parse = h => {
+    const m = (h === undefined ? location.hash : h).match(/^#\/(item|list)\/([^?]+?)(?:\?(.*))?$/);
+    if (!m) return null;
+    const [type, ...rest] = m[2].split('/');
+    return { kind: m[1], type: decodeURIComponent(type), id: rest.map(decodeURIComponent).join('/'), q: new URLSearchParams(m[3] || '') };
+  };
+  function ensure() {
+    if (mask) return;
+    mask = document.createElement('div');
+    mask.className = 'kit-mask';
+    mask.innerHTML = '<div class="kit-sheet" role="dialog" aria-modal="true"></div>';
+    document.body.appendChild(mask);
+    mask.addEventListener('click', e => { if (e.target === mask || e.target.closest('[data-kit-close]')) close(); });
+  }
+  function render(d) {
+    ensure();
+    const cover = d.cover ? `<div class="kit-cover ${d.coverTall ? 'tall' : ''}" style="background-image:url('${kesc(d.cover).replace(/'/g, '%27')}')"></div>`
+      : d.coverIcon ? `<div class="kit-cover ph" style="background:${d.coverBg || 'var(--kit-hover)'}">${d.coverIcon}</div>` : '';
+    const thumb = !d.cover && !d.coverIcon && (d.thumb || d.thumbIcon)
+      ? `<div class="kit-thumb" style="${d.thumb ? `background-image:url('${kesc(d.thumb).replace(/'/g, '%27')}')` : ''}${d.thumbBg ? `;background-color:${d.thumbBg}` : ''}">${d.thumb ? '' : d.thumbIcon}</div>` : '';
+    const acts = (d.acts || []).filter(a => a && (a.href || a.onclick));
+    mask.firstElementChild.innerHTML = `<button class="kit-x" data-kit-close aria-label="关闭">✕</button>
+      <div class="kit-scroll">${cover}
+        <div class="kit-head">${thumb}<div class="kit-t"><h2>${kesc(d.title)}</h2>${d.sub ? `<div class="kit-sub">${d.sub}</div>` : ''}
+          ${(d.tags || []).filter(Boolean).length ? `<div class="kit-tags">${d.tags.filter(Boolean).join('')}</div>` : ''}${d.big ? `<div class="kit-big">${d.big}</div>` : ''}</div></div>
+        <div class="kit-body">${d.body || ''}</div></div>
+      ${acts.length ? `<div class="kit-acts">${acts.map((a, i) => a.href
+        ? `<a class="${a.pri || (i === 0 && acts.length < 3) ? 'pri' : ''}" href="${kesc(a.href)}" ${a.self ? '' : 'target="_blank" rel="noopener"'}>${a.text}</a>`
+        : `<button class="${a.pri ? 'pri' : ''}" data-kit-act="${i}">${a.text}</button>`).join('')}</div>` : ''}`;
+    acts.forEach((a, i) => { if (!a.href) { const b = mask.querySelector(`[data-kit-act="${i}"]`); if (b) b.onclick = a.onclick; } });
+    mask.querySelector('.kit-scroll').scrollTop = 0;
+    mask.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  // 打开详情：写进地址（可分享；浏览器返回 = 关闭）
+  function open(key) {
+    const target = '#/item/' + key;
+    if (location.hash === target) return show(parse(target));
+    ensure();
+    if (parse()?.kind === 'item') history.replaceState(history.state, '', target);
+    else { mask.dataset.base = location.hash; history.pushState({ kit: 1 }, '', target); }
+    lastHash = target;
+    show(parse(target));
+  }
+  function show(r) {
+    const fn = items[r.type];
+    const d = fn && fn(r.id, r.q);
+    if (!d) { close(true); return false; }
+    render(d);
+    return true;
+  }
+  function close(silent) {
+    if (!mask || !mask.classList.contains('open')) return;
+    mask.classList.remove('open');
+    document.body.style.overflow = '';
+    if (!silent && parse()?.kind === 'item') {
+      if (history.state && history.state.kit) history.back();          // 从页面里点开的：退回去
+      else { history.replaceState(null, '', mask.dataset.base || location.pathname + location.search); lastHash = location.hash; }   // 直接打开的分享链接
+    }
+  }
+  // 当前地址是列表页时渲染列表页并返回 true；首页时返回 false
+  function route(box) {
+    if (box) listBox = box;
+    const r = parse();
+    if (r && r.kind === 'list' && lists[r.type]) { lists[r.type](r.id, r.q, listBox); return true; }
+    return false;
+  }
+  // 列表页的公共外壳：返回按钮 + 标题 + 子分类 + 排序
+  function shell({ title, note, chips, sort, sortVal, body, more }) {
+    return `<div class="kit-lhead"><button class="kit-back" data-kit-back title="返回">‹</button><h2>${kesc(title)}</h2>${note ? `<small>${note}</small>` : ''}</div>
+      ${chips || sort ? `<div class="kit-lbar"><div class="kit-chips">${(chips || []).map(c => `<a class="${c.on ? 'on' : ''}" href="${kesc(c.href)}">${kesc(c.text)}${c.count != null ? `<small>${c.count}</small>` : ''}</a>`).join('')}</div>
+        ${sort ? `<select class="kit-sel" data-kit-sort>${sort.map(([v, n]) => `<option value="${kesc(v)}" ${v === sortVal ? 'selected' : ''}>${kesc(n)}</option>`).join('')}</select>` : ''}</div>` : ''}
+      ${body}${more ? `<button class="kit-more" data-kit-more>${more}</button>` : ''}`;
+  }
+  function init(home) {
+    onHome = home;
+    document.addEventListener('click', e => {
+      const t = e.target.closest('[data-kit-item],[data-kit-go],[data-kit-back]');
+      if (!t) return;
+      const inner = e.target.closest('a[href],button,input,select,label,summary');   // 卡片里的其它按钮 / 链接（关注、复制…）优先
+      if (inner && inner !== t && t.contains(inner)) return;
+      e.preventDefault();
+      if (t.dataset.kitBack !== undefined) { fromHome && history.length > fromHome ? history.go(-fromHome) : (location.hash = ''); return; }
+      open(t.dataset.kitItem || t.dataset.kitGo);
+    });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+    window.addEventListener('hashchange', () => {
+      const r = parse();
+      let was = parse(lastHash), steps = 1;
+      if (was && was.kind === 'item') {                                 // 从详情离开
+        const base = mask && mask.dataset.base !== undefined ? mask.dataset.base : '';
+        if (location.hash === base) { lastHash = location.hash; close(true); return; }   // 只是关掉详情，底下页面不动
+        was = parse(base); steps = 2;                                   // 在详情里点了别的列表：按详情底下那页算，返回要退两步
+      }
+      lastHash = location.hash;
+      if (r && r.kind === 'item') { show(r); return; }
+      close(true);
+      const wasHome = !was;
+      if (r && r.kind === 'list') {
+        if (wasHome) { homeY = scrollY; fromHome = steps; }
+        onHome && onHome();
+        if (wasHome || was.type !== r.type) scrollTo(0, 0);
+      } else {
+        onHome && onHome();
+        if (fromHome) { scrollTo(0, homeY); fromHome = 0; }
+      }
+    });
+    // 直接打开带 #/item/ 的链接（比如大屏跳过来）：页面数据读完后由站点调用 KIT.boot()
+  }
+  function boot() { const r = parse(); if (r && r.kind === 'item') show(r); }
+  return { item: (t, fn) => (items[t] = fn), list: (t, fn) => (lists[t] = fn), open, close, route, shell, init, boot, parse, esc: kesc,
+    // 小工具：详情里的键值格、段落、关联列表
+    kv: rows => { const r = rows.filter(x => x && x[1] != null && x[1] !== ''); return r.length ? `<div class="kit-kv">${r.map(([k, v]) => `<div><small>${kesc(k)}</small><b title="${kesc(v)}">${kesc(v)}</b></div>`).join('')}</div>` : ''; },
+    sec: (title, html, note) => html ? `<div class="kit-sec"><h4>${title}${note ? `<small>${note}</small>` : ''}</h4>${html}</div>` : '',
+    p: t => t ? `<p class="kit-p">${kesc(t)}</p>` : '',
+  };
+})();
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 // 反引号包裹的代码片段（Swift 提案标题常见）渲染成 <code>
@@ -364,6 +584,8 @@ const avatar = (s, cls = '') => s ? `<span class="avatar ${cls}" style="backgrou
 const age = iso => iso ? (Date.now() - new Date(iso)) / DAY : Infinity;
 const isNew = iso => age(iso) <= NEW_DAYS;
 const newTag = iso => isNew(iso) ? ' <span class="new">新</span>' : '';
+// 详情 id：动态条目用 url 的哈希（djb2，36 进制），同一条永远一样
+const hid = str => { let h = 5381; for (const c of String(str)) h = ((h * 33) ^ c.codePointAt(0)) >>> 0; return h.toString(36); };
 const fmtDate = iso => iso ? new Date(iso).toLocaleDateString('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' }).replace(/\//g, '-') : '';
 
 function timeAgo(iso) {
@@ -408,25 +630,32 @@ function renderNav() {
 }
 
 // ── 视图：动态流 ──
-function renderFeed() {
+// 一行摘要：版本发布没有正文，用平台 / build 代替；开源库前面带仓库名
+function postLine(it, s) {
+  if (it.kind === 'release') return [it.platform !== '其他' && it.platform, it.build && `Build ${it.build}`, s && s.name].filter(Boolean).map(esc).join(' · ');
+  const text = it.summary && it.summary !== it.title ? it.summary : '';
+  return `<b>${esc(it.kind === 'lib' ? it.repo : s ? s.name : it.source)}</b>${text ? ' · ' + esc(text) : ''}`;
+}
+function feedRows(list) {
   const S = srcMap();
+  return list.map(it => {
+    const s = S[it.source], id = hid(it.id);
+    return `<a class="post" href="#/item/post/${id}" data-kit-item="post/${id}">
+      ${avatar(s)}
+      <div class="post-body">
+        <div class="post-top"><h3>${esc(it.title)}</h3>${it.kind === 'release' && it.platform !== '其他' ? stageBadge(it.stage) : ''}${newTag(it.date)}</div>
+        <p class="summary">${postLine(it, s)}</p>
+      </div>
+      <span class="post-time" title="${esc(fmtDate(it.date))}">${esc(timeAgo(it.date))}</span>
+    </a>`;
+  }).join('');
+}
+function renderFeed() {
   const list = feedItems();
   if (!list.length) return '<div class="empty">没有符合条件的动态</div>';
   const shown = list.slice(0, state.page * PAGE);
-  return `<div class="list">${shown.map(it => {
-    const s = S[it.source];
-    return `<article class="card post">
-      ${avatar(s, 'lg')}
-      <div class="post-body">
-        <div class="post-meta">
-          <b>${esc(s ? s.name : it.source)}</b><span>${esc(fmtDate(it.date))} · ${esc(timeAgo(it.date))}</span>
-          ${it.kind === 'release' ? stageBadge(it.stage) : ''}
-        </div>
-        <h3><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>${newTag(it.date)}</h3>
-        ${it.summary && it.summary !== it.title ? `<p class="summary">${esc(it.summary)}</p>` : ''}
-      </div>
-    </article>`;
-  }).join('')}</div>${loadMore(list.length, shown.length)}`;
+  return `<div class="card list">${feedRows(shown)}</div>
+    <div class="feed-more">${loadMore(list.length, shown.length)}<a class="kit-morelink" href="#/list/feed${state.kind === 'all' ? '' : '?kind=' + state.kind}">列表页查看全部 ${list.length} 条 →</a></div>`;
 }
 
 // ── 视图：版本发布 ──
@@ -443,31 +672,35 @@ function latestVersions() {
 
 function renderReleases() {
   const cards = latestVersions().map(({ p, ga, pre }) => `
-    <div class="card ver-card">
+    <div class="card ver-card" data-kit-item="post/${hid((ga || pre).id)}">
       <div class="p">${p}</div>
-      ${ga ? `<div class="v"><a href="${esc(ga.url)}" target="_blank" rel="noopener">${esc(ga.version)}</a></div>
+      ${ga ? `<div class="v">${esc(ga.version)}</div>
               <div class="d">${esc(fmtDate(ga.date))} · ${esc(timeAgo(ga.date))}</div>`
            : '<div class="v" style="color:var(--text-3)">—</div>'}
-      ${pre ? `<div class="pre">${stageBadge(pre.stage)}<a href="${esc(pre.url)}" target="_blank" rel="noopener">${esc(pre.version)}</a><span class="old">${esc(timeAgo(pre.date))}</span></div>` : ''}
+      ${pre ? `<div class="pre">${stageBadge(pre.stage)}<a href="#/item/post/${hid(pre.id)}" data-kit-item="post/${hid(pre.id)}">${esc(pre.version)}</a><span class="old">${esc(timeAgo(pre.date))}</span></div>` : ''}
     </div>`).join('');
 
-  const rel = state.data.items.filter(it => it.kind === 'release' && inRange(it.date) && matchQ(it.title, it.platform, it.stage));
-  const days = {};
-  rel.forEach(r => (days[fmtDate(r.date)] ||= []).push(r));
-  const timeline = Object.entries(days).map(([d, rows]) => `
-    <div class="card day">
-      <div class="day-head">${esc(d)}${newTag(rows[0].date)}</div>
-      ${rows.map(r => `<div class="rel-row">
-        <span class="plat">${esc(r.platform)}</span>
-        <a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>
-        ${r.platform !== '其他' ? stageBadge(r.stage) : ''}
-      </div>`).join('')}
-    </div>`).join('');
-
+  const rel = releaseItems();
   return `<div class="section-title"><b>当前版本</b>正式版 + 进行中的预览版</div>
     <div class="ver-grid">${cards || '<div class="empty">暂无</div>'}</div>
-    <div class="section-title"><b>发布时间线</b>${rel.length} 条</div>
-    ${timeline || '<div class="empty">没有符合条件的发布</div>'}`;
+    <div class="section-title"><b>发布时间线</b>${rel.length} 条${rel.length > HOME_REL ? `<a class="kit-morelink" href="#/list/releases">全部 ${rel.length} 条 →</a>` : ''}</div>
+    ${timeline(rel.slice(0, HOME_REL)) || '<div class="empty">没有符合条件的发布</div>'}`;
+}
+const HOME_REL = 12;      // 首页时间线条数，其余进列表页
+const releaseItems = (p = '') => state.data.items.filter(it => it.kind === 'release' && (!p || it.platform === p) && inRange(it.date) && matchQ(it.title, it.platform, it.stage));
+// 按天分组的时间线
+function timeline(rel) {
+  const days = {};
+  rel.forEach(r => (days[fmtDate(r.date)] ||= []).push(r));
+  return Object.entries(days).map(([d, rows]) => `
+    <div class="card day">
+      <div class="day-head">${esc(d)}${newTag(rows[0].date)}</div>
+      ${rows.map(r => `<a class="rel-row" href="#/item/post/${hid(r.id)}" data-kit-item="post/${hid(r.id)}">
+        <span class="plat">${esc(r.platform)}</span>
+        <span class="t">${esc(r.title)}</span>
+        ${r.platform !== '其他' ? stageBadge(r.stage) : ''}
+      </a>`).join('')}
+    </div>`).join('');
 }
 
 // ── 视图：开源库 ──
@@ -476,38 +709,44 @@ function renderLibs() {
   if (!libs.length) return '<div class="empty">没有符合条件的库</div>';
   return `<div class="lib-grid">${libs.map(l => {
     const stale = age(l.date) > 730;
-    return `<section class="card lib ${isNew(l.date) ? 'fresh' : ''}">
-      <div class="lib-head"><b><a href="https://github.com/${esc(l.repo)}" target="_blank" rel="noopener">${esc(l.name)}</a></b>${newTag(l.date)}
+    return `<section class="card lib ${isNew(l.date) ? 'fresh' : ''}" data-kit-item="lib/${encodeURIComponent(l.name)}">
+      <div class="lib-head"><b>${esc(l.name)}</b>${newTag(l.date)}
         <span class="repo">${esc(l.repo)}</span></div>
       <div class="lib-ver">
-        <a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.version || '—')}</a>
+        <b>${esc(l.version || '—')}</b>
         <span>${esc(fmtDate(l.date))} · ${esc(timeAgo(l.date))}</span>
         ${stale ? '<span class="old">· 长期未发版</span>' : ''}
         ${l.stale ? '<span class="warn">· 本次抓取失败，显示旧数据</span>' : ''}
       </div>
       ${l.summary ? `<p class="summary">${esc(l.summary)}</p>` : ''}
-      <div class="hist">${(l.history || []).slice(1).map(h => `<a href="${esc(h.url)}" target="_blank" rel="noopener" title="${esc(fmtDate(h.date))}">${esc(h.version)}</a>`).join('')}</div>
+      <div class="hist">${(l.history || []).slice(1).map(h => `<a ${verLink(h)} title="${esc(fmtDate(h.date))}">${esc(h.version)}</a>`).join('')}</div>
     </section>`;
   }).join('')}</div>`;
 }
 
+// 历史版本：动态流里有这条 Release 就站内打开，否则去 GitHub
+const verLink = h => byId.has(hid(h.url)) ? `href="#/item/post/${hid(h.url)}" data-kit-item="post/${hid(h.url)}"` : `href="${esc(h.url)}" target="_blank" rel="noopener"`;
+
 // ── 视图：Swift 提案 ──
+const HOME_EVO = 5;       // 首页每个状态显示几个
+const evoName = st => (EVO_STATES.find(x => x[0] === st) || [, st])[1].replace('最近实现', '已实现');
+function evoCard(e) {
+  const st = e.state;
+  const extra = st === 'activeReview' && e.end ? `审核截止 ${esc(fmtDate(e.end))}` : e.version ? `Swift ${esc(e.version)}` : '';
+  return `<article class="card evo" data-kit-item="se/${esc(e.id)}">
+    <div class="evo-head"><span class="se">${esc(e.id)}</span><span class="badge s-${esc(st)}">${evoName(st)}</span>${extra ? `<span>${extra}</span>` : ''}</div>
+    <h3>${md(e.title)}</h3>
+    ${e.summary ? `<p>${md(e.summary)}</p>` : ''}
+  </article>`;
+}
+const evoItems = () => state.data.evolution.filter(e => matchQ(e.id, e.title, e.summary));
 function renderEvolution() {
-  const evo = state.data.evolution.filter(e => matchQ(e.id, e.title, e.summary));
+  const evo = evoItems();
   const groups = EVO_STATES.map(([st, name]) => [st, name, evo.filter(e => e.state === st)]).filter(g => g[2].length);
   if (!groups.length) return '<div class="empty">没有符合条件的提案</div>';
   return groups.map(([st, name, rows]) => `
-    <div class="section-title"><b>${name}</b>${rows.length} 个</div>
-    ${rows.map(e => {
-      const extra = st === 'activeReview' && e.end ? `审核截止 ${esc(fmtDate(e.end))}`
-                  : st === 'implemented' && e.version ? `Swift ${esc(e.version)}`
-                  : e.version ? `Swift ${esc(e.version)}` : '';
-      return `<article class="card evo">
-        <div class="evo-head"><span class="se">${esc(e.id)}</span><span class="badge s-${esc(st)}">${name === '最近实现' ? '已实现' : name}</span>${extra ? `<span>${extra}</span>` : ''}</div>
-        <h3><a href="${esc(e.url)}" target="_blank" rel="noopener">${md(e.title)}</a></h3>
-        ${e.summary ? `<p>${md(e.summary)}</p>` : ''}
-      </article>`;
-    }).join('')}`).join('');
+    <div class="section-title"><b>${name}</b>${rows.length} 个${rows.length > HOME_EVO ? `<a class="kit-morelink" href="#/list/evolution?state=${st}">全部 ${rows.length} 个 →</a>` : ''}</div>
+    ${rows.slice(0, HOME_EVO).map(evoCard).join('')}`).join('');
 }
 
 // ── 右侧挂件 ──
@@ -515,13 +754,13 @@ function renderWidgets() {
   const vers = latestVersions().filter(x => ['Xcode', 'iOS', 'macOS', 'watchOS', 'visionOS'].includes(x.p));
   $('#w-versions').innerHTML = vers.map(({ p, ga, pre }) => `
     <div class="w-row"><span class="k">${p}</span>
-      ${ga ? `<a href="${esc(ga.url)}" target="_blank" rel="noopener">${esc(ga.version)}</a>` : '<a>—</a>'}
+      ${ga ? `<a href="#/item/post/${hid(ga.id)}" data-kit-item="post/${hid(ga.id)}">${esc(ga.version)}</a>` : '<a>—</a>'}
       ${pre ? `<small>${esc(pre.version)} ${esc(pre.stage)}</small>` : ''}</div>`).join('') || '<div class="w-row"><small>暂无</small></div>';
 
   const recent = state.data.libs.filter(l => age(l.date) <= 30);
   $('#w-libs').innerHTML = recent.map(l => `
     <div class="w-row"><span class="k">${esc(l.name)}</span>
-      <a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.version)}</a><small>${esc(timeAgo(l.date))}</small></div>`).join('')
+      <a href="#/item/lib/${encodeURIComponent(l.name)}" data-kit-item="lib/${encodeURIComponent(l.name)}">${esc(l.version)}</a><small>${esc(timeAgo(l.date))}</small></div>`).join('')
     || '<div class="w-row"><small>30 天内没有库发版</small></div>';
 
   const { sources } = state.data;
@@ -531,15 +770,127 @@ function renderWidgets() {
       <span class="t">${s.ok ? `<span class="ok">●</span> ${s.count} 条` : `<span class="${s.updated ? 'warn' : 'bad'}">●</span> ${s.updated ? '旧数据' : '失败'}`}</span></div>`).join('');
 }
 
+// ── 详情（右侧抽屉）与列表页 ──
+let byId = new Map();     // 动态条目：hid(url) → item
+const KIND_NAME = { release: '版本发布', news: '开发者新闻', blog: 'Swift 博客', lib: '开源库' };
+const LINK_ZH = { 'View release notes': '发布说明', 'View downloads': '下载' };
+const fullTime = iso => iso ? new Date(iso).toLocaleString('zh-CN', { hour12: false }).slice(0, -3) : '';
+const tag = t => t ? `<span>${t}</span>` : '';
+const srcIcon = s => s ? { thumbIcon: `<b style="color:#fff;font-size:18px;letter-spacing:-.03em">${esc(s.abbr)}</b>`, thumbBg: s.color } : { thumbIcon: '📰' };
+const goRows = (list, fn) => list.length ? `<div class="kit-rows">${list.map(fn).join('')}</div>` : '';
+const postRow = x => `<div class="kit-row" data-kit-go="post/${hid(x.id)}"><span class="kit-rt">${esc(x.title)}</span><span class="kit-rm">${esc(timeAgo(x.date))}</span></div>`;
+const outRow = (text, url, note = '↗') => `<a class="kit-row" href="${esc(url)}" target="_blank" rel="noopener"><span class="kit-rt">${esc(text)}</span><span class="kit-rm">${esc(note)}</span></a>`;
+const noTick = s => String(s || '').replace(/`/g, '');
+
+function postDetail(it) {
+  const S = srcMap(), s = S[it.source];
+  const base = { title: it.title, sub: `${esc(s ? s.name : it.source)} · ${esc(fullTime(it.date))} · ${esc(timeAgo(it.date))}`, ...srcIcon(s),
+    tags: [tag(KIND_NAME[it.kind]), isNew(it.date) ? tag('7 天内') : ''] };
+  const text = it.body || (it.summary !== it.title ? it.summary : '');
+  if (it.kind === 'release') {
+    const same = state.data.items.filter(x => x.kind === 'release' && x !== it && x.platform === it.platform).slice(0, 8);
+    const links = (it.links || []).filter(l => l.url && l.url !== it.url);
+    return { ...base, tags: [...base.tags, it.platform !== '其他' ? stageBadge(it.stage) : ''],
+      big: it.version ? `<b>${esc(it.platform)} ${esc(it.version)}</b>${it.build ? `<span class="old">Build ${esc(it.build)}</span>` : ''}` : '',
+      body: KIT.sec('版本信息', KIT.kv([['平台', it.platform], ['版本号', it.version], ['阶段', it.platform !== '其他' ? it.stage : ''], ['Build', it.build],
+          ['发布日期', fmtDate(it.date)], ['本站收录', fmtDate(it.first_seen)]]))
+        + KIT.sec('说明', KIT.p(text || 'Apple 版本发布页只给标题和链接，更新内容请看官方发布说明。'))
+        + KIT.sec('Apple 官方链接', goRows(links, l => outRow(LINK_ZH[l.text] || l.text, l.url)))
+        + KIT.sec(`${esc(it.platform)} 其它版本`, goRows(same, postRow), `<a class="kit-morelink" href="#/list/releases?p=${encodeURIComponent(it.platform)}">全部 →</a>`),
+      acts: [{ text: 'Apple 原文 ↗', href: it.url }, ...[links.find(l => /release notes/i.test(l.text)) || links[0]].filter(Boolean).map(l => ({ text: (LINK_ZH[l.text] || l.text) + ' ↗', href: l.url }))] };
+  }
+  if (it.kind === 'lib') {
+    const l = state.data.libs.find(x => x.repo === it.repo);
+    const others = state.data.items.filter(x => x.kind === 'lib' && x.repo === it.repo && x !== it);
+    return { ...base, sub: `${esc(it.repo)} · ${esc(fullTime(it.date))} · ${esc(timeAgo(it.date))}`,
+      big: `<b>${esc(it.version)}</b>${l && l.version === it.version ? '<span class="old">最新版本</span>' : ''}`,
+      body: KIT.sec('版本信息', KIT.kv([['库', it.lib], ['仓库', it.repo], ['版本', it.version], ['发布日期', fmtDate(it.date)]]))
+        + KIT.sec('Release Notes', KIT.p(text || '这个版本没有填写说明。'))
+        + KIT.sec(`${esc(it.lib)} 其它版本`, goRows(others, postRow), l ? `<a class="kit-morelink" href="#/item/lib/${encodeURIComponent(l.name)}" data-kit-go="lib/${encodeURIComponent(l.name)}">库详情 →</a>` : ''),
+      acts: [{ text: 'GitHub Release ↗', href: it.url }, { text: '仓库主页 ↗', href: `https://github.com/${it.repo}` }] };
+  }
+  // 新闻 / 博客
+  const same = state.data.items.filter(x => x.source === it.source && x !== it).slice(0, 6);
+  return { ...base,
+    body: KIT.sec('摘要', KIT.p(text || '这条只有标题，正文请看原文。'))
+      + KIT.sec(`${esc(s ? s.name : '')}最近动态`, goRows(same, postRow), `<a class="kit-morelink" href="#/list/feed?kind=${it.kind}">全部 →</a>`),
+    acts: [{ text: '阅读原文 ↗', href: it.url }] };
+}
+KIT.item('post', id => { const it = byId.get(id); return it ? postDetail(it) : null; });
+// 平台最新版（大屏用）：#/item/ver/iOS → 该平台最新正式版，没有正式版就取最新预览版
+KIT.item('ver', p => { const v = latestVersions().find(x => x.p.toLowerCase() === p.toLowerCase()); return v ? postDetail(v.ga || v.pre) : null; });
+
+KIT.item('lib', name => {
+  const l = state.data.libs.find(x => x.name === name); if (!l) return null;
+  const S = srcMap();
+  const stale = age(l.date) > 730;
+  return { title: l.name, sub: `${esc(l.repo)} · 最新 ${esc(l.version || '—')}`, ...srcIcon(S.libs),
+    tags: [isNew(l.date) ? tag('7 天内发版') : '', stale ? tag('长期未发版') : '', l.stale ? tag('本次抓取失败，显示旧数据') : ''],
+    big: `<b>${esc(l.version || '—')}</b><span class="old">${esc(fmtDate(l.date))} · ${esc(timeAgo(l.date))}</span>`,
+    body: KIT.sec('概况', KIT.kv([['仓库', l.repo], ['最新版本', l.version], ['发布日期', fmtDate(l.date)], ['距今', timeAgo(l.date)]]))
+      + KIT.sec('最新 Release Notes', KIT.p(l.body || l.summary || '这个版本没有填写说明。'))
+      + KIT.sec('历史版本', goRows(l.history || [], h => byId.has(hid(h.url))
+          ? `<div class="kit-row" data-kit-go="post/${hid(h.url)}"><span class="kit-rt">${esc(h.version)}</span><span class="kit-rm">${esc(fmtDate(h.date))}</span></div>`
+          : outRow(h.version, h.url, fmtDate(h.date) + ' ↗')), `${(l.history || []).length} 个`),
+    acts: [{ text: '最新 Release ↗', href: l.url }, { text: '仓库主页 ↗', href: `https://github.com/${l.repo}` }] };
+});
+
+KIT.item('se', id => {
+  const e = state.data.evolution.find(x => x.id === id); if (!e) return null;
+  const same = state.data.evolution.filter(x => x.state === e.state && x !== e).slice(0, 6);
+  const review = (e.discussions || []).filter(d => /review/i.test(d.name)).pop();
+  return { title: noTick(e.title), sub: `${esc(e.id)} · Swift Evolution`, thumbIcon: '<b style="color:#fff;font-size:17px">SE</b>', thumbBg: '#f05138',
+    tags: [`<span class="badge s-${esc(e.state)}">${evoName(e.state)}</span>`, e.version ? tag('Swift ' + esc(e.version)) : ''],
+    body: KIT.sec('提案信息', KIT.kv([['编号', e.id], ['状态', evoName(e.state)], ['目标版本', e.version ? 'Swift ' + e.version : ''],
+        ['审查开始', fmtDate(e.start)], ['审查截止', fmtDate(e.end)], ['作者', (e.authors || []).join('、')], ['审查经理', (e.review_manager || []).join('、')]]))
+      + (e.summary ? KIT.sec('摘要', `<p class="kit-p">${md(e.summary)}</p>`) : '')
+      + KIT.sec('论坛讨论', goRows(e.discussions || [], d => outRow(d.name, d.url)))
+      + KIT.sec(`同为「${evoName(e.state)}」的提案`, goRows(same, x => `<div class="kit-row" data-kit-go="se/${esc(x.id)}"><span class="kit-rm">${esc(x.id)}</span><span class="kit-rt">${esc(noTick(x.title))}</span></div>`),
+          `<a class="kit-morelink" href="#/list/evolution?state=${e.state}">全部 →</a>`),
+    acts: [{ text: '提案原文 ↗', href: e.url }, review ? { text: '审查讨论 ↗', href: review.url } : null] };
+});
+
+// 列表页：30 条一页，加载更多
+const LPAGE = 30;
+let listN = LPAGE;
+const chip = (text, href, on, count) => ({ text, href, on, count });
+KIT.list('feed', (_, q, box) => {
+  const kind = q.get('kind') || 'all', all = feedItems(kind);
+  box.innerHTML = KIT.shell({ title: '全部动态', note: `${all.length} 条${state.range ? ` · ${state.range} 天内` : ''}`,
+    chips: KINDS.map(k => chip(k.name, '#/list/feed' + (k.id === 'all' ? '' : '?kind=' + k.id), k.id === kind, feedItems(k.id).length)),
+    body: all.length ? `<div class="card list">${feedRows(all.slice(0, listN))}</div>` : '<div class="empty">没有符合条件的动态</div>',
+    more: all.length > listN ? `加载更多（${listN} / ${all.length}）` : '' });
+});
+KIT.list('releases', (_, q, box) => {
+  const p = q.get('p') || '', all = releaseItems(p), plats = [...new Set(releaseItems().map(r => r.platform))];
+  box.innerHTML = KIT.shell({ title: '版本发布时间线', note: `${all.length} 条 · Apple 开发者版本发布`,
+    chips: [chip('全部', '#/list/releases', !p, releaseItems().length), ...plats.map(x => chip(x, '#/list/releases?p=' + encodeURIComponent(x), x === p, releaseItems(x).length))],
+    body: timeline(all.slice(0, listN)) || '<div class="empty">没有符合条件的发布</div>',
+    more: all.length > listN ? `加载更多（${listN} / ${all.length}）` : '' });
+});
+KIT.list('evolution', (_, q, box) => {
+  const st = q.get('state') || '', evo = evoItems(), all = evo.filter(e => !st || e.state === st);
+  box.innerHTML = KIT.shell({ title: 'Swift 提案', note: `${all.length} 个`,
+    chips: [chip('全部', '#/list/evolution', !st, evo.length), ...EVO_STATES.filter(([s]) => evo.some(e => e.state === s))
+      .map(([s, n]) => chip(n, '#/list/evolution?state=' + s, s === st, evo.filter(e => e.state === s).length))],
+    body: all.length ? all.slice(0, listN).map(evoCard).join('') : '<div class="empty">没有符合条件的提案</div>',
+    more: all.length > listN ? `加载更多（${listN} / ${all.length}）` : '' });
+});
+document.addEventListener('click', e => { if (e.target.closest('[data-kit-more]')) { listN += LPAGE; render(); } });
+window.addEventListener('hashchange', () => { if (KIT.parse()?.kind !== 'item') listN = LPAGE; }, true);
+
 // ── 渲染入口 ──
 function render() {
   document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.view === state.view));
   renderNav();
-  $('#content').innerHTML = { feed: renderFeed, releases: renderReleases, libs: renderLibs, evolution: renderEvolution }[state.view]();
   const { items, libs, evolution, updated } = state.data;
   const fresh = items.filter(it => isNew(it.date)).length;
   $('#subtitle').textContent = `${items.length} 条动态 · ${fresh} 条 7 天内新增 · ${libs.length} 个关注的库 · ${evolution.length} 个 Swift 提案`;
   $('#updated').textContent = `更新于 ${new Date(updated).toLocaleString('zh-CN', { month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' })}`;
+  const isList = KIT.route($('#content'));             // #/list/… 列表页
+  $('.main-head').hidden = isList;
+  if (isList) return;
+  $('#content').innerHTML = { feed: renderFeed, releases: renderReleases, libs: renderLibs, evolution: renderEvolution }[state.view]();
 }
 
 async function load(isRefresh) {
@@ -551,8 +902,10 @@ async function load(isRefresh) {
     const res = await fetch('data.json?t=' + Date.now(), { cache: 'no-store' });
     if (!res.ok) throw new Error('HTTP ' + res.status);
     state.data = await res.json();
+    byId = new Map(state.data.items.map(it => [hid(it.id), it]));
     renderWidgets();
     render();
+    KIT.boot();
     btn.title = '重新加载数据';
   } catch (e) {
     // 刷新失败保留已有内容，只有首次加载失败才替换为报错
@@ -567,6 +920,7 @@ async function load(isRefresh) {
 }
 
 // ── 事件绑定 ──
+KIT.init(render);
 document.addEventListener('click', e => {
   const t = e.target.closest('[data-kind],[data-range],[data-view],#more');
   if (!t || !state.data) return;
