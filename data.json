@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T05:30:38+08:00",
+ "updated": "2026-10-24T12:47:02+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -9,7 +9,7 @@
    "ok": true,
    "error": "",
    "count": 42,
-   "updated": "2026-10-24T05:30:38+08:00"
+   "updated": "2026-10-24T12:47:02+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-10-24T05:30:38+08:00"
+   "updated": "2026-10-24T12:47:02+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-10-24T05:30:38+08:00"
+   "updated": "2026-10-24T12:47:02+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-10-24T05:30:38+08:00"
+   "updated": "2026-10-24T12:47:02+08:00"
   },
   {
    "id": "swift-evolution",
@@ -49,7 +49,7 @@
    "ok": true,
    "error": "",
    "count": 84,
-   "updated": "2026-10-24T05:30:38+08:00"
+   "updated": "2026-10-24T12:47:02+08:00"
   }
  ],
  "items": [
@@ -3654,10 +3654,10 @@
   {
    "id": "SE-0550",
    "title": "@instrumentation attribute for functions",
-   "state": "activeReview",
+   "state": "accepted",
    "version": "",
-   "start": "2026-09-16T00:00:00Z",
-   "end": "2026-09-30T00:00:00Z",
+   "start": "",
+   "end": "",
    "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0550-nosanitize-attribute.md",
    "summary": "This proposal introduces a new attribute `@instrumentation(...)` which can be applied to functions, subscripts, and closures to disable one or more kinds of compiler-inserted instrumentation (such as sanitizers). It also…",
    "authors": [
@@ -3674,6 +3674,10 @@
     {
      "name": "review",
      "url": "https://forums.swift.org/t/se-0550-nosanitize-attribute-for-functions/89593"
+    },
+    {
+     "name": "acceptance",
+     "url": "https://forums.swift.org/t/accepted-se-0550-instrumentation-attribute-for-functions-was-nosanitize-attribute-for-functions/90225"
     }
    ]
   },
