@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T13:54:49+08:00",
+ "updated": "2026-10-28T21:11:17+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -9,7 +9,7 @@
    "ok": true,
    "error": "",
    "count": 43,
-   "updated": "2026-10-28T13:54:49+08:00"
+   "updated": "2026-10-28T21:11:17+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-10-28T13:54:49+08:00"
+   "updated": "2026-10-28T21:11:17+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-10-28T13:54:49+08:00"
+   "updated": "2026-10-28T21:11:17+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-10-28T13:54:49+08:00"
+   "updated": "2026-10-28T21:11:17+08:00"
   },
   {
    "id": "swift-evolution",
@@ -48,8 +48,8 @@
    "color": "#f05138",
    "ok": true,
    "error": "",
-   "count": 84,
-   "updated": "2026-10-28T13:54:49+08:00"
+   "count": 85,
+   "updated": "2026-10-28T21:11:17+08:00"
   }
  ],
  "items": [
@@ -3638,6 +3638,32 @@
   }
  ],
  "evolution": [
+  {
+   "id": "SE-0560",
+   "title": "Build configuration conditionals for target dependencies",
+   "state": "activeReview",
+   "version": "",
+   "start": "2026-10-28T00:00:00Z",
+   "end": "2026-11-11T00:00:00Z",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0560-swiftpm-build-configuration-conditional-target-dependencies.md",
+   "summary": "This proposal introduces the ability for Swift package authors to conditionalize target dependencies on build configuration. It completes the unimplemented part of [SE-0273](https://github.com/swiftlang/swift-evolution/b…",
+   "authors": [
+    "Dmytro Hutsuliak"
+   ],
+   "review_manager": [
+    "Franz Busch"
+   ],
+   "discussions": [
+    {
+     "name": "pitch",
+     "url": "https://forums.swift.org/t/pitch-swiftpm-build-configuration-conditionals-for-target-dependencies/88981"
+    },
+    {
+     "name": "review",
+     "url": "https://forums.swift.org/t/review-build-configuration-conditionals-for-target-dependencies/90315"
+    }
+   ]
+  },
   {
    "id": "SE-0559",
    "title": "Add `bidiClass` to `Unicode.Scalar.Properties`",
