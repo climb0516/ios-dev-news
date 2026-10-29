@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T21:18:26+08:00",
+ "updated": "2026-10-30T06:51:23+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -9,7 +9,7 @@
    "ok": true,
    "error": "",
    "count": 43,
-   "updated": "2026-10-29T21:18:26+08:00"
+   "updated": "2026-10-30T06:51:23+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-10-29T21:18:26+08:00"
+   "updated": "2026-10-30T06:51:23+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-10-29T21:18:26+08:00"
+   "updated": "2026-10-30T06:51:23+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-10-29T21:18:26+08:00"
+   "updated": "2026-10-30T06:51:23+08:00"
   },
   {
    "id": "swift-evolution",
@@ -49,10 +49,21 @@
    "ok": true,
    "error": "",
    "count": 85,
-   "updated": "2026-10-29T21:18:26+08:00"
+   "updated": "2026-10-30T06:51:23+08:00"
   }
  ],
  "items": [
+  {
+   "id": "https://developer.apple.com/news/?id=w9mxlhek",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Adjustments to the Taiwan storefront of the App Store on iOS and iPadOS",
+   "url": "https://developer.apple.com/news/?id=w9mxlhek",
+   "date": "2026-10-29T23:00:56+08:00",
+   "summary": "Apple is making changes to the Taiwan storefront of the App Store, following discussions with the Taiwan Fair Trade Commission. As of October 31, 2026, the commission rate for standard Apple In-App Pu…",
+   "body": "Apple is making changes to the Taiwan storefront of the App Store, following discussions with the Taiwan Fair Trade Commission. As of October 31, 2026, the commission rate for standard Apple In-App Purchase and paid app transactions will be 26% on the Taiwan storefront of the App Store on iOS and iPadOS. Currently, that rate is 30%. Signing the updated terms by October 31 is not required to receive the benefit of these commission rate changes starting that date. The Apple Developer Program License Agreement has been revised to support updated policies. You can sign in to your account to accept the updated terms. 查看繁體中文翻譯 Translations of the updated agreement will be available on the Apple Developer website within one month.",
+   "first_seen": "2026-10-30T06:51:23+08:00"
+  },
   {
    "id": "https://developer.apple.com/news/?id=i9boeiqc",
    "source": "apple-news",
