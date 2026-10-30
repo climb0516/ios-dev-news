@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T21:09:57+08:00",
+ "updated": "2026-10-31T06:28:34+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -9,7 +9,7 @@
    "ok": true,
    "error": "",
    "count": 43,
-   "updated": "2026-10-30T21:09:57+08:00"
+   "updated": "2026-10-31T06:28:34+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-10-30T21:09:57+08:00"
+   "updated": "2026-10-31T06:28:34+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-10-30T21:09:57+08:00"
+   "updated": "2026-10-31T06:28:34+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-10-30T21:09:57+08:00"
+   "updated": "2026-10-31T06:28:34+08:00"
   },
   {
    "id": "swift-evolution",
@@ -49,10 +49,54 @@
    "ok": true,
    "error": "",
    "count": 85,
-   "updated": "2026-10-30T21:09:57+08:00"
+   "updated": "2026-10-31T06:28:34+08:00"
   }
  ],
  "items": [
+  {
+   "id": "https://developer.apple.com/news/releases/?id=10302026a",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "App Store Connect Update",
+   "url": "https://developer.apple.com/news/releases/?id=10302026a",
+   "date": "2026-10-31T01:00:00+08:00",
+   "summary": "",
+   "platform": "其他",
+   "version": "",
+   "stage": "",
+   "build": "",
+   "links": [
+    {
+     "text": "View release notes",
+     "url": "https://developer.apple.com/app-store-connect/release-notes/"
+    }
+   ],
+   "first_seen": "2026-10-31T06:28:34+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=10292026a",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "Xcode 27.2 (27B52)",
+   "url": "https://developer.apple.com/news/releases/?id=10292026a",
+   "date": "2026-10-30T01:00:00+08:00",
+   "summary": "",
+   "platform": "Xcode",
+   "version": "27.2",
+   "stage": "正式版",
+   "build": "27B52",
+   "links": [
+    {
+     "text": "View downloads",
+     "url": "https://developer.apple.com/download/applications"
+    },
+    {
+     "text": "View release notes",
+     "url": "https://developer.apple.com/go/?id=xcode-27_2-sdk-rn"
+    }
+   ],
+   "first_seen": "2026-10-31T06:28:34+08:00"
+  },
   {
    "id": "https://developer.apple.com/news/?id=w9mxlhek",
    "source": "apple-news",
