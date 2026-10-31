@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T20:46:08+08:00",
+ "updated": "2026-11-01T05:43:48+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -9,7 +9,7 @@
    "ok": true,
    "error": "",
    "count": 43,
-   "updated": "2026-10-31T20:46:08+08:00"
+   "updated": "2026-11-01T05:43:48+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-10-31T20:46:08+08:00"
+   "updated": "2026-11-01T05:43:48+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-10-31T20:46:08+08:00"
+   "updated": "2026-11-01T05:43:48+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-10-31T20:46:08+08:00"
+   "updated": "2026-11-01T05:43:48+08:00"
   },
   {
    "id": "swift-evolution",
@@ -49,7 +49,7 @@
    "ok": true,
    "error": "",
    "count": 85,
-   "updated": "2026-10-31T20:46:08+08:00"
+   "updated": "2026-11-01T05:43:48+08:00"
   }
  ],
  "items": [
@@ -3842,10 +3842,10 @@
   {
    "id": "SE-0555",
    "title": "`inout` overload of `BorrowingIteratorProtocol.skip(by:)`",
-   "state": "activeReview",
+   "state": "accepted",
    "version": "",
-   "start": "2026-10-09T00:00:00Z",
-   "end": "2026-10-23T00:00:00Z",
+   "start": "",
+   "end": "",
    "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0555-iterable-inout-skip.md",
    "summary": "Adds a new overload of the `BorrowingIteratorProtocol.skip(by:)` method that takes its argument as an `inout Int`. Unlike the existing method, which reports a count only when it returns normally, the new overload tells t…",
    "authors": [
@@ -3862,6 +3862,10 @@
     {
      "name": "review",
      "url": "https://forums.swift.org/t/se-0555-inout-overload-of-borrowingiteratorprotocol-skip-by/89977"
+    },
+    {
+     "name": "acceptance",
+     "url": "https://forums.swift.org/t/accepted-with-modifications-se-0555-inout-overload-of-borrowingiteratorprotocol-skip-by/90356"
     }
    ]
   },
