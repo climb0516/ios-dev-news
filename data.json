@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T14:58:19+08:00",
+ "updated": "2026-11-04T03:36:25+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -9,7 +9,7 @@
    "ok": true,
    "error": "",
    "count": 43,
-   "updated": "2026-11-03T14:58:19+08:00"
+   "updated": "2026-11-04T03:36:25+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-11-03T14:58:19+08:00"
+   "updated": "2026-11-04T03:36:25+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-11-03T14:58:19+08:00"
+   "updated": "2026-11-04T03:36:25+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-11-03T14:58:19+08:00"
+   "updated": "2026-11-04T03:36:25+08:00"
   },
   {
    "id": "swift-evolution",
@@ -48,11 +48,33 @@
    "color": "#f05138",
    "ok": true,
    "error": "",
-   "count": 85,
-   "updated": "2026-11-03T14:58:19+08:00"
+   "count": 86,
+   "updated": "2026-11-04T03:36:25+08:00"
   }
  ],
  "items": [
+  {
+   "id": "https://developer.apple.com/news/?id=gdk2umrf",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Siri AI is now open to all developers",
+   "url": "https://developer.apple.com/news/?id=gdk2umrf",
+   "date": "2026-11-04T02:00:20+08:00",
+   "summary": "Starting today with the iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3 betas, a new Developer Preview enables any developer to integrate their app with Siri AI, giving businesses and developers …",
+   "body": "Starting today with the iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3 betas, a new Developer Preview enables any developer to integrate their app with Siri AI, giving businesses and developers new ways to reach and serve their customers. Siri AI, an entirely new version of Siri that is profoundly more capable, conversational, and personal, is designed to be deeply integrated into Apple’s operating systems and the apps people use every day, including the apps from our vast ecosystem of developers. Thousands of developers have already built integrations with Siri to let users ask for directions, manage a to-do list, send a message, or catch up on an audiobook. Siri AI is available in many languages, including English, French, Japanese, Korean, Portuguese, and Spanish and will soon exp…",
+   "first_seen": "2026-11-04T03:36:25+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=6gpufove",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Get ready with the latest beta releases",
+   "url": "https://developer.apple.com/news/?id=6gpufove",
+   "date": "2026-11-04T00:00:26+08:00",
+   "summary": "The beta versions of iOS 27.3, iPadOS 27.3, macOS 27.3, tvOS 27.3, visionOS 27.3, and watchOS 27.3 are now available. Get your apps ready by confirming they work as expected on these releases. And mak…",
+   "body": "The beta versions of iOS 27.3, iPadOS 27.3, macOS 27.3, tvOS 27.3, visionOS 27.3, and watchOS 27.3 are now available. Get your apps ready by confirming they work as expected on these releases. And make sure to build and test with Xcode 27.3 to take advantage of the advancements in the latest SDKs. View downloads and release notes Learn about testing a beta OS Learn about sending feedback",
+   "first_seen": "2026-11-04T03:36:25+08:00"
+  },
   {
    "id": "https://developer.apple.com/news/?id=yxkh08us",
    "source": "apple-news",
@@ -3714,6 +3736,28 @@
   }
  ],
  "evolution": [
+  {
+   "id": "SE-0561",
+   "title": "Span-based access to `Optional`'s storage",
+   "state": "activeReview",
+   "version": "",
+   "start": "2026-11-02T00:00:00Z",
+   "end": "2026-11-13T00:00:00Z",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0561-optional-span-access.md",
+   "summary": "Adds `span` and `mutableSpan` computed properties to `Optional`. They provide in-place access to the wrapped value as a one-element `Span` or `MutableSpan`, or as an empty span when there is no wrapped value. Also adds a…",
+   "authors": [
+    "Guillaume Lessard"
+   ],
+   "review_manager": [
+    "Ben Cohen"
+   ],
+   "discussions": [
+    {
+     "name": "pitch",
+     "url": "https://forums.swift.org/t/89580"
+    }
+   ]
+  },
   {
    "id": "SE-0560",
    "title": "Build configuration conditionals for target dependencies",
