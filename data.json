@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T05:47:15+08:00",
+ "updated": "2026-11-03T14:58:19+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -9,7 +9,7 @@
    "ok": true,
    "error": "",
    "count": 43,
-   "updated": "2026-11-03T05:47:15+08:00"
+   "updated": "2026-11-03T14:58:19+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-11-03T05:47:15+08:00"
+   "updated": "2026-11-03T14:58:19+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-11-03T05:47:15+08:00"
+   "updated": "2026-11-03T14:58:19+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-11-03T05:47:15+08:00"
+   "updated": "2026-11-03T14:58:19+08:00"
   },
   {
    "id": "swift-evolution",
@@ -49,10 +49,21 @@
    "ok": true,
    "error": "",
    "count": 85,
-   "updated": "2026-11-03T05:47:15+08:00"
+   "updated": "2026-11-03T14:58:19+08:00"
   }
  ],
  "items": [
+  {
+   "id": "https://developer.apple.com/news/?id=yxkh08us",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Upcoming: New age rating content descriptors in App Store Connect",
+   "url": "https://developer.apple.com/news/?id=yxkh08us",
+   "date": "2026-11-03T01:30:07+08:00",
+   "summary": "Starting November 16, 2026, App Store Connect will include new content descriptors to help ensure your app’s age ratings accurately reflect its features and are in accordance with local regulations. W…",
+   "body": "Starting November 16, 2026, App Store Connect will include new content descriptors to help ensure your app’s age ratings accurately reflect its features and are in accordance with local regulations. When completing the age rating questionnaire in App Store Connect, you’ll need to declare whether your app includes: Shared Location: Sharing of real-world location with another person or group. Dating and Relationships: Features that enable dating or relationship connections between real people and/or a virtual companion that engages a user in sexual or romantic content. You must provide these declarations when submitting an app update or making changes to your age rating questionnaire. All apps must have these declarations completed by January 12, 2027. Apps that include Dating and Relationsh…",
+   "first_seen": "2026-11-03T14:58:19+08:00"
+  },
   {
    "id": "https://developer.apple.com/news/releases/?id=10302026a",
    "source": "apple-releases",
