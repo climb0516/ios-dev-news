@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T03:36:25+08:00",
+ "updated": "2026-11-04T14:40:25+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -8,8 +8,8 @@
    "color": "#0a84ff",
    "ok": true,
    "error": "",
-   "count": 43,
-   "updated": "2026-11-04T03:36:25+08:00"
+   "count": 50,
+   "updated": "2026-11-04T14:40:25+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-11-04T03:36:25+08:00"
+   "updated": "2026-11-04T14:40:25+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-11-04T03:36:25+08:00"
+   "updated": "2026-11-04T14:40:25+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-11-04T03:36:25+08:00"
+   "updated": "2026-11-04T14:40:25+08:00"
   },
   {
    "id": "swift-evolution",
@@ -48,11 +48,31 @@
    "color": "#f05138",
    "ok": true,
    "error": "",
-   "count": 86,
-   "updated": "2026-11-04T03:36:25+08:00"
+   "count": 88,
+   "updated": "2026-11-04T14:40:25+08:00"
   }
  ],
  "items": [
+  {
+   "id": "https://developer.apple.com/news/releases/?id=11032026h",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "TestFlight Update",
+   "url": "https://developer.apple.com/news/releases/?id=11032026h",
+   "date": "2026-11-04T05:00:00+08:00",
+   "summary": "",
+   "platform": "其他",
+   "version": "",
+   "stage": "",
+   "build": "",
+   "links": [
+    {
+     "text": "View release notes",
+     "url": "https://developer.apple.com/help/app-store-connect/release-notes/"
+    }
+   ],
+   "first_seen": "2026-11-04T14:40:25+08:00"
+  },
   {
    "id": "https://developer.apple.com/news/?id=gdk2umrf",
    "source": "apple-news",
@@ -63,6 +83,174 @@
    "summary": "Starting today with the iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3 betas, a new Developer Preview enables any developer to integrate their app with Siri AI, giving businesses and developers …",
    "body": "Starting today with the iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3 betas, a new Developer Preview enables any developer to integrate their app with Siri AI, giving businesses and developers new ways to reach and serve their customers. Siri AI, an entirely new version of Siri that is profoundly more capable, conversational, and personal, is designed to be deeply integrated into Apple’s operating systems and the apps people use every day, including the apps from our vast ecosystem of developers. Thousands of developers have already built integrations with Siri to let users ask for directions, manage a to-do list, send a message, or catch up on an audiobook. Siri AI is available in many languages, including English, French, Japanese, Korean, Portuguese, and Spanish and will soon exp…",
    "first_seen": "2026-11-04T03:36:25+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=11032026g",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "Xcode 27.3 beta (27C5020n)",
+   "url": "https://developer.apple.com/news/releases/?id=11032026g",
+   "date": "2026-11-04T02:00:00+08:00",
+   "summary": "",
+   "platform": "Xcode",
+   "version": "27.3",
+   "stage": "Beta",
+   "build": "27C5020n",
+   "links": [
+    {
+     "text": "View downloads",
+     "url": "https://developer.apple.com/download/applications"
+    },
+    {
+     "text": "View release notes",
+     "url": "https://developer.apple.com/go/?id=xcode-27_3-sdk-rn"
+    }
+   ],
+   "first_seen": "2026-11-04T14:40:25+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=11032026a",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iOS 27.3 beta (24C5037i)",
+   "url": "https://developer.apple.com/news/releases/?id=11032026a",
+   "date": "2026-11-04T02:00:00+08:00",
+   "summary": "",
+   "platform": "iOS",
+   "version": "27.3",
+   "stage": "Beta",
+   "build": "24C5037i",
+   "links": [
+    {
+     "text": "View downloads",
+     "url": "https://developer.apple.com/download/os"
+    },
+    {
+     "text": "View release notes",
+     "url": "https://developer.apple.com/go/?id=ios-27_3-rn"
+    }
+   ],
+   "first_seen": "2026-11-04T14:40:25+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=11032026b",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iPadOS 27.3 beta (24C5037i)",
+   "url": "https://developer.apple.com/news/releases/?id=11032026b",
+   "date": "2026-11-04T02:00:00+08:00",
+   "summary": "",
+   "platform": "iPadOS",
+   "version": "27.3",
+   "stage": "Beta",
+   "build": "24C5037i",
+   "links": [
+    {
+     "text": "View downloads",
+     "url": "https://developer.apple.com/download/os"
+    },
+    {
+     "text": "View release notes",
+     "url": "https://developer.apple.com/go/?id=ipados-27_3-rn"
+    }
+   ],
+   "first_seen": "2026-11-04T14:40:25+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=11032026c",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "macOS 27.3 beta (26C5035r)",
+   "url": "https://developer.apple.com/news/releases/?id=11032026c",
+   "date": "2026-11-04T02:00:00+08:00",
+   "summary": "",
+   "platform": "macOS",
+   "version": "27.3",
+   "stage": "Beta",
+   "build": "26C5035r",
+   "links": [
+    {
+     "text": "View downloads",
+     "url": "https://developer.apple.com/download/os"
+    },
+    {
+     "text": "View release notes",
+     "url": "https://developer.apple.com/go/?id=macos-27_3-rn"
+    }
+   ],
+   "first_seen": "2026-11-04T14:40:25+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=11032026d",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "tvOS 27.3 beta (24K5286g)",
+   "url": "https://developer.apple.com/news/releases/?id=11032026d",
+   "date": "2026-11-04T02:00:00+08:00",
+   "summary": "",
+   "platform": "tvOS",
+   "version": "27.3",
+   "stage": "Beta",
+   "build": "24K5286g",
+   "links": [
+    {
+     "text": "View downloads",
+     "url": "https://developer.apple.com/download/os"
+    },
+    {
+     "text": "View release notes",
+     "url": "https://developer.apple.com/go/?id=tvos-27_3-rn"
+    }
+   ],
+   "first_seen": "2026-11-04T14:40:25+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=11032026e",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "visionOS 27.3 beta (24N5286r)",
+   "url": "https://developer.apple.com/news/releases/?id=11032026e",
+   "date": "2026-11-04T02:00:00+08:00",
+   "summary": "",
+   "platform": "visionOS",
+   "version": "27.3",
+   "stage": "Beta",
+   "build": "24N5286r",
+   "links": [
+    {
+     "text": "View downloads",
+     "url": "https://developer.apple.com/download/os"
+    },
+    {
+     "text": "View release notes",
+     "url": "https://developer.apple.com/go/?id=visionos-27_3-rn"
+    }
+   ],
+   "first_seen": "2026-11-04T14:40:25+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=11032026f",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "watchOS 27.3 beta (24S5284h)",
+   "url": "https://developer.apple.com/news/releases/?id=11032026f",
+   "date": "2026-11-04T02:00:00+08:00",
+   "summary": "",
+   "platform": "watchOS",
+   "version": "27.3",
+   "stage": "Beta",
+   "build": "24S5284h",
+   "links": [
+    {
+     "text": "View downloads",
+     "url": "https://developer.apple.com/download/os"
+    },
+    {
+     "text": "View release notes",
+     "url": "https://developer.apple.com/go/?id=watchos-27_3-rn"
+    }
+   ],
+   "first_seen": "2026-11-04T14:40:25+08:00"
   },
   {
    "id": "https://developer.apple.com/news/?id=6gpufove",
@@ -3737,6 +3925,58 @@
  ],
  "evolution": [
   {
+   "id": "SE-0563",
+   "title": "Improve Interaction Between `@main` and Top-Level Code",
+   "state": "activeReview",
+   "version": "",
+   "start": "2026-11-03T00:00:00Z",
+   "end": "2026-11-17T00:00:00Z",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0563-improve-interaction-between-at-main-and-top-level-code.md",
+   "summary": "The current rules which determine if a source file is parsed as top-level code are hard to understand and often cause confusing errors to be reported when adopting `@main`. This proposal describes a source compatible cha…",
+   "authors": [
+    "Owen Voorhees"
+   ],
+   "review_manager": [
+    "Holly Borla"
+   ],
+   "discussions": [
+    {
+     "name": "pitch",
+     "url": "https://forums.swift.org/t/pitch-improve-interaction-between-main-and-top-level-code/89259"
+    },
+    {
+     "name": "review",
+     "url": "https://forums.swift.org/t/se-0563-improve-interaction-between-main-and-top-level-code/90434"
+    }
+   ]
+  },
+  {
+   "id": "SE-0562",
+   "title": "Ownership for Subscript Parameters",
+   "state": "activeReview",
+   "version": "",
+   "start": "2026-11-03T00:00:00Z",
+   "end": "2026-11-17T00:00:00Z",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0562-subscript-ownership-parameters.md",
+   "summary": "This proposal introduces support for `inout`, `borrowing`, and `consuming` on parameters of subscripts. It brings the capabilities of subscript parameters in line with functions and initializers.",
+   "authors": [
+    "Doug Gregor"
+   ],
+   "review_manager": [
+    "Steve Canon"
+   ],
+   "discussions": [
+    {
+     "name": "pitch",
+     "url": "https://forums.swift.org/t/pitch-ownership-for-subscript-parameters/89461"
+    },
+    {
+     "name": "review",
+     "url": "https://forums.swift.org/t/se-0562-ownership-for-subscript-parameters/90429"
+    }
+   ]
+  },
+  {
    "id": "SE-0561",
    "title": "Span-based access to `Optional`'s storage",
    "state": "activeReview",
@@ -3873,7 +4113,7 @@
    "state": "activeReview",
    "version": "",
    "start": "2026-10-09T00:00:00Z",
-   "end": "2026-10-23T00:00:00Z",
+   "end": "2026-11-10T00:00:00Z",
    "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0556-cell.md",
    "summary": "Introduces a family of `Cell` types that provide looser requirements around exclusivity, making them suitable for shared memory, synchronization primitives, concurrent data structures, and interoperability with other lan…",
    "authors": [
