@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T14:40:25+08:00",
+ "updated": "2026-11-05T03:53:00+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -8,8 +8,8 @@
    "color": "#0a84ff",
    "ok": true,
    "error": "",
-   "count": 50,
-   "updated": "2026-11-04T14:40:25+08:00"
+   "count": 48,
+   "updated": "2026-11-05T03:53:00+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-11-04T14:40:25+08:00"
+   "updated": "2026-11-05T03:53:00+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-11-04T14:40:25+08:00"
+   "updated": "2026-11-05T03:53:00+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-11-04T14:40:25+08:00"
+   "updated": "2026-11-05T03:53:00+08:00"
   },
   {
    "id": "swift-evolution",
@@ -48,11 +48,35 @@
    "color": "#f05138",
    "ok": true,
    "error": "",
-   "count": 88,
-   "updated": "2026-11-04T14:40:25+08:00"
+   "count": 89,
+   "updated": "2026-11-05T03:53:00+08:00"
   }
  ],
  "items": [
+  {
+   "id": "https://developer.apple.com/news/releases/?id=11042026a",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "App Store Connect 3.3.1",
+   "url": "https://developer.apple.com/news/releases/?id=11042026a",
+   "date": "2026-11-05T01:00:00+08:00",
+   "summary": "",
+   "platform": "其他",
+   "version": "",
+   "stage": "",
+   "build": "",
+   "links": [
+    {
+     "text": "Download the app",
+     "url": "https://apps.apple.com/us/app/app-store-connect/id1234793120"
+    },
+    {
+     "text": "View release notes",
+     "url": "https://developer.apple.com/help/app-store-connect/release-notes/"
+    }
+   ],
+   "first_seen": "2026-11-05T03:53:00+08:00"
+  },
   {
    "id": "https://developer.apple.com/news/releases/?id=11032026h",
    "source": "apple-releases",
@@ -3924,6 +3948,28 @@
   }
  ],
  "evolution": [
+  {
+   "id": "SE-0564",
+   "title": "Split continuations",
+   "state": "activeReview",
+   "version": "",
+   "start": "2026-11-04T00:00:00Z",
+   "end": "2026-11-18T00:00:00Z",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0564-split-continuations.md",
+   "summary": "Introduces a new form of `withContinuation` whose body is `async` and receives both halves of a continuation: the existing `Continuation` that is used to resume and a new `ContinuationWaiter` that is used to wait. Waitin…",
+   "authors": [
+    "Franz Busch"
+   ],
+   "review_manager": [
+    "Joe Groff"
+   ],
+   "discussions": [
+    {
+     "name": "pitch",
+     "url": "https://forums.swift.org/t/pitch-split-continuation/90096"
+    }
+   ]
+  },
   {
    "id": "SE-0563",
    "title": "Improve Interaction Between `@main` and Top-Level Code",
