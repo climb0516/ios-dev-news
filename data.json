@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T03:53:00+08:00",
+ "updated": "2026-11-05T14:59:10+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -8,8 +8,8 @@
    "color": "#0a84ff",
    "ok": true,
    "error": "",
-   "count": 48,
-   "updated": "2026-11-05T03:53:00+08:00"
+   "count": 49,
+   "updated": "2026-11-05T14:59:10+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-11-05T03:53:00+08:00"
+   "updated": "2026-11-05T14:59:10+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-11-05T03:53:00+08:00"
+   "updated": "2026-11-05T14:59:10+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-11-05T03:53:00+08:00"
+   "updated": "2026-11-05T14:59:10+08:00"
   },
   {
    "id": "swift-evolution",
@@ -49,10 +49,34 @@
    "ok": true,
    "error": "",
    "count": 89,
-   "updated": "2026-11-05T03:53:00+08:00"
+   "updated": "2026-11-05T14:59:10+08:00"
   }
  ],
  "items": [
+  {
+   "id": "https://developer.apple.com/news/releases/?id=11042026b",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "App Store Connect API 4.6",
+   "url": "https://developer.apple.com/news/releases/?id=11042026b",
+   "date": "2026-11-05T08:00:00+08:00",
+   "summary": "",
+   "platform": "其他",
+   "version": "",
+   "stage": "",
+   "build": "",
+   "links": [
+    {
+     "text": "Download file",
+     "url": "http://developer.apple.com/sample-code/app-store-connect/app-store-connect-openapi-specification.zip"
+    },
+    {
+     "text": "View release notes",
+     "url": "https://developer.apple.com/documentation/appstoreconnectapi/app-store-connect-api-release-notes"
+    }
+   ],
+   "first_seen": "2026-11-05T14:59:10+08:00"
+  },
   {
    "id": "https://developer.apple.com/news/releases/?id=11042026a",
    "source": "apple-releases",
@@ -76,6 +100,17 @@
     }
    ],
    "first_seen": "2026-11-05T03:53:00+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=fk9ps3gv",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Now available: Retention messages for subscriptions",
+   "url": "https://developer.apple.com/news/?id=fk9ps3gv",
+   "date": "2026-11-05T00:00:56+08:00",
+   "summary": "Reduce cancellations with retention messages that remind subscribers of your subscription's value as they decide whether to cancel. Retention messages appear in the cancellation flow and can include t…",
+   "body": "Reduce cancellations with retention messages that remind subscribers of your subscription's value as they decide whether to cancel. Retention messages appear in the cancellation flow and can include text, images, or a special offer. In App Store Connect, you can configure retention messages for your auto-renewable subscriptions, including subscriber eligibility and the wait time between messages. With the Retention Messaging API , you can choose which message to show each subscriber based on their subscription details. API access is available by request. Configure retention messages in App Store Connect Learn about auto-renewable subscriptions",
+   "first_seen": "2026-11-05T14:59:10+08:00"
   },
   {
    "id": "https://developer.apple.com/news/releases/?id=11032026h",
