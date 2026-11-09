@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T14:50:20+08:00",
+ "updated": "2026-11-10T06:29:50+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -9,7 +9,7 @@
    "ok": true,
    "error": "",
    "count": 49,
-   "updated": "2026-11-09T14:50:20+08:00"
+   "updated": "2026-11-10T06:29:50+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-11-09T14:50:20+08:00"
+   "updated": "2026-11-10T06:29:50+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-11-09T14:50:20+08:00"
+   "updated": "2026-11-10T06:29:50+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-11-09T14:50:20+08:00"
+   "updated": "2026-11-10T06:29:50+08:00"
   },
   {
    "id": "swift-evolution",
@@ -48,8 +48,8 @@
    "color": "#f05138",
    "ok": true,
    "error": "",
-   "count": 89,
-   "updated": "2026-11-09T14:50:20+08:00"
+   "count": 88,
+   "updated": "2026-11-10T06:29:50+08:00"
   }
  ],
  "items": [
@@ -120,7 +120,7 @@
    "url": "https://developer.apple.com/news/?id=fk9ps3gv",
    "date": "2026-11-05T00:00:56+08:00",
    "summary": "Reduce cancellations with retention messages that remind subscribers of your subscription's value as they decide whether to cancel. Retention messages appear in the cancellation flow and can include t…",
-   "body": "Reduce cancellations with retention messages that remind subscribers of your subscription's value as they decide whether to cancel. Retention messages appear in the cancellation flow and can include text, images, or a special offer. In App Store Connect, you can configure retention messages for your auto-renewable subscriptions, including subscriber eligibility and the wait time between messages. With the Retention Messaging API , you can choose which message to show each subscriber based on their subscription details. API access is available by request. Configure retention messages in App Store Connect Learn about auto-renewable subscriptions",
+   "body": "Reduce cancellations with retention messages that remind subscribers of your subscription's value as they decide whether to cancel. Retention messages appear in the cancellation flow and can include text, images, or a special offer. In App Store Connect, you can configure retention messages for your auto-renewable subscriptions, including subscriber eligibility and the wait time between offers. With the Retention Messaging API , you can choose which message to show each subscriber based on their subscription details. API access is available by request. Configure retention messages in App Store Connect Learn about auto-renewable subscriptions",
    "first_seen": "2026-11-05T14:59:10+08:00"
   },
   {
@@ -4013,6 +4013,10 @@
     {
      "name": "pitch",
      "url": "https://forums.swift.org/t/pitch-split-continuation/90096"
+    },
+    {
+     "name": "review",
+     "url": "https://forums.swift.org/t/se-0564-split-continuations/90467"
     }
    ]
   },
@@ -4087,6 +4091,10 @@
     {
      "name": "pitch",
      "url": "https://forums.swift.org/t/89580"
+    },
+    {
+     "name": "review",
+     "url": "https://forums.swift.org/t/se-0561-span-based-access-to-optional-s-storage/90398"
     }
    ]
   },
@@ -4253,32 +4261,6 @@
     {
      "name": "acceptance",
      "url": "https://forums.swift.org/t/accepted-with-modifications-se-0555-inout-overload-of-borrowingiteratorprotocol-skip-by/90356"
-    }
-   ]
-  },
-  {
-   "id": "SE-0554",
-   "title": "Deployment target conditional compilation",
-   "state": "activeReview",
-   "version": "",
-   "start": "2026-09-29T00:00:00Z",
-   "end": "2026-10-12T00:00:00Z",
-   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0554-deployment-target-conditional-compilation.md",
-   "summary": "Adds `deploymentTargetAtLeast(...)`, a conditional compilation predicate that selects source according to the module's minimum deployment target, using availability-style platform-version requirements.",
-   "authors": [
-    "Jiaxu Li"
-   ],
-   "review_manager": [
-    "Xiaodi Wu"
-   ],
-   "discussions": [
-    {
-     "name": "pitch",
-     "url": "https://forums.swift.org/t/pitch-conditional-compilation-for-the-deployment-target/89282"
-    },
-    {
-     "name": "review",
-     "url": "https://forums.swift.org/t/se-0554-deployment-target-conditional-compilation/89822"
     }
    ]
   },
