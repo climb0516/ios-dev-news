@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T06:29:50+08:00",
+ "updated": "2026-11-10T15:29:02+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -9,7 +9,7 @@
    "ok": true,
    "error": "",
    "count": 49,
-   "updated": "2026-11-10T06:29:50+08:00"
+   "updated": "2026-11-10T15:29:02+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-11-10T06:29:50+08:00"
+   "updated": "2026-11-10T15:29:02+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-11-10T06:29:50+08:00"
+   "updated": "2026-11-10T15:29:02+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-11-10T06:29:50+08:00"
+   "updated": "2026-11-10T15:29:02+08:00"
   },
   {
    "id": "swift-evolution",
@@ -49,10 +49,190 @@
    "ok": true,
    "error": "",
    "count": 88,
-   "updated": "2026-11-10T06:29:50+08:00"
+   "updated": "2026-11-10T15:29:02+08:00"
   }
  ],
  "items": [
+  {
+   "id": "https://developer.apple.com/news/releases/?id=11092026a",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iOS 27.2.1 (24B91034)",
+   "url": "https://developer.apple.com/news/releases/?id=11092026a",
+   "date": "2026-11-10T02:00:00+08:00",
+   "summary": "",
+   "platform": "iOS",
+   "version": "27.2.1",
+   "stage": "正式版",
+   "build": "24B91034",
+   "links": [
+    {
+     "text": "View downloads",
+     "url": "https://developer.apple.com/download/os"
+    }
+   ],
+   "first_seen": "2026-11-10T15:29:02+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=11092026b",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iOS 27.2.1 (24B156)",
+   "url": "https://developer.apple.com/news/releases/?id=11092026b",
+   "date": "2026-11-10T02:00:00+08:00",
+   "summary": "",
+   "platform": "iOS",
+   "version": "27.2.1",
+   "stage": "正式版",
+   "build": "24B156",
+   "links": [
+    {
+     "text": "View downloads",
+     "url": "https://developer.apple.com/download/os"
+    }
+   ],
+   "first_seen": "2026-11-10T15:29:02+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=11092026c",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iPadOS 27.2.1 (24B156)",
+   "url": "https://developer.apple.com/news/releases/?id=11092026c",
+   "date": "2026-11-10T02:00:00+08:00",
+   "summary": "",
+   "platform": "iPadOS",
+   "version": "27.2.1",
+   "stage": "正式版",
+   "build": "24B156",
+   "links": [
+    {
+     "text": "View downloads",
+     "url": "https://developer.apple.com/download/os"
+    }
+   ],
+   "first_seen": "2026-11-10T15:29:02+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=11092026d",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "macOS 27.2.1 (26B131)",
+   "url": "https://developer.apple.com/news/releases/?id=11092026d",
+   "date": "2026-11-10T02:00:00+08:00",
+   "summary": "",
+   "platform": "macOS",
+   "version": "27.2.1",
+   "stage": "正式版",
+   "build": "26B131",
+   "links": [
+    {
+     "text": "View downloads",
+     "url": "https://developer.apple.com/download/os"
+    }
+   ],
+   "first_seen": "2026-11-10T15:29:02+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=11092026e",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "visionOS 27.2.1 (24N124)",
+   "url": "https://developer.apple.com/news/releases/?id=11092026e",
+   "date": "2026-11-10T02:00:00+08:00",
+   "summary": "",
+   "platform": "visionOS",
+   "version": "27.2.1",
+   "stage": "正式版",
+   "build": "24N124",
+   "links": [
+    {
+     "text": "View downloads",
+     "url": "https://developer.apple.com/download/os"
+    }
+   ],
+   "first_seen": "2026-11-10T15:29:02+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=11092026f",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "watchOS 27.2.1 (24S132)",
+   "url": "https://developer.apple.com/news/releases/?id=11092026f",
+   "date": "2026-11-10T02:00:00+08:00",
+   "summary": "",
+   "platform": "watchOS",
+   "version": "27.2.1",
+   "stage": "正式版",
+   "build": "24S132",
+   "links": [
+    {
+     "text": "View downloads",
+     "url": "https://developer.apple.com/download/os"
+    }
+   ],
+   "first_seen": "2026-11-10T15:29:02+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=11092026g",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iPadOS 26.7.3 (23H131)",
+   "url": "https://developer.apple.com/news/releases/?id=11092026g",
+   "date": "2026-11-10T02:00:00+08:00",
+   "summary": "",
+   "platform": "iPadOS",
+   "version": "26.7.3",
+   "stage": "正式版",
+   "build": "23H131",
+   "links": [
+    {
+     "text": "View downloads",
+     "url": "https://developer.apple.com/download/os"
+    }
+   ],
+   "first_seen": "2026-11-10T15:29:02+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=11092026h",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iOS 18.7.12 (22H390)",
+   "url": "https://developer.apple.com/news/releases/?id=11092026h",
+   "date": "2026-11-10T02:00:00+08:00",
+   "summary": "",
+   "platform": "iOS",
+   "version": "18.7.12",
+   "stage": "正式版",
+   "build": "22H390",
+   "links": [
+    {
+     "text": "View downloads",
+     "url": "https://developer.apple.com/download/os"
+    }
+   ],
+   "first_seen": "2026-11-10T15:29:02+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/releases/?id=11092026i",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "iPadOS 18.7.12 (22H390)",
+   "url": "https://developer.apple.com/news/releases/?id=11092026i",
+   "date": "2026-11-10T02:00:00+08:00",
+   "summary": "",
+   "platform": "iPadOS",
+   "version": "18.7.12",
+   "stage": "正式版",
+   "build": "22H390",
+   "links": [
+    {
+     "text": "View downloads",
+     "url": "https://developer.apple.com/download/os"
+    }
+   ],
+   "first_seen": "2026-11-10T15:29:02+08:00"
+  },
   {
    "id": "https://developer.apple.com/news/releases/?id=11042026b",
    "source": "apple-releases",
