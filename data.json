@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T15:29:02+08:00",
+ "updated": "2026-11-11T03:51:32+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -9,7 +9,7 @@
    "ok": true,
    "error": "",
    "count": 49,
-   "updated": "2026-11-10T15:29:02+08:00"
+   "updated": "2026-11-11T03:51:32+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-11-10T15:29:02+08:00"
+   "updated": "2026-11-11T03:51:32+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-11-10T15:29:02+08:00"
+   "updated": "2026-11-11T03:51:32+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-11-10T15:29:02+08:00"
+   "updated": "2026-11-11T03:51:32+08:00"
   },
   {
    "id": "swift-evolution",
@@ -48,11 +48,33 @@
    "color": "#f05138",
    "ok": true,
    "error": "",
-   "count": 88,
-   "updated": "2026-11-10T15:29:02+08:00"
+   "count": 86,
+   "updated": "2026-11-11T03:51:32+08:00"
   }
  ],
  "items": [
+  {
+   "id": "https://developer.apple.com/news/?id=jkykd58d",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Announcing the Swift Student Challenge 2027",
+   "url": "https://developer.apple.com/news/?id=jkykd58d",
+   "date": "2026-11-11T01:00:12+08:00",
+   "summary": "Apple is proud to support the next generation of developers, creators, and entrepreneurs with the Swift Student Challenge. The Challenge gives students from around the world the opportunity to showcas…",
+   "body": "Apple is proud to support the next generation of developers, creators, and entrepreneurs with the Swift Student Challenge. The Challenge gives students from around the world the opportunity to showcase their creativity and app development skills. The Challenge is open February 8–28, 2027. And new this year, students can submit an app for any Apple platform. Learn more",
+   "first_seen": "2026-11-11T03:51:32+08:00"
+  },
+  {
+   "id": "https://developer.apple.com/news/?id=ow0j45ny",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Hello Developer: November 2026",
+   "url": "https://developer.apple.com/news/?id=ow0j45ny",
+   "date": "2026-11-11T00:00:59+08:00",
+   "summary": "In this supersized edition: Join us at Europe’s first Apple Developer Center. Say hello to Touch on Mac. Learn about the Swift Student Challenge 2027. Browse new App Review help articles. Explore new …",
+   "body": "In this supersized edition: Join us at Europe’s first Apple Developer Center. Say hello to Touch on Mac. Learn about the Swift Student Challenge 2027. Browse new App Review help articles. Explore new subscription features. Read now",
+   "first_seen": "2026-11-11T03:51:32+08:00"
+  },
   {
    "id": "https://developer.apple.com/news/releases/?id=11092026a",
    "source": "apple-releases",
@@ -4476,66 +4498,6 @@
    ]
   },
   {
-   "id": "SE-0552",
-   "title": "Rounding of `Float.pi`",
-   "state": "accepted",
-   "version": "",
-   "start": "",
-   "end": "",
-   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0552-float-pi-rounding.md",
-   "summary": "Change the definition of the property `pi` on `FloatingPoint`, so that it is no longer required to be rounded toward zero. Update `Float.pi` to match the new definition.",
-   "authors": [
-    "Stephen Canon"
-   ],
-   "review_manager": [
-    "Doug Gregor"
-   ],
-   "discussions": [
-    {
-     "name": "(pitch)",
-     "url": "https://forums.swift.org/t/pitch-round-to-nearest/89497"
-    },
-    {
-     "name": "review",
-     "url": "https://forums.swift.org/t/se-0552-rounding-of-float-pi/89716"
-    },
-    {
-     "name": "acceptance",
-     "url": "https://forums.swift.org/t/accepted-se-0552-rounding-of-float-pi/89936"
-    }
-   ]
-  },
-  {
-   "id": "SE-0551",
-   "title": "`Span` over a single value",
-   "state": "accepted",
-   "version": "",
-   "start": "",
-   "end": "",
-   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0551-span-of-one.md",
-   "summary": "Add initializers to form a single-element `Span` over any value, and to form a single-element `MutableSpan` over any mutable value.",
-   "authors": [
-    "Guillaume Lessard"
-   ],
-   "review_manager": [
-    "Doug Gregor"
-   ],
-   "discussions": [
-    {
-     "name": "pitch",
-     "url": "https://forums.swift.org/t/89189"
-    },
-    {
-     "name": "review",
-     "url": "https://forums.swift.org/t/se-0551/89715"
-    },
-    {
-     "name": "acceptance",
-     "url": "https://forums.swift.org/t/accepted-se-0551-span-over-a-single-value/89939"
-    }
-   ]
-  },
-  {
    "id": "SE-0550",
    "title": "@instrumentation attribute for functions",
    "state": "accepted",
@@ -5889,10 +5851,70 @@
    ]
   },
   {
+   "id": "SE-0552",
+   "title": "Rounding of `Float.pi`",
+   "state": "implemented",
+   "version": "6.5",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0552-float-pi-rounding.md",
+   "summary": "Change the definition of the property `pi` on `FloatingPoint`, so that it is no longer required to be rounded toward zero. Update `Float.pi` to match the new definition.",
+   "authors": [
+    "Stephen Canon"
+   ],
+   "review_manager": [
+    "Doug Gregor"
+   ],
+   "discussions": [
+    {
+     "name": "(pitch)",
+     "url": "https://forums.swift.org/t/pitch-round-to-nearest/89497"
+    },
+    {
+     "name": "review",
+     "url": "https://forums.swift.org/t/se-0552-rounding-of-float-pi/89716"
+    },
+    {
+     "name": "acceptance",
+     "url": "https://forums.swift.org/t/accepted-se-0552-rounding-of-float-pi/89936"
+    }
+   ]
+  },
+  {
+   "id": "SE-0551",
+   "title": "`Span` over a single value",
+   "state": "implemented",
+   "version": "6.5",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0551-span-of-one.md",
+   "summary": "Add initializers to form a single-element `Span` over any value, and to form a single-element `MutableSpan` over any mutable value.",
+   "authors": [
+    "Guillaume Lessard"
+   ],
+   "review_manager": [
+    "Doug Gregor"
+   ],
+   "discussions": [
+    {
+     "name": "pitch",
+     "url": "https://forums.swift.org/t/89189"
+    },
+    {
+     "name": "review",
+     "url": "https://forums.swift.org/t/se-0551/89715"
+    },
+    {
+     "name": "acceptance",
+     "url": "https://forums.swift.org/t/accepted-se-0551-span-over-a-single-value/89939"
+    }
+   ]
+  },
+  {
    "id": "SE-0547",
    "title": "SwiftPM Support for Compilation Caching",
    "state": "implemented",
-   "version": "Next",
+   "version": "6.5",
    "start": "",
    "end": "",
    "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0547-swiftpm-compilation-caching.md",
@@ -5922,7 +5944,7 @@
    "id": "SE-0545",
    "title": "SwiftPM Build Performance Debugging Options",
    "state": "implemented",
-   "version": "Next",
+   "version": "6.5",
    "start": "",
    "end": "",
    "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0545-build-debugging-options.md",
@@ -5952,7 +5974,7 @@
    "id": "SE-0543",
    "title": "InlineArray: Hashable",
    "state": "implemented",
-   "version": "Next",
+   "version": "6.5",
    "start": "",
    "end": "",
    "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0543-inline-array-hashable.md",
@@ -5983,7 +6005,7 @@
    "id": "SE-0541",
    "title": "Flexible Swift/C Interoperability for Packages",
    "state": "implemented",
-   "version": "Next",
+   "version": "6.5",
    "start": "",
    "end": "",
    "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0541-flexible-swift-c-interoperability-for-packages.md",
@@ -6013,7 +6035,7 @@
    "id": "SE-0537",
    "title": "Section Placement Control for Functions",
    "state": "implemented",
-   "version": "Next",
+   "version": "6.5",
    "start": "",
    "end": "",
    "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0537-function-sections.md",
@@ -6748,66 +6770,6 @@
     {
      "name": "acceptance",
      "url": "https://forums.swift.org/t/accepted-with-modifications-se-0502-exclude-private-initialized-properties-from-memberwise-initializer/84565"
-    }
-   ]
-  },
-  {
-   "id": "SE-0501",
-   "title": "HTML Coverage Report",
-   "state": "implemented",
-   "version": "Next",
-   "start": "",
-   "end": "",
-   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0501-swiftpm-html-coverage-report.md",
-   "summary": "Currently, `swift test` supports generating a JSON coverage report, which is great for ingesting into various systems. The JSON, however, is not very \"human-readable\" during iterative development at-desk.",
-   "authors": [
-    "Sam Khouri"
-   ],
-   "review_manager": [
-    "David Cummings"
-   ],
-   "discussions": [
-    {
-     "name": "pitch",
-     "url": "https://forums.swift.org/t/pitch-adding-html-coverage-support/82358"
-    },
-    {
-     "name": "review",
-     "url": "https://forums.swift.org/t/se-0501-html-coverage-report/83601"
-    },
-    {
-     "name": "acceptance",
-     "url": "https://forums.swift.org/t/accepted-se-0501-html-coverage-report/85288"
-    }
-   ]
-  },
-  {
-   "id": "SE-0499",
-   "title": "Support ~Copyable, ~Escapable in simple standard library protocols",
-   "state": "implemented",
-   "version": "6.4",
-   "start": "",
-   "end": "",
-   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0499-support-non-copyable-simple-protocols.md",
-   "summary": "The following protocols will be marked as refining `~Copyable` and `~Escapable`:",
-   "authors": [
-    "Ben Cohen"
-   ],
-   "review_manager": [
-    "Holly Borla"
-   ],
-   "discussions": [
-    {
-     "name": "pitch",
-     "url": "https://forums.swift.org/t/support-copyable-escapable-in-simple-standard-library-protocols/83083"
-    },
-    {
-     "name": "review",
-     "url": "https://forums.swift.org/t/se-0499-support-copyable-escapable-in-simple-standard-library-protocols/83297"
-    },
-    {
-     "name": "acceptance",
-     "url": "https://forums.swift.org/t/accepted-with-modifications-se-0499-support-copyable-escapable-in-simple-standard-library-protocols/83754"
     }
    ]
   }
