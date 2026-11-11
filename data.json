@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T14:43:43+08:00",
+ "updated": "2026-11-12T03:42:40+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -9,7 +9,7 @@
    "ok": true,
    "error": "",
    "count": 49,
-   "updated": "2026-11-11T14:43:43+08:00"
+   "updated": "2026-11-12T03:42:40+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-11-11T14:43:43+08:00"
+   "updated": "2026-11-12T03:42:40+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-11-11T14:43:43+08:00"
+   "updated": "2026-11-12T03:42:40+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-11-11T14:43:43+08:00"
+   "updated": "2026-11-12T03:42:40+08:00"
   },
   {
    "id": "swift-evolution",
@@ -48,11 +48,22 @@
    "color": "#f05138",
    "ok": true,
    "error": "",
-   "count": 86,
-   "updated": "2026-11-11T14:43:43+08:00"
+   "count": 87,
+   "updated": "2026-11-12T03:42:40+08:00"
   }
  ],
  "items": [
+  {
+   "id": "https://www.swift.org/blog/whats-new-in-swift-november-2026/",
+   "source": "swift-blog",
+   "kind": "blog",
+   "title": "What's new in Swift: November 2026 Edition",
+   "url": "https://www.swift.org/blog/whats-new-in-swift-november-2026/",
+   "date": "2026-11-11T05:00:00-04:00",
+   "summary": "Welcome to the latest edition of “What’s new in Swift,” a curated digest of releases, news, and discussions from the Swift project and community. To start things off, our guest contributor shares a ti…",
+   "body": "Welcome to the latest edition of “What’s new in Swift,” a curated digest of releases, news, and discussions from the Swift project and community. To start things off, our guest contributor shares a timely reminder for anyone relying on CocoaPods: Hi, I’m Dave Verwer, co-creator of the Swift Package Index and now part of a team at Apple working on a public, cross-platform package registry for Swift. How developers find, share, and manage dependencies across the entire ecosystem is something we think about a lot. CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects. The pro…",
+   "first_seen": "2026-11-12T03:42:40+08:00"
+  },
   {
    "id": "https://developer.apple.com/news/?id=jkykd58d",
    "source": "apple-news",
@@ -4196,6 +4207,34 @@
   }
  ],
  "evolution": [
+  {
+   "id": "SE-0565",
+   "title": "SE-0565: Allow Deprecating Package Products",
+   "state": "activeReview",
+   "version": "",
+   "start": "2026-11-11T00:00:00Z",
+   "end": "2026-11-25T00:00:00Z",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0565-swiftpm-allow-deprecating-package-products.md",
+   "summary": "Package authors currently have no first-class way to signal that a product vended from a Swift package is on a path to removal. Swift Package Manager (SwiftPM) supports rich deprecation semantics for Swift source APIs th…",
+   "authors": [
+    "Sam Khouri (",
+    "GitHub",
+    "Swift Forums"
+   ],
+   "review_manager": [
+    "Tim Condon"
+   ],
+   "discussions": [
+    {
+     "name": "pitch",
+     "url": "https://forums.swift.org/t/pitch-deprecating-package-products-in-the-package-manifest/88468"
+    },
+    {
+     "name": "review",
+     "url": "https://forums.swift.org/t/se-0565-allow-deprecating-package-products/90664"
+    }
+   ]
+  },
   {
    "id": "SE-0564",
    "title": "Split continuations",
