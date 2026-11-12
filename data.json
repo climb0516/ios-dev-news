@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T03:42:40+08:00",
+ "updated": "2026-11-12T15:24:08+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -9,7 +9,7 @@
    "ok": true,
    "error": "",
    "count": 49,
-   "updated": "2026-11-12T03:42:40+08:00"
+   "updated": "2026-11-12T15:24:08+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-11-12T03:42:40+08:00"
+   "updated": "2026-11-12T15:24:08+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-11-12T03:42:40+08:00"
+   "updated": "2026-11-12T15:24:08+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-11-12T03:42:40+08:00"
+   "updated": "2026-11-12T15:24:08+08:00"
   },
   {
    "id": "swift-evolution",
@@ -49,7 +49,7 @@
    "ok": true,
    "error": "",
    "count": 87,
-   "updated": "2026-11-12T03:42:40+08:00"
+   "updated": "2026-11-12T15:24:08+08:00"
   }
  ],
  "items": [
@@ -4690,10 +4690,10 @@
   {
    "id": "SE-0542",
    "title": "Package Manager Conditional Plugin",
-   "state": "activeReview",
+   "state": "returnedForRevision",
    "version": "",
-   "start": "2026-08-06T00:00:00Z",
-   "end": "2026-08-21T00:00:00Z",
+   "start": "",
+   "end": "",
    "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0542-package-manager-conditional-plugin.md",
    "summary": "This proposal extends the `plugins` parameter of SwiftPM target declarations to support conditional plugin application. A new `PluginUsageCondition` type lets package authors gate a plugin on the **host platform** (where…",
    "authors": [
