@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T15:24:08+08:00",
+ "updated": "2026-11-13T04:06:02+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -8,8 +8,8 @@
    "color": "#0a84ff",
    "ok": true,
    "error": "",
-   "count": 49,
-   "updated": "2026-11-12T15:24:08+08:00"
+   "count": 50,
+   "updated": "2026-11-13T04:06:02+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-11-12T15:24:08+08:00"
+   "updated": "2026-11-13T04:06:02+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-11-12T15:24:08+08:00"
+   "updated": "2026-11-13T04:06:02+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-11-12T15:24:08+08:00"
+   "updated": "2026-11-13T04:06:02+08:00"
   },
   {
    "id": "swift-evolution",
@@ -49,10 +49,30 @@
    "ok": true,
    "error": "",
    "count": 87,
-   "updated": "2026-11-12T15:24:08+08:00"
+   "updated": "2026-11-13T04:06:02+08:00"
   }
  ],
  "items": [
+  {
+   "id": "https://developer.apple.com/news/releases/?id=11122026a",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "HomeView Software 27.2 (24V526)",
+   "url": "https://developer.apple.com/news/releases/?id=11122026a",
+   "date": "2026-11-13T02:00:00+08:00",
+   "summary": "",
+   "platform": "其他",
+   "version": "",
+   "stage": "",
+   "build": "",
+   "links": [
+    {
+     "text": "View downloads",
+     "url": "https://developer.apple.com/download/os"
+    }
+   ],
+   "first_seen": "2026-11-13T04:06:02+08:00"
+  },
   {
    "id": "https://www.swift.org/blog/whats-new-in-swift-november-2026/",
    "source": "swift-blog",
