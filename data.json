@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T04:06:02+08:00",
+ "updated": "2026-11-13T14:56:06+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -9,7 +9,7 @@
    "ok": true,
    "error": "",
    "count": 50,
-   "updated": "2026-11-13T04:06:02+08:00"
+   "updated": "2026-11-13T14:56:06+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-11-13T04:06:02+08:00"
+   "updated": "2026-11-13T14:56:06+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-11-13T04:06:02+08:00"
+   "updated": "2026-11-13T14:56:06+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-11-13T04:06:02+08:00"
+   "updated": "2026-11-13T14:56:06+08:00"
   },
   {
    "id": "swift-evolution",
@@ -48,8 +48,8 @@
    "color": "#f05138",
    "ok": true,
    "error": "",
-   "count": 87,
-   "updated": "2026-11-13T04:06:02+08:00"
+   "count": 88,
+   "updated": "2026-11-13T14:56:06+08:00"
   }
  ],
  "items": [
@@ -4227,6 +4227,32 @@
   }
  ],
  "evolution": [
+  {
+   "id": "SE-0566",
+   "title": "Infer generic arguments of result builder attributes",
+   "state": "activeReview",
+   "version": "",
+   "start": "2026-11-12T00:00:00Z",
+   "end": "2026-11-26T00:00:00Z",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0566-infer-result-builder-generics.md",
+   "summary": "We should enable generic result builders to be used as attributes without needing to explicitly specify generic arguments, instead allowing them to be inferred.",
+   "authors": [
+    "Cal Stephens"
+   ],
+   "review_manager": [
+    "Tony Allevato"
+   ],
+   "discussions": [
+    {
+     "name": "pitch",
+     "url": "https://forums.swift.org/t/pitch-infer-generic-arguments-of-result-builder-attributes/85272"
+    },
+    {
+     "name": "review",
+     "url": "https://forums.swift.org/t/se-0566-infer-generic-arguments-of-result-builder-attributes/90702"
+    }
+   ]
+  },
   {
    "id": "SE-0565",
    "title": "SE-0565: Allow Deprecating Package Products",
