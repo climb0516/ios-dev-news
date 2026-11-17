@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T16:05:52+08:00",
+ "updated": "2026-11-18T05:04:09+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -9,7 +9,7 @@
    "ok": true,
    "error": "",
    "count": 50,
-   "updated": "2026-11-17T16:05:52+08:00"
+   "updated": "2026-11-18T05:04:09+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-11-17T16:05:52+08:00"
+   "updated": "2026-11-18T05:04:09+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-11-17T16:05:52+08:00"
+   "updated": "2026-11-18T05:04:09+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-11-17T16:05:52+08:00"
+   "updated": "2026-11-18T05:04:09+08:00"
   },
   {
    "id": "swift-evolution",
@@ -48,8 +48,8 @@
    "color": "#f05138",
    "ok": true,
    "error": "",
-   "count": 87,
-   "updated": "2026-11-17T16:05:52+08:00"
+   "count": 84,
+   "updated": "2026-11-18T05:04:09+08:00"
   }
  ],
  "items": [
@@ -4947,36 +4947,6 @@
    ]
   },
   {
-   "id": "SE-0540",
-   "title": "Default Target Settings",
-   "state": "accepted",
-   "version": "",
-   "start": "",
-   "end": "",
-   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0540-default-target-settings.md",
-   "summary": "It is very common for Swift packages to use the same settings flags across all their targets. A built-in mechanism to apply these base settings offers improved readability and convenience for package manifests.",
-   "authors": [
-    "Matt Massicotte"
-   ],
-   "review_manager": [
-    "Mikaela Caron"
-   ],
-   "discussions": [
-    {
-     "name": "pitch",
-     "url": "https://forums.swift.org/t/default-package-swift-settings/71872"
-    },
-    {
-     "name": "review",
-     "url": "https://forums.swift.org/t/se-0540-default-package-settings/88748"
-    },
-    {
-     "name": "acceptance",
-     "url": "https://forums.swift.org/t/accepted-with-modifications-se-0540-default-package-settings/89398"
-    }
-   ]
-  },
-  {
    "id": "SE-0539",
    "title": "Enable Macros to Grant `self` Access for Property Initializers",
    "state": "returnedForRevision",
@@ -5033,66 +5003,6 @@
     {
      "name": "acceptance",
      "url": "https://forums.swift.org/t/accepted-with-modifications-se-0538-disconnected/89181"
-    }
-   ]
-  },
-  {
-   "id": "SE-0536",
-   "title": "Package Registry Search",
-   "state": "accepted",
-   "version": "",
-   "start": "",
-   "end": "",
-   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0536-registry-search.md",
-   "summary": "[SE-0292](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0292-package-registry-service.md) introduced a package registry service for the Swift ecosystem. Its future directions section identified package…",
-   "authors": [
-    "Paul LeMarquand"
-   ],
-   "review_manager": [
-    "Mikaela Caron"
-   ],
-   "discussions": [
-    {
-     "name": "pitch",
-     "url": "https://forums.swift.org/t/pitch-package-registry-search/86320"
-    },
-    {
-     "name": "review",
-     "url": "https://forums.swift.org/t/se-05-package-registry-search/88203"
-    },
-    {
-     "name": "acceptance",
-     "url": "https://forums.swift.org/t/accepted-with-modifications-se-0536-package-registry-search/88746"
-    }
-   ]
-  },
-  {
-   "id": "SE-0535",
-   "title": "Add CLI for editing global mirrors configuration",
-   "state": "accepted",
-   "version": "",
-   "start": "",
-   "end": "",
-   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0535-global-mirrors-configuration-cli.md",
-   "summary": "SPM has support for both local (per-project) and shared (per-user) mirrors configuration, though the CLI only allows for editing the local configuration file. This proposal adds an optional `--global` flag to the existin…",
-   "authors": [
-    "Samuel Murray"
-   ],
-   "review_manager": [
-    "Tim Condon"
-   ],
-   "discussions": [
-    {
-     "name": "pitch",
-     "url": "https://forums.swift.org/t/pitch-add-cli-to-edit-global-configuration-of-mirrors/86091"
-    },
-    {
-     "name": "review",
-     "url": "https://forums.swift.org/t/se-0535-add-cli-for-editing-global-mirrors-configuration/88091"
-    },
-    {
-     "name": "acceptance",
-     "url": "https://forums.swift.org/t/accepted-se-0535-add-cli-for-editing-global-mirrors-configuration/88795"
     }
    ]
   },
@@ -6334,6 +6244,36 @@
    ]
   },
   {
+   "id": "SE-0540",
+   "title": "Default Target Settings",
+   "state": "implemented",
+   "version": "6.5",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0540-default-target-settings.md",
+   "summary": "It is very common for Swift packages to use the same settings flags across all their targets. A built-in mechanism to apply these base settings offers improved readability and convenience for package manifests.",
+   "authors": [
+    "Matt Massicotte"
+   ],
+   "review_manager": [
+    "Mikaela Caron"
+   ],
+   "discussions": [
+    {
+     "name": "pitch",
+     "url": "https://forums.swift.org/t/default-package-swift-settings/71872"
+    },
+    {
+     "name": "review",
+     "url": "https://forums.swift.org/t/se-0540-default-package-settings/88748"
+    },
+    {
+     "name": "acceptance",
+     "url": "https://forums.swift.org/t/accepted-with-modifications-se-0540-default-package-settings/89398"
+    }
+   ]
+  },
+  {
    "id": "SE-0537",
    "title": "Section Placement Control for Functions",
    "state": "implemented",
@@ -6360,6 +6300,66 @@
     {
      "name": "accepted with modification",
      "url": "https://forums.swift.org/t/accepted-with-modifications-se-0537-section-placement-control-for-functions/88933"
+    }
+   ]
+  },
+  {
+   "id": "SE-0536",
+   "title": "Package Registry Search",
+   "state": "implemented",
+   "version": "6.5",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0536-registry-search.md",
+   "summary": "[SE-0292](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0292-package-registry-service.md) introduced a package registry service for the Swift ecosystem. Its future directions section identified package…",
+   "authors": [
+    "Paul LeMarquand"
+   ],
+   "review_manager": [
+    "Mikaela Caron"
+   ],
+   "discussions": [
+    {
+     "name": "pitch",
+     "url": "https://forums.swift.org/t/pitch-package-registry-search/86320"
+    },
+    {
+     "name": "review",
+     "url": "https://forums.swift.org/t/se-05-package-registry-search/88203"
+    },
+    {
+     "name": "acceptance",
+     "url": "https://forums.swift.org/t/accepted-with-modifications-se-0536-package-registry-search/88746"
+    }
+   ]
+  },
+  {
+   "id": "SE-0535",
+   "title": "Add CLI for editing global mirrors configuration",
+   "state": "implemented",
+   "version": "6.5",
+   "start": "",
+   "end": "",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0535-global-mirrors-configuration-cli.md",
+   "summary": "SPM has support for both local (per-project) and shared (per-user) mirrors configuration, though the CLI only allows for editing the local configuration file. This proposal adds an optional `--global` flag to the existin…",
+   "authors": [
+    "Samuel Murray"
+   ],
+   "review_manager": [
+    "Tim Condon"
+   ],
+   "discussions": [
+    {
+     "name": "pitch",
+     "url": "https://forums.swift.org/t/pitch-add-cli-to-edit-global-configuration-of-mirrors/86091"
+    },
+    {
+     "name": "review",
+     "url": "https://forums.swift.org/t/se-0535-add-cli-for-editing-global-mirrors-configuration/88091"
+    },
+    {
+     "name": "acceptance",
+     "url": "https://forums.swift.org/t/accepted-se-0535-add-cli-for-editing-global-mirrors-configuration/88795"
     }
    ]
   },
@@ -6955,92 +6955,6 @@
     {
      "name": "acceptance",
      "url": "https://forums.swift.org/t/accepted-se-0507-borrow-and-mutate-accessors/85266"
-    }
-   ]
-  },
-  {
-   "id": "SE-0506",
-   "title": "Advanced Observation Tracking",
-   "state": "implemented",
-   "version": "6.4",
-   "start": "",
-   "end": "",
-   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0506-advanced-observation-tracking.md",
-   "summary": "Observation has one primary public entry point for observing the changes to `@Observable` types. This proposal adds two new versions that allow more fine-grained control and advanced behaviors. In particular, it is not i…",
-   "authors": [
-    "Philippe Hausler"
-   ],
-   "review_manager": [
-    "Steve Canon"
-   ],
-   "discussions": [
-    {
-     "name": "pitch",
-     "url": "https://forums.swift.org/t/pitch-advanced-observation-tracking/83521"
-    },
-    {
-     "name": "review",
-     "url": "https://forums.swift.org/t/se-0506-advanced-observation-tracking/84246"
-    },
-    {
-     "name": "acceptance",
-     "url": "https://forums.swift.org/t/accepted-se-0506-advanced-observation-tracking/84688"
-    }
-   ]
-  },
-  {
-   "id": "SE-0504",
-   "title": "Task Cancellation Shields",
-   "state": "implemented",
-   "version": "6.4",
-   "start": "",
-   "end": "",
-   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0504-task-cancellation-shields.md",
-   "summary": "This proposal introduces a new mechanism to temporarily \"ignore\" task cancellation, called task cancellation shields.",
-   "authors": [
-    "Konrad 'ktoso' Malawski"
-   ],
-   "review_manager": [
-    "John McCall"
-   ],
-   "discussions": [
-    {
-     "name": "pitch",
-     "url": "https://forums.swift.org/t/pitch-task-cancellation-shields/83379"
-    },
-    {
-     "name": "review",
-     "url": "https://forums.swift.org/t/se-0504-task-cancellation-shields/84095"
-    },
-    {
-     "name": "acceptance",
-     "url": "https://forums.swift.org/t/accepted-se-0504-task-cancellation-shields/84667"
-    }
-   ]
-  },
-  {
-   "id": "SE-0503",
-   "title": "Suppressed Default Conformances on Associated Types With Defaults",
-   "state": "implemented",
-   "version": "6.4",
-   "start": "",
-   "end": "",
-   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0503-suppressed-associated-types.md",
-   "summary": "An associated type defines a generic type in a protocol. You use them to help define the protocol's requirements. This Queue has two associated types, Element and Allocator:",
-   "authors": [
-    "Kavon Farvardin"
-   ],
-   "review_manager": [
-    "Ben Cohen"
-   ],
-   "discussions": [
-    {
-     "name": "pitch",
-     "url": "https://forums.swift.org/t/pitch-suppressed-associated-types-with-defaults/83663"
-    },
-    {
-     "name": "review",
-     "url": "https://forums.swift.org/t/se-0503-suppressed-default-conformances-on-associated-types-with-defaults/84070"
     }
    ]
   }
