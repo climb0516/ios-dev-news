@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T06:18:07+08:00",
+ "updated": "2026-11-17T16:05:52+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -9,7 +9,7 @@
    "ok": true,
    "error": "",
    "count": 50,
-   "updated": "2026-11-17T06:18:07+08:00"
+   "updated": "2026-11-17T16:05:52+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-11-17T06:18:07+08:00"
+   "updated": "2026-11-17T16:05:52+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-11-17T06:18:07+08:00"
+   "updated": "2026-11-17T16:05:52+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-11-17T06:18:07+08:00"
+   "updated": "2026-11-17T16:05:52+08:00"
   },
   {
    "id": "swift-evolution",
@@ -49,10 +49,30 @@
    "ok": true,
    "error": "",
    "count": 87,
-   "updated": "2026-11-17T06:18:07+08:00"
+   "updated": "2026-11-17T16:05:52+08:00"
   }
  ],
  "items": [
+  {
+   "id": "https://developer.apple.com/news/releases/?id=11162026h",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "TestFlight Update",
+   "url": "https://developer.apple.com/news/releases/?id=11162026h",
+   "date": "2026-11-17T06:00:00+08:00",
+   "summary": "",
+   "platform": "其他",
+   "version": "",
+   "stage": "",
+   "build": "",
+   "links": [
+    {
+     "text": "View release notes",
+     "url": "https://developer.apple.com/help/app-store-connect/release-notes/"
+    }
+   ],
+   "first_seen": "2026-11-17T16:05:52+08:00"
+  },
   {
    "id": "https://developer.apple.com/news/releases/?id=11162026g",
    "source": "apple-releases",
@@ -4462,9 +4482,7 @@
    "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0565-swiftpm-allow-deprecating-package-products.md",
    "summary": "Package authors currently have no first-class way to signal that a product vended from a Swift package is on a path to removal. Swift Package Manager (SwiftPM) supports rich deprecation semantics for Swift source APIs th…",
    "authors": [
-    "Sam Khouri (",
-    "GitHub",
-    "Swift Forums"
+    "Sam Khouri"
    ],
    "review_manager": [
     "Tim Condon"
