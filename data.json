@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T05:04:09+08:00",
+ "updated": "2026-11-18T15:41:16+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -9,7 +9,7 @@
    "ok": true,
    "error": "",
    "count": 50,
-   "updated": "2026-11-18T05:04:09+08:00"
+   "updated": "2026-11-18T15:41:16+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-11-18T05:04:09+08:00"
+   "updated": "2026-11-18T15:41:16+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-11-18T05:04:09+08:00"
+   "updated": "2026-11-18T15:41:16+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-11-18T05:04:09+08:00"
+   "updated": "2026-11-18T15:41:16+08:00"
   },
   {
    "id": "swift-evolution",
@@ -48,11 +48,22 @@
    "color": "#f05138",
    "ok": true,
    "error": "",
-   "count": 84,
-   "updated": "2026-11-18T05:04:09+08:00"
+   "count": 85,
+   "updated": "2026-11-18T15:41:16+08:00"
   }
  ],
  "items": [
+  {
+   "id": "https://developer.apple.com/news/?id=4o5ie73a",
+   "source": "apple-news",
+   "kind": "news",
+   "title": "Tax and price updates for apps, In-App Purchases, and subscriptions",
+   "url": "https://developer.apple.com/news/?id=4o5ie73a",
+   "date": "2026-11-18T08:00:25+08:00",
+   "summary": "The App Store is designed to make it easy to sell your digital goods and services globally, with support for 43 currencies across 175 storefronts. From time to time, we may need to adjust prices or yo…",
+   "body": "The App Store is designed to make it easy to sell your digital goods and services globally, with support for 43 currencies across 175 storefronts. From time to time, we may need to adjust prices or your proceeds due to changes in tax regulations or foreign exchange rates. These adjustments are made using publicly available exchange rate information from reputable financial media (e.g., The Wall Street Journal) or financial companies (e.g., Bloomberg) to help make sure prices for apps and In-App Purchases stay consistent across all storefronts. Tax updates Your proceeds from the sale of eligible apps and In‑App Purchases have been modified in: Botswana: Value‑added tax (VAT) introduction of 14% Cameroon: Significant Economic Presence (SEP) tax introduction of 3% Côte d'Ivoire: SEP tax intro…",
+   "first_seen": "2026-11-18T15:41:16+08:00"
+  },
   {
    "id": "https://developer.apple.com/news/releases/?id=11162026h",
    "source": "apple-releases",
@@ -4447,6 +4458,32 @@
  ],
  "evolution": [
   {
+   "id": "SE-0567",
+   "title": "Relaxed floating-point operators",
+   "state": "activeReview",
+   "version": "",
+   "start": "2026-11-17T00:00:00Z",
+   "end": "2026-12-01T00:00:00Z",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0567-relaxed-floating-point-operators.md",
+   "summary": "Define operators on floating-point types that permit the compiler to apply \"normal\" algebraic transformations that make it easier for users to explicitly trade-off bitwise reproducibility for improved performance.",
+   "authors": [
+    "Steve Canon"
+   ],
+   "review_manager": [
+    "John McCall"
+   ],
+   "discussions": [
+    {
+     "name": "pitch",
+     "url": "https://forums.swift.org/t/relaxed-floating-point-operators/90050"
+    },
+    {
+     "name": "review",
+     "url": "https://forums.swift.org/t/se-0567-relaxed-floating-point-operators/90842"
+    }
+   ]
+  },
+  {
    "id": "SE-0566",
    "title": "Infer generic arguments of result builder attributes",
    "state": "activeReview",
@@ -4501,10 +4538,10 @@
   {
    "id": "SE-0564",
    "title": "Split continuations",
-   "state": "activeReview",
+   "state": "accepted",
    "version": "",
-   "start": "2026-11-04T00:00:00Z",
-   "end": "2026-11-18T00:00:00Z",
+   "start": "",
+   "end": "",
    "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0564-split-continuations.md",
    "summary": "Introduces a new form of `withContinuation` whose body is `async` and receives both halves of a continuation: the existing `Continuation` that is used to resume and a new `ContinuationWaiter` that is used to wait. Waitin…",
    "authors": [
@@ -4521,6 +4558,10 @@
     {
      "name": "review",
      "url": "https://forums.swift.org/t/se-0564-split-continuations/90467"
+    },
+    {
+     "name": "acceptance",
+     "url": "https://forums.swift.org/t/accepted-se-0564-split-continuations/90846"
     }
    ]
   },
