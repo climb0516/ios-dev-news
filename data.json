@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T04:41:39+08:00",
+ "updated": "2026-11-19T15:38:05+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -8,8 +8,8 @@
    "color": "#0a84ff",
    "ok": true,
    "error": "",
-   "count": 50,
-   "updated": "2026-11-19T04:41:39+08:00"
+   "count": 51,
+   "updated": "2026-11-19T15:38:05+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-11-19T04:41:39+08:00"
+   "updated": "2026-11-19T15:38:05+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-11-19T04:41:39+08:00"
+   "updated": "2026-11-19T15:38:05+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-11-19T04:41:39+08:00"
+   "updated": "2026-11-19T15:38:05+08:00"
   },
   {
    "id": "swift-evolution",
@@ -49,10 +49,34 @@
    "ok": true,
    "error": "",
    "count": 85,
-   "updated": "2026-11-19T04:41:39+08:00"
+   "updated": "2026-11-19T15:38:05+08:00"
   }
  ],
  "items": [
+  {
+   "id": "https://developer.apple.com/news/releases/?id=11182026b",
+   "source": "apple-releases",
+   "kind": "release",
+   "title": "App Store Connect API 4.6.1",
+   "url": "https://developer.apple.com/news/releases/?id=11182026b",
+   "date": "2026-11-19T08:00:00+08:00",
+   "summary": "",
+   "platform": "其他",
+   "version": "",
+   "stage": "",
+   "build": "",
+   "links": [
+    {
+     "text": "Download file",
+     "url": "http://developer.apple.com/sample-code/app-store-connect/app-store-connect-openapi-specification.zip"
+    },
+    {
+     "text": "View release notes",
+     "url": "https://developer.apple.com/documentation/appstoreconnectapi/app-store-connect-api-release-notes"
+    }
+   ],
+   "first_seen": "2026-11-19T15:38:05+08:00"
+  },
   {
    "id": "https://developer.apple.com/news/releases/?id=11182026a",
    "source": "apple-releases",
