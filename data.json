@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T15:38:05+08:00",
+ "updated": "2026-11-20T04:47:57+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -9,7 +9,7 @@
    "ok": true,
    "error": "",
    "count": 51,
-   "updated": "2026-11-19T15:38:05+08:00"
+   "updated": "2026-11-20T04:47:57+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-11-19T15:38:05+08:00"
+   "updated": "2026-11-20T04:47:57+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-11-19T15:38:05+08:00"
+   "updated": "2026-11-20T04:47:57+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-11-19T15:38:05+08:00"
+   "updated": "2026-11-20T04:47:57+08:00"
   },
   {
    "id": "swift-evolution",
@@ -49,7 +49,7 @@
    "ok": true,
    "error": "",
    "count": 85,
-   "updated": "2026-11-19T15:38:05+08:00"
+   "updated": "2026-11-20T04:47:57+08:00"
   }
  ],
  "items": [
@@ -4700,10 +4700,10 @@
   {
    "id": "SE-0560",
    "title": "Build configuration conditionals for target dependencies",
-   "state": "activeReview",
+   "state": "accepted",
    "version": "",
-   "start": "2026-10-28T00:00:00Z",
-   "end": "2026-11-11T00:00:00Z",
+   "start": "",
+   "end": "",
    "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0560-swiftpm-build-configuration-conditional-target-dependencies.md",
    "summary": "This proposal introduces the ability for Swift package authors to conditionalize target dependencies on build configuration. It completes the unimplemented part of [SE-0273](https://github.com/swiftlang/swift-evolution/b…",
    "authors": [
@@ -4720,6 +4720,10 @@
     {
      "name": "review",
      "url": "https://forums.swift.org/t/review-build-configuration-conditionals-for-target-dependencies/90315"
+    },
+    {
+     "name": "acceptance",
+     "url": "https://forums.swift.org/t/accepted-se-0560-build-configuration-conditionals-for-target-dependencies/90896"
     }
    ]
   },
