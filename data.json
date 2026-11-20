@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T15:28:40+08:00",
+ "updated": "2026-11-21T04:31:14+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -9,7 +9,7 @@
    "ok": true,
    "error": "",
    "count": 51,
-   "updated": "2026-11-20T15:28:40+08:00"
+   "updated": "2026-11-21T04:31:14+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-11-20T15:28:40+08:00"
+   "updated": "2026-11-21T04:31:14+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-11-20T15:28:40+08:00"
+   "updated": "2026-11-21T04:31:14+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-11-20T15:28:40+08:00"
+   "updated": "2026-11-21T04:31:14+08:00"
   },
   {
    "id": "swift-evolution",
@@ -48,8 +48,8 @@
    "color": "#f05138",
    "ok": true,
    "error": "",
-   "count": 85,
-   "updated": "2026-11-20T15:28:40+08:00"
+   "count": 86,
+   "updated": "2026-11-21T04:31:14+08:00"
   }
  ],
  "items": [
@@ -4560,6 +4560,33 @@
  ],
  "evolution": [
   {
+   "id": "SE-0568",
+   "title": "Task cancellation scopes",
+   "state": "activeReview",
+   "version": "",
+   "start": "2026-11-19T00:00:00Z",
+   "end": "2026-12-02T00:00:00Z",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0568-task-cancellation-scopes.md",
+   "summary": "Introduces `withTaskCancellationScope` and `TaskCancellationScope`. A scope makes a part of a task cancellable on its own without cancelling the entire task. This allows libraries to cancel an operation without creating …",
+   "authors": [
+    "Konrad Malawski",
+    "Franz Busch"
+   ],
+   "review_manager": [
+    "Freddy Kellison-Linn"
+   ],
+   "discussions": [
+    {
+     "name": "pitch",
+     "url": "https://forums.swift.org/t/pitch-task-cancellation-scopes/89971"
+    },
+    {
+     "name": "review",
+     "url": "https://forums.swift.org/t/se-0568-task-cancellation-scopes/90920"
+    }
+   ]
+  },
+  {
    "id": "SE-0567",
    "title": "Relaxed floating-point operators",
    "state": "activeReview",
@@ -4979,10 +5006,10 @@
   {
    "id": "SE-0549",
    "title": "Package Manager HTTP Proxy Configuration",
-   "state": "activeReview",
+   "state": "returnedForRevision",
    "version": "",
-   "start": "2026-09-14T00:00:00Z",
-   "end": "2026-09-28T00:00:00Z",
+   "start": "",
+   "end": "",
    "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0549-swiftpm-proxy-configuration.md",
    "summary": "This proposal adds HTTP and HTTPS proxy support for all network operations performed by Swift Package Manager that use its built-in HTTP client. Today, SPM ignores standard proxy environment variables (`http_proxy`, `htt…",
    "authors": [
@@ -4999,6 +5026,10 @@
     {
      "name": "review",
      "url": "https://forums.swift.org/t/review-se-0549-package-manager-http-proxy-configuration/89513"
+    },
+    {
+     "name": "returned for revision",
+     "url": "https://forums.swift.org/t/returned-for-revision-se-0549-package-manager-http-proxy-configuration/90905"
     }
    ]
   },
