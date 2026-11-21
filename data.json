@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T04:31:14+08:00",
+ "updated": "2026-11-21T15:24:10+08:00",
  "sources": [
   {
    "id": "apple-releases",
@@ -9,7 +9,7 @@
    "ok": true,
    "error": "",
    "count": 51,
-   "updated": "2026-11-21T04:31:14+08:00"
+   "updated": "2026-11-21T15:24:10+08:00"
   },
   {
    "id": "apple-news",
@@ -19,7 +19,7 @@
    "ok": true,
    "error": "",
    "count": 60,
-   "updated": "2026-11-21T04:31:14+08:00"
+   "updated": "2026-11-21T15:24:10+08:00"
   },
   {
    "id": "swift-blog",
@@ -29,7 +29,7 @@
    "ok": true,
    "error": "",
    "count": 20,
-   "updated": "2026-11-21T04:31:14+08:00"
+   "updated": "2026-11-21T15:24:10+08:00"
   },
   {
    "id": "libs",
@@ -39,7 +39,7 @@
    "ok": true,
    "error": "",
    "count": 12,
-   "updated": "2026-11-21T04:31:14+08:00"
+   "updated": "2026-11-21T15:24:10+08:00"
   },
   {
    "id": "swift-evolution",
@@ -48,8 +48,8 @@
    "color": "#f05138",
    "ok": true,
    "error": "",
-   "count": 86,
-   "updated": "2026-11-21T04:31:14+08:00"
+   "count": 87,
+   "updated": "2026-11-21T15:24:10+08:00"
   }
  ],
  "items": [
@@ -4560,6 +4560,32 @@
  ],
  "evolution": [
   {
+   "id": "SE-0569",
+   "title": "Move `TopLevelEncoder` and `TopLevelDecoder` to the standard library",
+   "state": "activeReview",
+   "version": "",
+   "start": "2026-11-20T00:00:00Z",
+   "end": "2026-12-04T00:00:00Z",
+   "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0569-move-toplevelencoder-and-topleveldecoder-to-the-stdlib.md",
+   "summary": "Moves the [`TopLevelEncoder`](https://developer.apple.com/documentation/combine/toplevelencoder) and [`TopLevelDecoder`](https://developer.apple.com/documentation/combine/topleveldecoder) protocols from the Apple-specifi…",
+   "authors": [
+    "Jonathan Grynspan"
+   ],
+   "review_manager": [
+    "Steve Canon"
+   ],
+   "discussions": [
+    {
+     "name": "pitch",
+     "url": "https://forums.swift.org/t/pitch-move-toplevelencoder-and-topleveldecoder-to-the-standard-library/88318"
+    },
+    {
+     "name": "review",
+     "url": "https://forums.swift.org/t/se-0569-move-toplevelencoder-and-topleveldecoder-to-the-standard-library/90959"
+    }
+   ]
+  },
+  {
    "id": "SE-0568",
    "title": "Task cancellation scopes",
    "state": "activeReview",
@@ -4723,10 +4749,10 @@
   {
    "id": "SE-0562",
    "title": "Ownership for Subscript Parameters",
-   "state": "activeReview",
+   "state": "accepted",
    "version": "",
-   "start": "2026-11-03T00:00:00Z",
-   "end": "2026-11-17T00:00:00Z",
+   "start": "",
+   "end": "",
    "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0562-subscript-ownership-parameters.md",
    "summary": "This proposal introduces support for `inout`, `borrowing`, and `consuming` on parameters of subscripts. It brings the capabilities of subscript parameters in line with functions and initializers.",
    "authors": [
@@ -4743,6 +4769,10 @@
     {
      "name": "review",
      "url": "https://forums.swift.org/t/se-0562-ownership-for-subscript-parameters/90429"
+    },
+    {
+     "name": "acceptance",
+     "url": "https://forums.swift.org/t/accepted-se-0562-ownership-for-subscript-parameters/90957"
     }
    ]
   },
@@ -4832,10 +4862,10 @@
   {
    "id": "SE-0558",
    "title": "Bulk update operations for `MutableSpan` and `MutableRawSpan`",
-   "state": "activeReview",
+   "state": "accepted",
    "version": "",
-   "start": "2026-10-13T00:00:00Z",
-   "end": "2026-10-28T00:00:00Z",
+   "start": "",
+   "end": "",
    "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0558-mutablespan-bulk-updates.md",
    "summary": "Adds bulk update operations to `MutableSpan` and `MutableRawSpan`, which overwrite a span (or a subrange thereof) with a repeated value, or with the elements of another span or an `Iterable`.",
    "authors": [
@@ -4852,6 +4882,10 @@
     {
      "name": "review",
      "url": "https://forums.swift.org/t/90048"
+    },
+    {
+     "name": "acceptance",
+     "url": "https://forums.swift.org/t/accepted-with-modifications-se-0558-bulk-update-operations-for-mutablespan-and-mutablerawspan/90951"
     }
    ]
   },
